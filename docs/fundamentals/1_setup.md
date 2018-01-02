@@ -8,7 +8,11 @@ Navigate to your user folder -- ```C:\Users\<username>\Documents\Euro Truck Simu
 
 Find the line ```g_developer "0"``` and change the value to ```"2"```. Then find ```g_console "0"``` and change the value to ```"1"```.
 
-Next time you launch the game, you'll be able to load the editor using the console command ```edit```. Before you do this however, you should make one more change to enable saving of maps.
+You might also wish to enable the miniconsole by setting g_minicon to 1, as above with g_console and g_developer.  This will enable a small (4 or 5 line) console overlay at the top of your screen, so you can see any error messages in real time.  The editor will work with or without this option, so it's up to you;  but many modders find the miniconsole useful.
+
+Next time you launch the game, you'll be able to load the editor using the console command ```edit```. 
+
+Before you do this however, you should make one more change to enable saving of maps.
 
 ## 2. Enabling Saves
 
@@ -16,7 +20,7 @@ The editor saves maps to a directory in the _executable_ folder, however this fo
 
 Go to your executable folder -- ```C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2``` by default -- and then create a folder called ```base```, then another folder inside this one called ```map```.
 
-That's it! you're almost ready to start mapping.  Just one more prep step...
+That's it! you're almost ready to start mapping.  Just one more prep step... make sure you don't confuse the editor with 3rd party mods.
 
 ## 3.  Get rid of all mods other than those absolutely necessary for your mapping project
 
