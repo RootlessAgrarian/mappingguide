@@ -37,6 +37,8 @@ archivemap
     TestMap.mbd
 ```
 
+Please note that the top level folder *must* be called "map", and the structure *must* look exactly as you see it here.  You cannot name the top level folder anything other than "map", and you cannot add further levels of hierarchy.  The zipfile contents must be *map/TestMap.mbd, map/TestMap*, and so on.
+
 <a name="section2"></a>
 ## 2. Mod description files (optional)
 
