@@ -3,6 +3,8 @@ View the Guide: http://scsmoddingguide.github.io/mappingguide/
 # The ETS2/ATS Mapping Guide
 Tutorials and documentation for the SCS software map editor.
 
+## Overview
+
 The SCS map editor is an inbuilt feature of the ATS and ETS2 game engines (Windows version only).  It is a highly specialised 3d modelling tool oriented specifically to the construction of roads & terrain, and placement of all the set dressing, for an open-world driving sim. "Set dressing" in this case means vegetation, guard rails, traffic signs and lights, trains, street lighting, fuel stations, pedestrians, bridges, etc. -- all the stuff that makes the virtual world convincing and attractive.  The Map Editor is *not* a generic 3d modelling tool such as Blender.
 
 Blender can be used to model objects (vehicles, props) for ETS2 and ATS, using appropriate plugins from SCS.  If you want to build your own truck, castle, or pedestrian, you will need to study SCS Blender Tools and read other guides.  The Map Editor is a higher-level tool, which allows you to build the 3d open world and place pre-existing models and other objects within it.  Using the Map Editor you can build your own standalone map, or create a mod that extends a standard map.  You can lay out cities, towns, business locations, fuel stations, border crossings, toll gates, highways, freeways, rural roads and more.
@@ -12,6 +14,8 @@ Blender can be used to model objects (vehicles, props) for ETS2 and ATS, using a
 The fundamental coordinate system of the SCS world map editor is an XYZ system with origin at (??? where is 0,0 anyway).  Z indicates height above sea level.  The game world consists of "sectors" defined by X and Y, containing terrain with varying Z values.
 
 Your completed map project can be saved as a mod and loaded into the game.
+
+## This Documentation Project
 
 There is very little information available to help new users learn the map editor or understand the game internals.  Documentation is patchy, often available in only one language or out of date.
 
