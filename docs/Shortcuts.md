@@ -1,6 +1,6 @@
 # Keyboard short cuts and mouse actions
 
-As you've seen by now, there is a lot of repetitive selection of tools and selection of menu items in the map editing process.  Why not make life easier and use some of the handy built-in shortcuts?  Here's a list of things you can do with keyboard and mouse.
+As you've seen by now, there is a lot of repetitive selection of tools and of menu items in the map editing process.  Why not make life easier and use some of the handy built-in shortcuts?  Here's a list of things you can do with keyboard and mouse.
 
 Action | Result
 ------------ | -------------
