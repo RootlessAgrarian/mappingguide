@@ -47,3 +47,6 @@ F5 | toggle mini-map.
 
 Hat tips to Kentora and others!
 https://forum.scssoft.com/viewtopic.php?t=129971
+
+[<- Tutorial 3 - Saving and reloading your map](2_firstmap.md) --- [Main Index ->](../index.md)
+
