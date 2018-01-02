@@ -115,8 +115,9 @@ Unlike most programs, the SCS game engine editor can't load what you've just sav
 
 This means that **each time** you wish to load a map to continue work on it, you must update the archive with the latest version of the map found in the executable base/map folder. The same applies for testing the maps, even if you have a modified version of the map current open in your editor, it will revert to the archive version when you run the map to test.
 
-It is important to understand this, so let's go through it one more time.  The map file you are editing and saving lives in the install hierarchy.  But you cannot run or test the map until it has been loaded by the game engine at startup.  The game engine cannot load a map mod after the initial startup phase, so map mods cannot be reloaded while you are editing.  If you want to test your map mod, you have to go through this workflow:
+It is important to understand this, so let's go through it one more time.  The map file you are diligently editing and saving is found in the install hierarchy.  But you cannot run or test your map until it has been loaded by the game engine at startup.  The game engine cannot load a map mod after the initial startup phase is over, so map mods cannot be reloaded while you are editing.  And map mods are not loaded from base/map in the executable hierarchy;  they are loaded from .scs files in the user mod folder.  So if you want to test your map mod, you have to go through this workflow:
 
+0. use map editor to make changes to your incredibly cool map
 1. save changes to map file (updates base/map files in the *install/executable hierarchy*)
 2. exit game, copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
 3. re-create your zipfile (archive) by zipping that working "map" folder, and rename the zip file to .scs
