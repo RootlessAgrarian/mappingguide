@@ -118,13 +118,13 @@ This means that **each time** you wish to load a map to continue work on it, you
 It is important to understand this, so let's go through it one more time.  The map file you are diligently editing and saving is found in the install hierarchy.  But you cannot run or test your map until it has been loaded by the game engine at startup.  The game engine cannot load a map mod after the initial startup phase is over, so map mods cannot be reloaded while you are editing.  And map mods are not loaded from base/map in the install hierarchy;  they are loaded from .scs files in the user mod folder.  So if you want to test your map mod, you have to go through this workflow:
 
 0. use map editor to make changes to your incredibly cool map
-1. save changes to map file (updates base/map files in the *install/executable hierarchy*)
-2. exit game, copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
+1. save changes to map file (updates base/map files in the *install/executable hierarchy*), exit game
+2. copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
 3. re-create your zipfile (archive) by zipping that working "map" folder, and rename the zip file to .scs
 4. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
 5. restart the game
 
-It is quite easy to write a Makefile that will do all of this for you with a single command.
+It is quite easy to write a Makefile that will do steps 2-5 for you with a single command.
 
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
