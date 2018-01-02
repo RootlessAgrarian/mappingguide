@@ -14,7 +14,7 @@ follows (Standard Qwerty, in brackets Azerty Keyboard)
 
 Key | Action
 ------------ | -------------
-A (Q) | toggle background map on or off. If you don’t have any, it will put a red font.
+A (Q) | toggle background map on or off. If you don’t have any, you will see some red text.
 B | Use the brush tool (use sparingly if at all)
 C | Camera view (changes from overhead (editor) view to on the “fly” (roadside view) very useful tool to enable you to see how your roads will look in the map and to aid with changing the height of an item
 D | Delete item by selecting the red node.
