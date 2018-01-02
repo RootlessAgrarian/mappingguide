@@ -11,6 +11,7 @@ This guide hopes to be a comprehensive and openly editable collection of resourc
 1. [Basic Editor Setup](fundamentals/1_setup.md)
 2. [Creating a basic map](fundamentals/2_firstmap.md)
 3. [Loading and testing your map](fundamentals/3_testing.md)
+4. [Shortcuts and HotKeys](Shortcuts.md)
 4. Creating cities and workplaces
 
 ### Decoration
