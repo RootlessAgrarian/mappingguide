@@ -17,7 +17,7 @@ This tutorial will introduce you to the basics of road placement in the map edit
 <a name="section1"></a>
 ## 1. Open the Editor
 
-Once you've followed the instructions in [Tutorial 1](1_setup.md), you can now launch your game. Once you've passed the opening logos and reached the 'launchpad' screen, you can open your terminal, using the _tilde_ key. (¬, found under the Esc key)
+Once you've followed the instructions in [Tutorial 1](1_setup.md), you can now launch your game. Once you've passed the opening logos and reached the 'launchpad' screen, you can open your terminal, using the _tilde_ key. (¬, found under the Esc key)  Please note that this is the recommended point at which to launch the editor. It is not recommended to launch the editor after loading a profile;  you should launch it at the point where you would normally be choosing a profile.
 
 The developer console should appear. To open the editor, type ```edit``` and press enter. After a few seconds the editor window should appear, with a car model on the screen. Press _tilde_ again to close the developer console.
 
