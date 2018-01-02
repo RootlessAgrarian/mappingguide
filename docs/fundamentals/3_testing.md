@@ -124,7 +124,7 @@ It is important to understand this, so let's go through it one more time.  The m
 4. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
 5. restart the game
 
-It is quite easy to write a Makefile that will do steps 2-5 for you with a single command.
+It is quite easy to write a Makefile that will do steps 2-4 for you with a single command.
 
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
