@@ -93,7 +93,7 @@ The mod icon must be a JPEG image with the exact size of 276px by 162px.
 
 ![Archive folder](img/3_folder.png)
 
-Ensure you have returned to the archivemap folder, then **Create** a zip archive of the map folder. To do this with 7-Zip, do ```Right click --> 7-Zip > Add to archive...```. Ensure the _Archive format_ is set to ```zip```, and the _Compression level_ to ```Store```, (no compression) and change the filename to ```TestMap.scs```.
+Ensure you have returned to the archive map folder, then **Create** a zip archive of the map folder. To do this with 7-Zip, do ```Right click --> 7-Zip > Add to archive...```. Ensure the _Archive format_ is set to ```zip```, and the _Compression level_ to ```Store```, (no compression) and change the filename to ```TestMap.scs```.
 
 ![7zip interface](img/3_7zip.png)
 
@@ -114,5 +114,16 @@ Launch the game again. You do _not_ need to enable the mod in the launchpad mod 
 Unlike most programs, the SCS game engine editor can't load what you've just saved. This is because the editor can only load the files currently loaded by the game, that being the game's base files, as well as any loaded mods.
 
 This means that **each time** you wish to load a map to continue work on it, you must update the archive with the latest version of the map found in the executable base/map folder. The same applies for testing the maps, even if you have a modified version of the map current open in your editor, it will revert to the archive version when you run the map to test.
+
+It is important to understand this, so let's go through it one more time.  The map file you are editing and saving lives in the install hierarchy.  But you cannot run or test the map until it has been loaded by the game engine at startup.  The game engine cannot load a map mod after the initial startup phase, so map mods cannot be reloaded while you are editing.  If you want to test your map mod, you have to go through this workflow:
+
+1. save changes to map file (updates base/map files in the *install/executable hierarchy*)
+2. exit game, copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
+3. re-create your zipfile (archive) by zipping that working "map" folder, and rename the zip file to .scs
+4. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
+5. restart the game
+
+It is quite easy to write a Makefile that will do all of this for you with a single command.
+
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
