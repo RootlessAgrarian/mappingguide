@@ -2,6 +2,8 @@
 
 This guide hopes to be a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.
 
+For further reference see http://modding.scssoft.com/wiki/Documentation
+
 ## Contents
 
 [Introduction guide to the Tutorials](tutorialguide.md)
