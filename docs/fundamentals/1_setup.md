@@ -16,7 +16,11 @@ The editor saves maps to a directory in the _executable_ folder, however this fo
 
 Go to your executable folder -- ```C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2``` by default -- and then create a folder called ```base```, then another folder inside this one called ```map```.
 
-That's it! you're ready to start mapping.
+That's it! you're almost ready to start mapping.
+
+## 3.  Get rid of all mods other than those absolutely necessary for your mapping project
+
+The map editor is not kindly disposed towards a stack of contrib mods.  Best practise is to remove all mod files from your mod dir, other than things (like new models and buildings) that you really need for your map.
 
 ### A Note on loading saved maps
 
