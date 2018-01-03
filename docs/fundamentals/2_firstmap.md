@@ -76,7 +76,7 @@ Back in the editor window, press the C key to switch to the flying camera. Your 
 
 This road will lead away from what will become a small city block. We'll extend this road to turn to the west, becoming the end point of this map.
 
-Return to the add item mode, ensuring the item type is still road. Click on the (bottom) green road node, then place two additional nodes, as shown. Press Esc again to finish placing segments.
+Return to the add item mode, ensuring the item type is still road. Click on the (bottom) green road node, then place two additional nodes, as shown. Press Esc again to finish placing segments.  Note that *you must have Snap To Node turned on* (little buttons with magnet symbols in centre of top toolbar) for this to work.  If you do not have Snap To Node turned on, you'll never be able to join or extend road segments.
 
 ![Additional road nodes](img/2_roadextended.jpg)
 
