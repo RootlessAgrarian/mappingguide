@@ -6,6 +6,8 @@ Action | Result
 ------------ | -------------
 Right Click/Drag | move the map
 Left Click/Drag | select / extend selection / move a selected object
+SHIFT Click | disconnect connected nodes
+Mouse Hover over node | remembers node height and uses it for next object placement?
 Page Up | fast - zoom.
 Page Down | fast + zoom.
 Scroll up (on the mouse wheel) | slow + zoom.
@@ -31,6 +33,8 @@ P | Item properties
 Q | Put the background map
 R | Rotate item on X, Y or Z
 S | Place Start (the car)
+KP -, KP + | Rotate the start car
+SPACE | switch to editor mode (visible handles) in flycam view
 
 Not on the numeric Keyboard:
 
