@@ -80,8 +80,8 @@ To select ONLY the main node of a prefab:
    perform direct click on node while pressing right ALT key
 
 Brush mode:
-To use brush: enter brush mode (B), click on white quad
-Brush pick: enter brush mode (B), SHIFT-click on brushed (red) quad
+* To use brush: enter brush mode (B), click on white quad
+* Brush pick: enter brush mode (B), SHIFT-click on brushed (red) quad
 
 
 Hat tips to Kentora and others!
