@@ -15,3 +15,4 @@ You've already worked with *Prefabs*, in the form of road intersections.  There 
 
 *Buildings* are a curious class which does not, for some reason, only include buildings.  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.
 
+[WIP... to be continued]
