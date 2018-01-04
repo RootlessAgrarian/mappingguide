@@ -43,7 +43,7 @@ This pane will also tell you whether the item is high or low res (Distance type 
 
 But the object's type, provenance, etc. are not all you can find out.  If you *right-click* on the thumbnail of the bicycle you've selected, you should see a menu.  The bottom-most item on this menu will be "Find All References."  This is a very handy feature.  It will pop up a list of every instance of this object in your current map.  So, for example, if you want to match (or not to repeat!) the type of tree or other model you used earlier, you can search for the general type of tree (Pine for example) and then check to see which pines you've used before.  Here's a sample search on a small tutorial map of mine, for a spruce avenue I used along the roadside:
 
-
+![Revealing Object References](img/4_Reference.PNG)
 
 If you are not working on a brand new map of your own, but have used "edit europe" to have a look at the inner workings of your actual installed game, then you can use this feature to find out what models and other goodies other people have used in their work.  For example, if you like the hovering helicopter in RusMap, you could launch your fully modded game, go into dev console, type "edit europe," and search for helicopters until you find the one you like.  You could make a note of its name, type, etc. and plan to use it in a map of your own.
 
