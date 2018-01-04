@@ -25,7 +25,7 @@ The first thing to do with the Content Browser is to use the View menu (bottom o
 
 Now, let's get set up to do a search.  Let's say you don't know what Type of object (listbox at upper left) you are looking for.  So you choose All (top option in listbox).  Now type "bicycle" into the Search box.  You should see this, or something similar:
 
-![The content browser](img/4_Browswer.png)
+![The content browser](img/4_Browswer.PNG)
 
 
 
