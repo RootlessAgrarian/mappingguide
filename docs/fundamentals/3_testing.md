@@ -124,7 +124,27 @@ It is important to understand this, so let's go through it one more time.  The m
 4. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
 5. restart the game
 
-It is quite easy to write a Makefile that will do steps 2-4 for you with a single command.
+It is quite easy to write a .bat file, Makefile, or shell script that will do steps 2-4 for you with a single command.  Here is one example of such a script (bash).  (I installed the MSYS package on my Windows system to get a Unix-like scripting/shell environment with familiar tools.)  A trivial script like this can save you a lot of tedious repetitive typing or mousing.
+```
+$ cat mapit.sh
+#!/bin/sh.exe
+
+# target saved mapfile rootname is arg 1
+
+ETS2MAP="C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base/map"
+MYMAP="C:/Users/moi/Documents/Euro Truck Simulator 2/MyMap"
+MYMAPD="C:/Users/moi/Documents/Euro Truck Simulator 2/MyMap/map"
+MYMOD="C:/Users/moi/Documents/Euro Truck Simulator 2/mod"
+ZIP7="C:/Program Files/7-Zip/7z.exe"
+
+cp -f "$ETS2MAP"/$1.mbd "$MYMAPD"
+cp -rf "$ETS2MAP"/$1 "$MYMAPD"
+cd "$MYMAP"
+ls
+"$ZIP7" a -tzip -mx0 map.zip map
+mv map.zip $1.scs
+cp -f $1.scs "$MYMOD"
+```
 
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
