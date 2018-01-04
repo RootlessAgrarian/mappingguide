@@ -5,7 +5,7 @@ As you've seen by now, there is a lot of repetitive selection of tools and of me
 To the right of the editor menu are lists you can select from, but it is easier to use *shortcut keys*, a list of which 
 follows (Standard Qwerty, in brackets Azerty Keyboard)
 
-Key | Action
+Key | Result
 ------------ | -------------
 A (Q) | toggle background map on or off. If you don’t have any, you will see some red text.
 B | Use the brush tool (use sparingly if at all)
@@ -25,7 +25,7 @@ S | Place Start (the car)
 
 Not on the numeric Keyboard:
 
-Key | Action
+Key | Result
 ------------ | -------------
 1 | Road
 2 | Prefab
@@ -38,7 +38,7 @@ Key | Action
 9 | City (This is the option used to add city entities to your map)
 
 
-Action | Result
+Action/Key | Result
 ------------ | -------------
 Right Click/Drag | move the map
 Left Click/Drag | select / extend selection / move a selected object
@@ -58,6 +58,8 @@ KP - twice | spawn cars on lines
 KP * | after spawning car, this will change the vehicle type
 
 In FREE CAM mode only:
+
+Key|Result
 ------------ | -------------
 UP   | lift object(s) 
 DOWN | lower object(s) 
@@ -66,6 +68,8 @@ DEL  | rotate object(s) around Y axis (SHIFT-DEL  for other way round)
 INS  | rotate object(s) around Z axis (SHIFT-INS  for other way round)
 
 In AERIAL VIEW (overhead cam) only, and only when *more than one* object selected:
+
+Key | Result
 ------------ | -------------
 CTRL-R  | rotate several selected objects around shared Y axis clockwise 1 degree
 SHIFT-CTRL-R  | rotate several selected objects around shared Y axis counter-clockwise 1 degree
