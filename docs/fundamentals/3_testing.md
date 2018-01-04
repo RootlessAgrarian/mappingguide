@@ -145,6 +145,26 @@ ls
 mv map.zip $1.scs
 cp -f $1.scs "$MYMOD"
 ```
+Sample run of script:
+
+```
+$ ./mapit.sh Map2
+MyMap.scs  map
+
+7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+
+Scanning the drive:
+3 folders, 34 files, 86504 bytes (85 KiB)
+
+Creating archive: map.zip
+
+Items to compress: 37
+
+
+Files read from disk: 34
+Archive size: 92432 bytes (91 KiB)
+Everything is Ok
+```
 
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
