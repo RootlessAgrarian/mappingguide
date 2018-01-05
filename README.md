@@ -1,7 +1,7 @@
 View the Guide: http://scsmoddingguide.github.io/mappingguide/
 
 # The ETS2/ATS Mapping Guide
-Tutorials and documentation for the SCS software map editor.
+Tutorials and documentation for the SCS software map editor.  I hope one day to add similar tute/doco for basic and advanced non-map mods (i.e. object property changes, object modifications, new objects).  Those however are separate topics, not currently covered here.
 
 ## Overview
 
@@ -19,7 +19,7 @@ Your completed map project can be saved as a mod and loaded into the game.
 
 There is very little information available to help new users learn the map editor or understand the game internals.  Documentation is patchy, often available in only one language or out of date.
 
-That is why this project was started by Jack Kelly -- many thanks to Jack for his excellent "Intro to Mapping"!  Jack's no longer maintaining it, so I (being an SCS mapping n00b in need of doco) am volunteering to maintain and (I hope) extend it.
+That is why this project was started by Jack Kelly -- heartfelt thanks to Jack for his excellent "Intro to Mapping"!  Jack's no longer maintaining the project, so I (being an SCS mapping n00b in need of doco) am volunteering to keep it going and (I hope) extend it significantly.  Critical readers are very welcome.
 
 ## License 
 Thes files and documents contained within this guide are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license
