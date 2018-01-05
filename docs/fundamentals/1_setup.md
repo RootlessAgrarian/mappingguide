@@ -24,7 +24,7 @@ That's it! you're almost ready to start mapping.  Just a couple more prep steps.
 
 ## 3.  Get rid of all mods other than those absolutely necessary for your mapping project
 
-The map editor is not kindly disposed towards a stack of contrib mods.  Best practise is to remove all mod files from your mod dir, other than things (like new models and buildings) that you really need for your map.  Now there's just one more setup detail...
+The map editor is not kindly disposed towards a stack of contrib mods.  You may have incompatible mods kicking around, which you usually don't notice because you're careful never to load them into the same profile.  But the editor loads whatever it finds in your mod folder -- it doesn't care about profiles.  Best practise is to remove all mod files from your mod dir, other than things (like contrib models and buildings) that you really need for your map.  Now that you've cleaned up your mod folder, there's just one more setup detail...
 
 ## 4.  Configure your game to run in Windowed mode
 
