@@ -1,4 +1,10 @@
 
+"Glenn52" SCS Editor Guide (PDF)
+http://www.glenn52.com/scs_guides.html
+
+Scribd PDF guide by Dave Crockett Jackson
+https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
+
 Background
 https://forum.scssoft.com/viewtopic.php?f=123&t=167214
 
