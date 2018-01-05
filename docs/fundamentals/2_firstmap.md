@@ -140,15 +140,23 @@ The same road type should still be selected. Change the Type radio button to _Ci
 <a name="section7b"></a>
 ### Road direction
 
-You may have noticed that roads have an inherent direction, even though they are usually 2-way roads. The road you placed has two nodes. A red _rear_ node, and a greed _forward_ node.
+You may have noticed that roads have an inherent direction, even though they are usually 2-way roads. The road you placed has two nodes. A red _rear_ node, and a green _forward_ node.
 
-The connections we can create are limited by these node directions. Principally, nodes should be connected from forward to rear nodes, that is red and green nodes connect, nodes of the same color do not usually connect.
+The connections we can create are limited by these node directions. Here are the basic rules.  
+
+Road/road connections:  Road segments can be connected to one another, but *only* by connecting green to red nodes.  Also, if the two nodes are not at exactly the same altitude the connect will fail, unless you hold down Alt while selecting and connecting.  In other words:  select Move mode (M), then hold down Alt, then grab node, then drag node on top of other node.
+
+Road/prefab connections:  A prefab can be connected to a road segment using green/green nodes as well as green/red.
+
+Red/red connections will never work.
 
 | **Node 1** | **Node 2** | **Valid Connection?** |
 | :---: | :---: | --- |
 | Red | Green | Yes |
 | Red | Red | No, never connects |
-| Green | Green | Only when necessary |
+| Green | Green | Only prefabs/roads |
+
+You can see that prefabs may be useful in cases where you have painted yourself into a corner and have two red road nodes that you cannot connect.
 
 #### I can't connect this!
 
