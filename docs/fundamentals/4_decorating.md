@@ -9,9 +9,9 @@ Now we'll take a closer look at all the cool set-dressing available in the Map E
 
 There are three main object types you'll be using to decorate your map:  Prefabs, Models, and Buildings.
 
-You've already worked with *Prefabs*, in the form of road intersections.  There are quite a few other types of prefab.  In general, any "active" area of the map (a place where you interact with the scenery in some way) is a prefab.  These include gas stations, freight terminals, ferry terminals, sleeping areas, etc.
+You've already worked with *Prefabs*, in the form of road intersections.  There are quite a few other types of prefab.  In general, any "active" area of the map (a place where you interact with the scenery in some way) is a prefab.  These include gas stations, freight terminals, ferry terminals, sleeping areas, etc.  Prefabs cannot be scaled.
 
-*Models* are by far the most common object type you'll use when dressing up your bare map.  Models include just about everything:  buildings, trees, parked vehicles, people, bridges, statues, cows, chickens, all kinds of stuff.  Some models are animated;  others are static.
+*Models* are by far the most common object type you'll use when dressing up your bare map.  Models include just about everything:  buildings, trees, parked vehicles, people, bridges, statues, cows, chickens, all kinds of stuff.  Some models are animated;  others are static.  Models can be scaled.
 
 *Buildings* are a curious class which does not, for some reason, only include buildings.  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.
 
