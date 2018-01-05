@@ -15,11 +15,17 @@ You've already worked with *Prefabs*, in the form of road intersections.  There 
 
 *Buildings* are a curious class which does not, for some reason, only include buildings.  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.
 
+To start placing objects in your world, you pick an Item Type (menu at right of toolbar) -- for now, pick 'Model'.  Use the plus (+) button at left of the toolbar, or hit E on your keyboard, to get into "placing new stuff" mode.  This will pop up a "new item" dialogue box.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.
+
+When you select something from the Model menu and move your mouse over the map, your cursor becomes an instance of the selected item; and when you click on the map, that object is instantiated on the map at that location.  But you can't see the object until you select it, so how can you tell what all these models look like and which one you want?  It would be rather tedious to keep selecting blindly until you find one you like.
+
+So, before you start struggling with the lengthy and only weakly descriptive drop-down menus in this box, let's talk about an easier way to identify items to place in your map.
+
 # Finding Objects to Place:  the Content Browser
 
-So, let's say you'd like to have a scenic ruined building at the intersection of two of your roads.  How to find one?
+Let's say you'd like to have a scenic ruined building at the intersection of two of your roads.  How to find one?
 
-The Content Browser is the tool for this job.  If you use E to get into New Object placing mode (or click on the "plus" button at left of the toolbar), a small new window will pop up.  It should display the last object you placed of whatever type you've selected from the menu at upper right (Model, Building, Prefab etc).  Next to the selected object will be a couple of iconic buttons:  a magnifying glass and an arrow gizmo.  The magnifying glass will bring up the Content Browser, showing the selected object.
+The Content Browser is the tool for this job.  Take another look at that New Item popup window.   Next to the object select menu you'll see a couple of iconic buttons:  a magnifying glass and an arrow gizmo.  The magnifying glass will bring up the Content Browser, showing the selected object.
 
 The first thing to do with the Content Browser is to use the View menu (bottom option, Layout) to set your Layout to "Complex".  Only the complex layout will offer you the search features that you'll be needing soon.  So go ahead and set the Complex Layout.  Now the window has more panes and is larger, and down at the bottom centre you'll see a very important textbox called Search.
 
@@ -41,16 +47,19 @@ The pane on the far right shows detailed information about the selected object, 
 
 This pane will also tell you whether the item is high or low res (Distance type = near or far), and where it came from.  The Source field reads 'base' if the object is included in the base game, 'dlc_north' if it comes from the Scandinavia DLC, and so on.  This pane even gives you the relative pathname to the model file in an unpacked 'base' hierarchy, so you can locate and extract this model and modify it using your own 3d editor such as Blender or 3ds Max (this topic is covered in a separate tutorial).
 
+If you are not working on a brand new map of your own, but have used "edit europe" to have a look at the inner workings of your actual installed game, then you can use this feature to find out what models and other goodies other people have used in their work.  For example, if you like the hovering helicopter in RusMap, you could launch your fully modded game, go into dev console, type "edit europe," and search for helicopters until you find the one you like.  You could make a note of its name, type, etc. and plan to use it in a map of your own.  (I should remind you at this point that there are many warnings online about starting up the editor with lots of mods;  don't be surprised if it crashes when you have a busy mod folder.)
+
 But the object's type, provenance, etc. are not all you can find out.  If you *right-click* on the thumbnail of the bicycle you've selected, you should see a menu.  The bottom-most item on this menu will be "Find All References."  This is a very handy feature.  It will pop up a list of every instance of this object in your current map.  So, for example, if you want to match (or not to repeat!) the type of tree or other model you used earlier, you can search for the general type of tree (Pine for example) and then check to see which pines you've used before.  Here's a sample search on a small tutorial map of mine, for a spruce avenue I used along the roadside:
 
 ![Revealing Object References](img/4_Reference.PNG)
 
-If you are not working on a brand new map of your own, but have used "edit europe" to have a look at the inner workings of your actual installed game, then you can use this feature to find out what models and other goodies other people have used in their work.  For example, if you like the hovering helicopter in RusMap, you could launch your fully modded game, go into dev console, type "edit europe," and search for helicopters until you find the one you like.  You could make a note of its name, type, etc. and plan to use it in a map of your own.
+There is one more very cool thing the Content Browser can do for you.  When you have the References pane active, with its N lines describing each instance of the object in the current map, you can *double-click* on one of those lines.  When you do this, you are automagically transported to the location of that object.  It will occupy the centre position of your map.  You will be looking straight down at it in overhead cam mode.
 
-The content browser is an essential tool, and you can leave it up while you edit (just tuck it behind your map editing window when you don't need it, then pop it to the front when you need to look something up).
+The content browser is an essential tool, and you may want leave it up while you edit (just tuck it behind your map editing window when you don't need it, then pop it to the front when you need to look something up).
 
-Before we move on, there is one more very cool thing the Content Browser can do for you.  When you have the References pane active, with its N lines describing each instance of the object in the current map, you can *double-click* on one of those lines.  When you do this, you are automagically transported to the location of that object.  It will occupy the centre position of your map.  You will be looking straight down at it in overhead cam mode.
+# Selecting and Placing an Object
 
+Now that you know how to select an
 
 [WIP... to be continued]
 
