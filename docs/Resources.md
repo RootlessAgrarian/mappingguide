@@ -62,6 +62,9 @@ Press F to find?
 mysterious growing/shrinking mountains (what is a KDOP?)
 https://forum.scssoft.com/viewtopic.php?f=111&t=204446&start=10
 
+KDOP...  aren't you sorry you asked?
+https://en.wikipedia.org/wiki/Bounding_volume
+
 background image and map scaling
 https://forum.scssoft.com/viewtopic.php?t=194514
 
