@@ -74,10 +74,15 @@ https://forum.scssoft.com/viewtopic.php?t=19693
 rules of road segment creation
 https://promods.net/viewtopic.php?t=18959
 
+how to build a hill
+https://promods.net/viewtopic.php?f=36&t=1326&start=80
+
 
 
 MOST COMMON PROBLEMS:
-can't load background image
+game crashes on start editor (empty your mods and plugins)
+can't see background image (hit A a few times)
+can't load background image (see tutorial)
 can't get road end nodes to join (use alt)
 can't get edited map loaded back in (workflow)
 exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
