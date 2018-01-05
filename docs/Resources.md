@@ -89,15 +89,15 @@ https://promods.net/viewtopic.php?f=36&t=1326&start=80
 
 
 MOST COMMON PROBLEMS:
-game crashes on start editor (empty your mods and plugins)
-can't see background image (hit A a few times)
-can't load background image (see tutorial)
-can't get road end nodes to join (use alt)
-can't get edited map loaded back in (workflow)
-exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
-autosave annoying/slow (https://forum.scssoft.com/viewtopic.php?t=23387  edit param)
-need big screen for map editor (oh well!)
-set truck start position (https://forum.scssoft.com/viewtopic.php?t=15970)
+* game crashes on start editor (empty your mods and plugins)
+* can't see background image (hit A a few times)
+* can't load background image (see tutorial)
+* can't get road end nodes to join (use alt)
+* can't get edited map loaded back in (workflow)
+* exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
+* autosave annoying/slow (https://forum.scssoft.com/viewtopic.php?t=23387  edit param)
+* need big screen for map editor (oh well!)
+* set truck start position (https://forum.scssoft.com/viewtopic.php?t=15970)
 
 UNANSWERED Qs
 
