@@ -32,3 +32,61 @@ https://forum.scssoft.com/viewtopic.php?t=247057
 triggers and sleeping
 https://forum.scssoft.com/viewtopic.php?t=130115
 
+a couple of video tutes
+https://forum.scssoft.com/viewtopic.php?t=243098
+
+find a prefab by its number
+https://forum.scssoft.com/viewtopic.php?t=180589
+
+what is a Traffic Area
+https://forum.scssoft.com/viewtopic.php?f=11&t=221010
+
+how to remove transparent no-go barriers
+https://forum.scssoft.com/viewtopic.php?f=123&t=26469&start=10
+
+how to add rivers
+https://forum.scssoft.com/viewtopic.php?t=131290
+
+how to set AI speed
+https://forum.scssoft.com/viewtopic.php?t=146858
+https://forum.scssoft.com/viewtopic.php?t=129621
+
+Press F to find?
+
+mysterious growing/shrinking mountains (what is a KDOP?)
+https://forum.scssoft.com/viewtopic.php?f=111&t=204446&start=10
+
+background image and map scaling
+https://forum.scssoft.com/viewtopic.php?t=194514
+
+make collisions visible for debugging
+https://forum.scssoft.com/viewtopic.php?t=61231
+
+customising jobs list (at gameplay time)
+https://forum.scssoft.com/viewtopic.php?t=199114
+
+cut and paste often-used objects, store outside cutplane
+https://forum.scssoft.com/viewtopic.php?f=41&t=132271&start=40
+
+understanding map scale
+https://forum.scssoft.com/viewtopic.php?t=19693
+
+rules of road segment creation
+https://promods.net/viewtopic.php?t=18959
+
+
+
+MOST COMMON PROBLEMS:
+can't load background image
+can't get road end nodes to join (use alt)
+can't get edited map loaded back in (workflow)
+exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
+autosave annoying/slow (https://forum.scssoft.com/viewtopic.php?t=23387  edit param)
+need big screen for map editor (oh well!)
+set truck start position (https://forum.scssoft.com/viewtopic.php?t=15970)
+
+UNANSWERED Qs
+
+how to load standalone map
+can Blender edit prefabs with stop lights
+
