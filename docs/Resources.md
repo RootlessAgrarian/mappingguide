@@ -86,6 +86,14 @@ https://promods.net/viewtopic.php?t=18959
 how to build a hill
 https://promods.net/viewtopic.php?f=36&t=1326&start=80
 
+brush doesn't work on prefabs
+
+how sign images work
+https://promods.net/viewtopic.php?f=36&t=1326&start=200
+
+tobj editor
+https://forum.scssoft.com/viewtopic.php?f=41&t=53503
+
 
 
 MOST COMMON PROBLEMS:
@@ -97,6 +105,8 @@ MOST COMMON PROBLEMS:
 * exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
 * autosave annoying/slow (https://forum.scssoft.com/viewtopic.php?t=23387  edit param)
 * need big screen for map editor (oh well!)
+* running into road boundaries (https://promods.net/viewtopic.php?f=36&t=1326&start=240)
+
 * set truck start position (https://forum.scssoft.com/viewtopic.php?t=15970)
 
 UNANSWERED Qs
