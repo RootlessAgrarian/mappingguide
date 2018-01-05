@@ -27,6 +27,8 @@ Let's say you'd like to have a scenic ruined building at the intersection of two
 
 The Content Browser is the tool for this job.  Take another look at that New Item popup window.   Next to the object select menu you'll see a couple of iconic buttons:  a magnifying glass and an arrow gizmo.  The magnifying glass will bring up the Content Browser, showing the selected object.
 
+![The New Item popup](img/4_NewItem.PNG)
+
 The first thing to do with the Content Browser is to use the View menu (bottom option, Layout) to set your Layout to "Complex".  Only the complex layout will offer you the search features that you'll be needing soon.  So go ahead and set the Complex Layout.  Now the window has more panes and is larger, and down at the bottom centre you'll see a very important textbox called Search.
 
 Now, let's get set up to do a search.  Let's say you don't know what Type of object (listbox at upper left) you are looking for.  So you choose All (top option in listbox).  Now type "bicycle" into the Search box.  You should see this, or something similar:
