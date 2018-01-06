@@ -167,6 +167,9 @@ while norrfood has "prefab: 289"
 
 Ok, that was overkill.
 
+add cities (2)
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=170
+
 Regarding prefabs and roads: I have to sometimes start a new road next to the prefab and then connect both.
 Try just to make a simple road between 2 companies as a start, without anyprefabs, but add 2 different companies. And place a garage close to the road.
 Might work?
@@ -210,6 +213,14 @@ you can probably make your own by screenshotting google maps or mapy.cz and comb
 Then you make it into a .dds, name it whatever you like (europe-bgn is the default) and point the def at it
 -- editor_data.sii
 
+2 different types of roads:  old style with hard coded markings, new style with dropdown menu skinning options
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=190
+
+Q: Is there a prefab than connects "HW2b 2m" to "HW2b 5m"
+A: You don't need a prefab. The game will widen or narrow the median if the connection between the two road sections is long enough.
+
+road attributes can be saved as Default or as named Presets for easy subsequent re-use
+
 roads don't blend properly where stitched
 Are you using FLDs prefabs?
 If so, remove the following files:
@@ -239,6 +250,9 @@ Sign images need four files to work:
 - A MAT file refering to the TOBJ
 - A SII DEF-file refering to this mat file and the co-ordinates of the image elements. These definition files are found in /def/sign/atlas
 
+more on signs:
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=150
+
 standalone map:
 When creating a new profile, after adding your mod from the mod manager, (where you can choose your favorite truck or change your profile avatar face) there will be a "Module" dropdown where you should be able to select your alternative map.
 also
@@ -261,6 +275,10 @@ road segment:  both nodes must be behind
 bezier patch:  master mode mst be behind
 prefab:  all nodes must be behind
 
+terrain patching
+I always us a combination: I use bezier patches to fill the large gaps (sometimes you need multiple) and I use road generated terrain right next to roads and prefabs to fill up the gaps between the road and the bezier patch (I usually set the terrain profile to down or d down 1 with a coeff somewhere between 0.2 and 2.0). Furthermore, I use terrain items for the bridge ends. You can find proper examples of this interchange landscaping near Kolding (DK) or Harwich (UK)
+You need to set the "Noise" to 0% for it to be straight. For prefabs, the noise will only become 0% once every road connected to the prefab also has a 0% noise.
+
 MOST COMMON PROBLEMS:
 * map stopped working on update (Delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder )
 * game crashes on start editor (empty your mods and plugins)
@@ -272,8 +290,22 @@ MOST COMMON PROBLEMS:
 * autosave annoying/slow (https://forum.scssoft.com/viewtopic.php?t=23387  edit param)
 * need big screen for map editor (oh well!)
 * running into road boundaries (https://promods.net/viewtopic.php?f=36&t=1326&start=240)
-
 * set truck start position (https://forum.scssoft.com/viewtopic.php?t=15970)
+
+N00b Qs
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=190
+
+Sometimes F6 will not work correctly with building items, because the node has not touched the ground correctly or the surface is not even.  The best solution is to delete the building item and build it again
+1. Create a new fence.
+2. Go to "item properties"
+3. Click "reset offsets"
+4. Click "set as default"
+5. Now you can draw fences again without them being cracked like this.
+
+You have to do something, to make far things look nice. Terrain can't suddenly end. Finish it with hill/forest. Something, that player will see instead of just terrain end. I think it was visible in latest video uploaded by your friend. There was a river that was just ending. Make it longer or make it turn right and hide behind a small hill, so it's not that obvious where it ends ;)
+I know, at first (like August 2016) I took a look at West Berlin. 400 plain with %0 noise and in continue of it; plain (or 0.1 d down up) terrain, different field areas with brush, some fences, farm objects and at the end; tree line. Some towns in far away, country road bridges over highway and countless mini details.
+
+The only worry was horizon and now it is cristal clear. 
 
 UNANSWERED Qs
 
