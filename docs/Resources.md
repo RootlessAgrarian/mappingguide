@@ -231,6 +231,8 @@ Sign images need four files to work:
 
 standalone map:
 When creating a new profile, after adding your mod from the mod manager, (where you can choose your favorite truck or change your profile avatar face) there will be a "Module" dropdown where you should be able to select your alternative map.
+also
+https://www.promods.net/viewtopic.php?p=26628
 
 underlay map
 You can copy already existing files and just change file name. Try it.
