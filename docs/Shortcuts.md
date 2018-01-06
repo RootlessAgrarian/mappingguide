@@ -42,6 +42,7 @@ Action/Key | Result
 ------------ | -------------
 Right Click/Drag | move the map
 Left Click/Drag | select / extend selection / move a selected object
+Middle Click | create new node on existing road segment
 ALT Click/Drag | force connection of nodes
 SHIFT Click/Drag | disconnect connected nodes
 Mouse Hover over node | remembers node height and uses it for next object placement?
