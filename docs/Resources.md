@@ -5,6 +5,10 @@ http://www.glenn52.com/scs_guides.html
 Scribd PDF guide by Dave Crockett Jackson
 https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
 
+https://www.youtube.com/watch?v=clLEATRsIR0
+
+http://forum.scssoft.com/viewtopic.php?f=172&t=190685
+
 ETS STUDIO
 http://www.ets2studio.com/p/download.html
 
@@ -132,6 +136,37 @@ add garage:
 
 Hopefully this covers some of the questions.
 
+add cities:
+
+def-folder structure "mine that is":
+city.mymod.sii
+city and company folders.
+
+city-folder has a file mytown.mymod.sii
+Important line there is :
+@include "/def/city/mytown.mymod.sii"
++ the other lines needed.
+
+company-folder has gnt and norrfood folders
+each of these has a editor-folder
+editor-folder contains 
+mytown.mymod.sii 
+
+company_def : .mytown
+city: mytown
+
+gnt is "prefab: 283"
+while norrfood has "prefab: 289"
+
+Ok, that was overkill.
+
+Regarding prefabs and roads: I have to sometimes start a new road next to the prefab and then connect both.
+Try just to make a simple road between 2 companies as a start, without anyprefabs, but add 2 different companies. And place a garage close to the road.
+Might work?
++recheck all folders and sii files
+
+add dealer: How do you add a dealer to a particular city, so that you don't get the error in the log that it doesn't exist in editor/id?
+Well, I think you only have to place a dealer in map editor and then add a vehicle_brand line in that city definition file.
 
 To get traffic lights at intersections tick "use semaphores" in the prefab.
 
@@ -194,11 +229,19 @@ Sign images need four files to work:
 - A MAT file refering to the TOBJ
 - A SII DEF-file refering to this mat file and the co-ordinates of the image elements. These definition files are found in /def/sign/atlas
 
+standalone map:
+When creating a new profile, after adding your mod from the mod manager, (where you can choose your favorite truck or change your profile avatar face) there will be a "Module" dropdown where you should be able to select your alternative map.
 
+underlay map
+You can copy already existing files and just change file name. Try it.
+.mat files - open with Notepad or Notepad++
+.tobj files - open with ETS2Studio. This program has built-in TOBJ editor.
 
-
+cutplanes explained
+https://promods.net/viewtopic.php?f=36&t=1326&start=880
 
 MOST COMMON PROBLEMS:
+* map stopped working on update (Delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder )
 * game crashes on start editor (empty your mods and plugins)
 * can't see background image (hit A a few times)
 * can't load background image (see tutorial)
