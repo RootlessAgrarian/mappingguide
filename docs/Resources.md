@@ -104,6 +104,9 @@ When connected you drag one and the other will follow
 intersection prefab has 2 green squares :-)  solves red/red impasse
 red dots carry the item properties
 
+connect unlike roads:
+There are prefabs called "joints" - Just search in ( Are you using a ProMods as a base? , if yes, so try write "joint" )
+Stuff like Joints will help you to connect rl 1 roads with rl 2 roads without seeing some odd stuff. There are 3 variations of them - with broken lines, single line or double lines.  Just search for "joint" :)
 
 Bezier patches can impact performace if overused in a small area
 
@@ -245,6 +248,9 @@ You can copy already existing files and just change file name. Try it.
 
 cutplanes explained
 https://promods.net/viewtopic.php?f=36&t=1326&start=880
+
+hookups and overlays
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=90
 
 MOST COMMON PROBLEMS:
 * map stopped working on update (Delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder )
