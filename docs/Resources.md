@@ -5,6 +5,9 @@ http://www.glenn52.com/scs_guides.html
 Scribd PDF guide by Dave Crockett Jackson
 https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
 
+ETS STUDIO
+http://www.ets2studio.com/p/download.html
+
 Background
 https://forum.scssoft.com/viewtopic.php?f=123&t=167214
 
@@ -88,11 +91,110 @@ https://promods.net/viewtopic.php?f=36&t=1326&start=80
 
 brush doesn't work on prefabs
 
+You can always attach square and dot even of same color, but never ever two dots of same color
+red never goes with red
+circle - square always connect regardless of color
+circle - circle must be opposite color
+Don't know with square - square though can't remember
+When connected you drag one and the other will follow
+intersection prefab has 2 green squares :-)  solves red/red impasse
+red dots carry the item properties
+
+Nico:
+That is not an easy question to answer at all. I will try to cover them all quickly:
+
+For overlays:
+Add texture files (mat, tobj, dds) in material/overlay and also add def entries in the def/world/overlay.sii
+
+Add countries: 
+Make new country file in def/country/. Add the new file in the def/country.sii.
+
+Add cities:
+Same as countries but in def/city/ and def/city.sii.
+
+Add ferries:
+Same again but in def/ferry and def/ferry.sii. These also need to be added in the game with the ferry node. Also the prefab needs to have the ferry entrance option enabled to create a route.
+
+Add license plates: 
+You need to add lp data in /material/ui/lp/<country.name>/. Here you need texture files (mat, tobj, dds). Also you need a font for the license plates which are in font/license_plate/. Here you need texture files (mat, tobj, dds) and a font file (.font).
+
+add cities tutorial bad link (malware warning) PM author
+https://www.promods.net/viewtopic.php?f=9&t=253#p8845
+
+structure of cities and companies files
+https://promods.net/viewtopic.php?f=36&t=1326&start=520
+
+add garage:
+1. Place the garage prefab, then create a def file for it. Just look into a mod how definitions are done...
+2. If you press F5 the satnav will appear. "A" will open a background map to see where you are compared to real Europe and how much space you have in that region to stay on scale.
+3. For mapping you don't have to extract anything actually :)
+4. ONLY ONE PER TOWN!
+
+Hopefully this covers some of the questions.
+
+
+To get traffic lights at intersections tick "use semaphores" in the prefab.
+
+
 how sign images work
 https://promods.net/viewtopic.php?f=36&t=1326&start=200
 
+making flags, gimp has dds plugin
+https://promods.net/viewtopic.php?f=36&t=1326&start=370
+
 tobj editor
 https://forum.scssoft.com/viewtopic.php?f=41&t=53503
+
+license plates
+https://promods.net/viewtopic.php?f=36&t=1326&start=250
+
+narrow road non-driveway doesn't work in route map
+https://promods.net/viewtopic.php?f=36&t=1326&start=270
+
+how to add a city
+https://promods.net/viewtopic.php?f=36&t=1326&start=310
+
+SCS Models Editor by Nico
+https://trucksim.org/threads/scs-models-editor.507/
+
+i8n of city names
+https://promods.net/viewtopic.php?f=36&t=1326&start=400
+
+new garages and city def files
+https://promods.net/viewtopic.php?f=36&t=1326&start=410
+
+make bkgnd map
+you can probably make your own by screenshotting google maps or mapy.cz and combining them in a photo editor.
+Then you make it into a .dds, name it whatever you like (europe-bgn is the default) and point the def at it
+-- editor_data.sii
+
+roads don't blend properly where stitched
+Are you using FLDs prefabs?
+If so, remove the following files:
+- /material/road/trans_0.dds
+- /material/road/trans_1.dds
+- /material/road/trans_2.dds
+(2015)
+
+Another question; how can I divide items like roads, fences, trees line like in the video (minute 5.40) ?
+https://youtu.be/z6agMir_8fo
+You click with the scroll wheel or the middle mouse button.
+
+Custom signs
+You have two options. Either you edit ONLY the .dds file and save it under the SAME name, or you save it under another name, edit a TOBJ file and assign it to your new .dds file, then you edit a .mat file that points to your TOBJ file, also you'll have to add it in overlay.sii if you choose the second option. THEN you'll find the sign overlay under the name you've chosen as your .mat file.
+Most people were saying that this procedure is tricky, but actually it's not, just give it a shot.
+cristakey, 
+Have you
+a) Made a .mat file? and pointed it to the correct .tobj?
+b) used TobjEdit to point the .tobj to the correct .dds?
+c) made the dds using DXTbmp?
+Sign images need four files to work:
+- A DDS image file with your sign image
+- A TOBJ file referencing to the DDS image
+- A MAT file refering to the TOBJ
+- A SII DEF-file refering to this mat file and the co-ordinates of the image elements. These definition files are found in /def/sign/atlas
+
+
 
 
 
