@@ -222,6 +222,9 @@ Another question; how can I divide items like roads, fences, trees line like in 
 https://youtu.be/z6agMir_8fo
 You click with the scroll wheel or the middle mouse button.
 
+minicon value 2, 3, 4 : higher detail level:  2 is triangle count detail, 3 is draw call detail, 4 is element counts of each type
+g_colbox 1 : turn on red collision boxes so you can see invisible barriers
+
 Custom signs
 You have two options. Either you edit ONLY the .dds file and save it under the SAME name, or you save it under another name, edit a TOBJ file and assign it to your new .dds file, then you edit a .mat file that points to your TOBJ file, also you'll have to add it in overlay.sii if you choose the second option. THEN you'll find the sign overlay under the name you've chosen as your .mat file.
 Most people were saying that this procedure is tricky, but actually it's not, just give it a shot.
@@ -251,6 +254,12 @@ https://promods.net/viewtopic.php?f=36&t=1326&start=880
 
 hookups and overlays
 https://www.promods.net/viewtopic.php?f=36&t=7581&start=90
+
+cut plane rules
+simple object:  node must be behind cut plane
+road segment:  both nodes must be behind
+bezier patch:  master mode mst be behind
+prefab:  all nodes must be behind
 
 MOST COMMON PROBLEMS:
 * map stopped working on update (Delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder )
