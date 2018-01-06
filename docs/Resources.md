@@ -104,6 +104,10 @@ When connected you drag one and the other will follow
 intersection prefab has 2 green squares :-)  solves red/red impasse
 red dots carry the item properties
 
+
+Bezier patches can impact performace if overused in a small area
+
+
 Nico:
 That is not an easy question to answer at all. I will try to cover them all quickly:
 
