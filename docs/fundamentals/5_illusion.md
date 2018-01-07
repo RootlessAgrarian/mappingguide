@@ -1,7 +1,7 @@
 ## Fooling the Player: the art of illusion
 ### Introducing Terrains, Bezier Patches, and Cut Planes
 
-A large part of the art of decorating your world is to camouflage any evidence that it is a model.  You don't want the user to catch sight of the void beyond the map, for example;  when they are at the edges of the world, you need to put up visual barriers so that they won't see the edge.  As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential void (or the underlying water plane) shows through.  These are illusion breakers, and you need to hide them.
+A large part of the art of decorating your world is to camouflage any evidence that it is a model.  You don't want the user to catch sight of the void beyond the map, for example;  when they are near the edges of the world, you need to put up visual barriers so that they won't see the edge.  As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential void (or the underlying water plane) shows through.  These are illusion breakers, and you need to hide them.
 
 There are several traditional ways to hide "gaps in the world".
 
