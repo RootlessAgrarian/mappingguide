@@ -6,7 +6,7 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 
 ## Contents
 
-[Introduction guide to the Tutorials](tutorialguide.md)
+[Before You Begin (important!)](tutorialguide.md)
 
 ### Fundamentals
 
