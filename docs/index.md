@@ -19,13 +19,16 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 
 ### Advanced Topics
 
-1. Models vs Buildings
-2. Decorating Cities
-3. Advanced decoration for rural areas
+1. Roadworks Ahead:  doing more with roads
+2. Signs and Portents:  road signage
+3. Bright Lights, Big City: urban areas
+4. A River Runs Through It:  rural areas
+5. Know Your Species:  more on object types
 
 ### Advanced Tutorials
 
-1. [Editor backgrounds for custom modules (Part 1)](newmodule/1_imagery.md) [(Part 2)](newmodule/2_import.md)
+1. [Editor backgrounds for custom modules (Part 1)](newmodule/1_imagery.md) 
+2. [Editor Backgrounds (Part 2)](newmodule/2_import.md)
 2. Adding to the Europe module
 
 ### Distributing Maps
