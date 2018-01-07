@@ -38,7 +38,7 @@ Would you like to write an article---including or in addition to those proposed 
 ## Sharing and Contributing
 
 ### License
-There's been a number of resources written for the SCS game engine map editor, but it's been difficult to build upon these efforts due to their lack of license.
+A number of tutorial resources have been written for the SCS game engine map editor, but it's been difficult to build upon these efforts due to their lack of license, or restrictive license.
 
 The contents of this guide are permissively licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, meaning **you're encouraged to repost the contents of this guide _without_ seeking permission**. This includes posting completed guides back to the official SCS software [modding wiki](http://modding.scssoft.com/wiki/Main_Page). (hint hint)
 
