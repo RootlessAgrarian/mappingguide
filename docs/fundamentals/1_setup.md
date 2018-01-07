@@ -1,6 +1,7 @@
 # Tutorial 1 --- Basic Editor Setup
 
-This tutorial will help you set up your game correctly for using the map editor.  *Please note that the SCS Map Editor works only in the Windows version of the game(s).*  While Linux and Mac users can do some modding of vehicles etc. by way of def files and portable tools, actual map editing is possible only with Windows.  I am an OSX (Steam) ETS2 user, and having tried several approaches I finally installed Parallels on my Hackintosh, which works well enough to play 3d games (and run the map editor).
+This tutorial will help you set up your game correctly for using the map editor.  
+* *Please note that the SCS Map Editor works only in the Windows version of the game(s).*  While Linux and Mac users can do some modding of vehicles etc. by way of def files and portable tools, actual map editing is possible only with Windows.  I am an OSX (Steam) ETS2 user, and having tried several approaches I finally installed Parallels on my Hackintosh, which works well enough to play 3d games (and run the map editor).
 
 ## 1. Enabling the Editor
 
