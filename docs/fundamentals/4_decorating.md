@@ -15,13 +15,19 @@ You've already worked with *Prefabs*, in the form of road intersections.  There 
 
 *Buildings* are a curious class which does not, for some reason, only include buildings.  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.
 
-To start placing objects in your world, you pick an Item Type (menu at right of toolbar) -- for now, pick 'Model'.  Use the plus (+) button at left of the toolbar, or hit E on your keyboard, to get into "placing new stuff" mode.  This will pop up a "new item" dialogue box.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.
+To start placing objects in your world, first go to the overhead camera view (using C to toggle between camera views).  Now pick an Item Type (from the menu at right of toolbar) -- for now, pick 'Model'.  Use the plus (+) button at left of the toolbar, or hit E on your keyboard, to get into "placing new stuff" mode.  
 
-When you select something from the Model menu and move your mouse over the map, your cursor becomes an instance of the selected item; and when you click on the map, that object is instantiated on the map at that location.  But you can't see the object until you select it, so how can you tell what all these models look like and which one you want?  It would be rather tedious to keep selecting blindly until you find one you like.
+This should pop up a "new item" dialogue box.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.
 
-So, before you start struggling with the lengthy and only weakly descriptive drop-down menus in this box, let's talk about an easier way to identify items to place in your map.
+It's quite a long list, and though the item names are mnemonic and could eventually become familiar, you'll find yourself "shopping around" in it to find what you had in mind.  Fortunately this shopping process is quick and easy.
 
-# Finding Objects to Place:  the Content Browser
+As soon as you select something from the Model menu and move your mouse over the map, your cursor becomes an instance of the selected item (as seen from the top); and when you click on the map, that object is instantiated on the map at that location.  
+
+Easy though this is, you can't see the object until you select it and move the mouse onto the map.  It would be rather tedious to keep shopping on a trial and error basis, clicking and mousing, until you find one you like.  Also, the top view is not always helpful in identifying the object.
+
+So, before you get RSI interacting with the lengthy and only weakly descriptive drop-down menus in this box, let's talk about an even easier way to identify items to place in your map.
+
+# Selecting Objects to Place:  the Content Browser
 
 Let's say you'd like to have a scenic ruined building at the intersection of two of your roads.  How to find one?
 
@@ -47,9 +53,9 @@ The pane on the far right shows detailed information about the selected object, 
 
 This pane will also tell you whether the item (if a Model) is high or low res (Distance type = near or far), and where it came from.  The Source field reads 'base' if the object is included in the base game, 'dlc_north' if it comes from the Scandinavia DLC, and so on.  For models, this pane even gives you the relative pathname to the model file in an unpacked 'base' hierarchy, so you can locate and extract the model and modify it using your own 3d editor such as Blender or 3ds Max (this topic is covered in a separate tutorial).
 
-If you are not working on a brand new map of your own, but have used "edit europe" to have a look at the inner workings of your actual installed game, then you can use this feature to find out what models and other goodies other people have used in their work.  For example, if you like the hovering helicopter in RusMap, you could launch your fully modded game, go into dev console, type "edit europe," and search for helicopters until you find the one you like.  You could make a note of its name, type, etc. and plan to use it in a map of your own.  (I should remind you at this point that there are many warnings online about starting up the editor with lots of mods;  don't be surprised if it crashes when you have a busy mod folder.  Include only the mods actually necessary to do what you want to do.)
+If you are not working on a brand new map of your own, but have used "edit europe" to have a look at the inner workings of your actual installed game, then you can use this feature to find out what models and other goodies other people have used in their work.  For example, if you like the hovering helicopter in RusMap, you could launch your fully modded game, go into dev console, type "edit europe," and search for "heli" until you find the one you liked.  You could make a note of its name, type, etc. and plan to use it in a map of your own.  (I should remind you at this point that there are many warnings online about starting up the editor with lots of mods;  don't be surprised if it crashes when you have a busy mod folder.  Include only the mods actually necessary to do what you want to do.)
 
-But the object's type, provenance, etc. are not all you can find out.  If you *right-click* on the thumbnail of the bicycle you've selected, you should see a menu.  The bottom-most item on this menu will be "Find All References."  This is a very handy feature.  It will pop up a list of every instance of this object in your current map.  So, for example, if you want to match (or not to repeat!) the type of tree or other model you used earlier, you can search for the general type of tree (Pine for example) and then check to see which pines you've used before.  Here's a sample search on a small tutorial map of mine, for a spruce avenue I used along the roadside in several places:
+But the object's type, provenance, etc. are not all you can find out.  If you *right-click* on the thumbnail of the bicycle you've selected, you should see a menu.  The bottom-most item on this menu will be "Find All References."  This is a very handy feature.  It will pop up a list of every instance of this object in your current map.  So, for example, if you want to match (or not to repeat!) the type of tree or other model you used earlier, you can search for the general type of tree (Pine for example) and then check to see which pines you've used before and how often.  Here's a sample search on a small tutorial map of mine, for a spruce avenue I used along the roadside in several places:
 
 ![Revealing Object References](img/4_Reference.PNG)
 
@@ -61,9 +67,46 @@ As you can see, the content browser is an essential tool;  you may want leave it
 
 Now that you know how to select an object from a visual catalogue (using the Content Browser), you can have some fun populating your map with various decorations.  Have fun experimenting with the various object types.
 
+Among the items confusingly known as Buildings are several "strings of things" objects, such as rows of trees or shrubs, hedges, fences, etc.  You can extend these alongside roads, for aesthetic reasons or as a visual barrier.
 
-[WIP... to be continued]
+As you decorate your world, you'll probably switch between camera modes quite a bit, using the overhead view to place objects and the flying cam to see how it looks from the ground.  You can continue editing the world in flying cam mode -- just hit *Space* to toggle betwen editing mode and free roaming mode.  With the flying cam you can see elevation views, from any position and angle, of your world-in-progress.  In editing mode, object handles will appear and you can perform the same actions you're accustomed to in plan view.
 
-(Don't forget about) The Vegetation Sphere is an attribute of a terrain or road segment, activated by a button at the BOTTOM of the Properties popup window.  Despite its name, the Vegetation Sphere is actually a NO-Vegetation-Sphere:  it defines a region in which the procedural vegetation generator will not place objects.  This can be handy if you want to locate a building in a wooded area, for example.  Instead of having to hand-craft a woodland around the building, leaving a clearing for it, you can just fill up your terrain with generated woodland but add a Veg Sphere of appropriate diameter where you want the building to go.
+If you find that an object has instantiated in mid air, you can grab its control handle and drag it downward in H mode. Or you can use a handy shortcut key:  F6.  If you hover over the object so that it highlights (this is a pale blue colour in my version of the editor), then hit F6, the object will leap to ground level.
 
-The vegetation generator will simply not place any objects which would fall within the perimeter defined by the sphere's intersection with the terrain.  So you'll see a handy circular or oval patch where you can place your building without trees growing through the walls and roof.  The Veg Sphere only prevents procedural vegetation, not placement of individual tree/shrub models. It will not prevent you from adding some trees by hand, if you do want some growth closer to the building than the clearing perimeter.  Hint:  a few hand-placed trees can camouflage the artificial shape of the clearing.  
+# Making space to place an object:  the Vegetation Sphere
+
+Let's say you've used the Vegetation parameters of your road segment to make a very attractive forest terrain each side of your road, and you're quite happy with it -- but you want to put a house or inn or some other attractive building by the roadside as well.  The problem is that there's no space big enough, between the trees, to put your house.  Wherever you put it, there's a tree growing out of or through it;  and unless it's a ruin and you want that effect, that's a problem.  The forest is procedurally generated, and it doesn't know or care where the models are.
+
+You could, of course, get rid of the vegetation on this particular bit of roadside terrain and re-create it by hand, placing individual tree models.  That would be incredibly tedious.  Or you could have buildings only in big cleared segments of terrain, but that would be unnatural and limiting.  So the editor devs have given you a tool to solve this problem.
+
+The *Vegetation Sphere* is an attribute of a terrain or road segment, activated by a button at the BOTTOM of the Properties popup window.  Despite its name, the Vegetation Sphere is actually a NO-Vegetation-Sphere:  it defines a region in which the procedural vegetation generator will not place objects.  Now you can locate a building in a wooded area.  You can fill up your terrain with generated woodland, as dense as you like, but add a Veg Sphere of appropriate diameter where you want the building to go.
+
+When it's time to paint this part of the map, the vegetation generator will simply not place any objects which would fall within the perimeter defined by the sphere's intersection with the terrain.  So you'll see a circular or oval patch where you can place your building without those trees growing through the walls and roof.  The Veg Sphere only prevents procedural vegetation, not placement of individual tree/shrub models. It will not prevent you from adding some trees by hand, if you do want some growth closer to the building than the clearing perimeter.  Hint:  a few hand-placed trees can camouflage the artificial shape of the clearing.
+
+# Fooling the Player: the art of illusion
+
+A large part of the art of decorating your world is to camouflage any evidence that it is a model.  You don't want the user to catch sight of the void beyond the map, for example;  when they are at the edges of the world, you need to put up visual barriers so that they won't see the edge.  As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential void (or the underlying water plane) shows through.  These are illusion breakers, and you need to hide them.
+
+There are several traditional ways to hide "gaps in the world".
+
+If the gap is small enough, you may be able to hide it with a model of some kind:  a rocky outcrop, a dense thicket, a building.  You need to be careful of sight lines and make sure that it's hidden from all POV along nearby roads.
+
+If the gap is a bit larger, you could put up a sound wall or other visible barrier along that side of the road, so that the player can't see the ugly spot.
+
+If you don't want walls, and your local terrain offers long sight lines and no useful features for hiding holes, then your next best option is to stitch a non-road terrain into the picture to cover the gap.  There are two types of non-road terrain you can use as patches to cover gaps in the world:  one is just called Terrain and the other is called Bezier Patch.  They are quite different animals.  
+Terrain is just a rectangle of terrain with two handles.  You can glue it to a road segment -- with the same Alt-Click-Drag move that you use to glue road segments together -- or you can position it free-floating.  If you glue it to a road segment it will, usefully, adopt the profile of that road segment (bank, flat, ditch, whatever).  So it's very handy for filling in gaps at overpasses.
+
+Bezier Patch is a more sophisticated tool:  it's a rectangle of terrain with many Bezier handles, which you can deform creatively to fill odd-sized gaps and to present some topography for the player to enjoy.  A Bezier Patch is far more flexible than an ordinary Terrain patch, and you might be tempted to use only Bezier Patches to cover all your booboos;  but beware!  they come with a rendering cost that will impact game performance if you use too many of them within the render area.
+
+An important part of your job as a map builder is to cover your tracks, hide all the seams, never let the user see "backstage".  You need to preserve the immersive illusion, and nothing breaks it faster than a visible hard terrain edge, a levitating object, or a hole in the world.  These can be hard to detect from above;  you have to fly around with the free cam checking carefully for telltale "world under construction" evidence and hiding it.
+
+You also need to preserve the illusion of distance and spaciousness.  This is a more sophisticated level of map design, but worth mentioning here so you can bear it in mind as your map becomes more complex.  The scale factor of the map (1:19 outside cities and 1:3 inside cities, in ETS2) means that roads may be closer together than they should be in real life;  a driver on Road A might see bits of a city on Road B that IRL should not be visible from there, and that will be immersion-breaking.  
+
+How can this be avoided, without generating a map so large that no game engine could run it?  The editor provides a special object called a Cut Plane which solves exactly this problem.  A cutplane is an "invisible visible barrier".  You can't see the cutplane itself, and you can't see anything that is on the far side of it from your POV location.  Cutplanes can be one-sided (see-through one way but not the other) or two-sided (barrier in both directions).  They don't have to be a mere straight wall, either;  they can zigzag all over the landscape selecting things to display to a viewer on one side or the other.
+
+So, if you put a cutplane between the forest beside Road A and the city just beyond, the driver on Road A will only see the forest and the empty sky -- not the city towers peeking over it.  The city will seem as far away as it should be IRL.
+
+Thus the cutplane can be used to preserve that illusion of space, of a map size far greater than the actual layout.  It also saves the graphics engine (at runtime) from having to render all the objects behind the cutplane, thus improving performance.  Even if objects are not visible to the user (being screened by other models and objects in between), the engine will still try to render them.   But if you know that bits of the scenery absolutely cannot be seen from Location A, you can throw in a cutplane to hide them from the rendering engine at runtime, and thus improve game performance for your player.
+
+
+
