@@ -5,7 +5,17 @@ http://www.glenn52.com/scs_guides.html
 Scribd PDF guide by Dave Crockett Jackson
 https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
 
+Basics:  open the map editor and save your work
 https://www.youtube.com/watch?v=clLEATRsIR0
+
+The ProMods Advanced Tips series:
+1. curves and banks: https://youtu.be/J9leGT5SH8Y
+2: better bridges: https://youtu.be/C-eqesW3LlM
+3: building interchanges pt 1: https://youtu.be/yWF0a9uUNmo
+4: building interchanges pt 2: https://youtu.be/osFlxcwggbk
+5: miniconsole and debugging: https://youtu.be/SG33bEwC5GQ
+6: cutplanes https://youtu.be/7IFJttG9TRc
+do not be put off by the low audio level.  these are worthwhile viewing.
 
 http://forum.scssoft.com/viewtopic.php?f=172&t=190685
 
