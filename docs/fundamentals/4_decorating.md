@@ -1,5 +1,5 @@
 
-## Decorating Your World
+# Decorating Your Map
 
 The next step in map building is to decorate your map with convincing details.  We've introduced this topic already with the Properties
 of road segments:  we've seen how procedural vegetation can be generated to populate the sides of the road with trees, bushes, flowers, etc; and we've seen how materials can be selected to give the terrain each side of the road a distinctive look (ploughed field, grassland, desert, etc), as well as to vary the road surface colour and texture.
@@ -26,7 +26,7 @@ Easy though this is, you can't see the object until you select it and move the m
 
 So, before you get RSI interacting with the lengthy and only weakly descriptive drop-down menus in this box, let's talk about an even easier way to identify items to place in your map.
 
-# Selecting Objects to Place:  the Content Browser
+## Finding Objects to Place:  the Content Browser
 
 Let's say you'd like to have a scenic ruined building at the intersection of two of your roads.  How to find one?
 
@@ -62,7 +62,7 @@ There is one more very cool thing the Content Browser can do for you.  When you 
 
 As you can see, the content browser is an essential tool;  you may want leave it up while you edit (just tuck it behind your map editing window when you don't need it, then pop it to the front when you need to look something up).
 
-# Selecting and Placing an Object
+## Selecting and Placing an Object
 
 Now that you know how to select an object from a visual catalogue (using the Content Browser), you can have some fun populating your map with various decorations.  Have fun experimenting with the various object types.
 
@@ -72,7 +72,7 @@ As you decorate your world, you'll probably switch between camera modes quite a 
 
 If you find that an object has instantiated in mid air, you can grab its control handle and drag it downward in H mode. Or you can use a handy shortcut key:  F6.  If you hover over the object so that it highlights (this is a pale blue colour in my version of the editor), then hit F6, the object will leap to ground level.
 
-# Making space to place an object:  the Vegetation Sphere
+## Making space to place an object:  the Vegetation Sphere
 
 Let's say you've used the Vegetation parameters of your road segment to make a very attractive forest terrain each side of your road, and you're quite happy with it -- but you want to put a house or inn or some other attractive building by the roadside as well.  The problem is that there's no space big enough, between the trees, to put your house.  Wherever you put it, there's a tree growing out of or through it;  and unless it's a ruin and you want that effect, that's a problem.  The forest is procedurally generated, and it doesn't know or care where the models are.
 
