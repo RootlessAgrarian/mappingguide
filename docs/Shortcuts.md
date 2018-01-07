@@ -9,8 +9,8 @@ Key | Result
 ------------ | -------------
 A (Q) | toggle background map on or off. If you don’t have any, you will see some red text.
 B | Use the brush tool (use sparingly if at all)
-C | Camera view (changes from overhead (editor) view to on the “fly” (roadside view) very useful tool to enable you to see how your roads will look in the map and to aid with changing the height of an item
-D | Delete item by selecting the red node.
+C | Camera view -- toggles between overhead (editor) view to on the “fly” (roadside view) very useful tool to enable you to see how your roads will look at runtime and to aid with precise item placement
+D | Delete item by selecting the red node. (You can also select item(s) and use the Delete key on your keyboard).
 E | New item
 F | Find
 G | Add sign tool
@@ -20,8 +20,8 @@ M (,) | Move item
 N | Node properties
 P | Item properties
 Q | Put the background map
-R | Rotate item on X, Y or Z
-S | Place Start (the car)
+R | Rotate item on X, Y or Z (select which axis on the toolbar)
+S | Place Start Position (the car)
 
 Not on the numeric Keyboard:
 
@@ -88,5 +88,5 @@ Brush mode:
 Hat tips to Kentora and others!
 https://forum.scssoft.com/viewtopic.php?t=129971
 
-[<- Tutorial 3 - Saving and reloading your map](2_firstmap.md) --- [Main Index ->](index.md)
+[<- Tutorial 5 - Immersive Illusion](5_illusion.md) --- [Main Index ->](index.md)
 
