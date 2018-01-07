@@ -18,7 +18,7 @@ There are also other objects such as *Signs*, but we'll talk about them later be
 
 To start placing objects in your world, first go to the overhead camera view (using C to toggle between camera views).  Now pick an Item Type (from the menu at right of toolbar) -- for now, pick 'Model'.  Use the plus (+) button at left of the toolbar, or hit E on your keyboard, to get into "placing new stuff" mode.  
 
-This should pop up a "new item" dialogue box like the one you see here.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.
+This should pop up a "new item" dialogue box like the one you see here.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.  [MISSING IMAGE!]
 
 It's quite a long list, and though the item names are mnemonic and could eventually become familiar, you'll find yourself "shopping around" in it to find what you want.  Fortunately this shopping process is quick and easy, with an instant preview (sort of).
 
