@@ -1,7 +1,7 @@
 # Tutorial 1 --- Basic Editor Setup
 
 This tutorial will help you set up your game correctly for using the map editor.  
-* *Please note that the SCS Map Editor works only in the Windows version of the game(s).*  While Linux and Mac users can do some modding of vehicles etc. by way of def files and portable tools, actual map editing is possible only with Windows.  I am an OSX (Steam) ETS2 user, and having tried several approaches I finally installed Parallels on my Hackintosh, which works well enough to play 3d games (and run the map editor).
+* *Please note that the SCS Map Editor works only in the Windows version of the game(s).*  While Linux and Mac users can do some modding of vehicles etc. by way of def files and portable tools, actual map editing is possible only with Windows.  I am an OSX (Steam) ETS2 user, and having tried several approaches I finally installed Parallels on my Hackintosh, which works well enough to play 3d games (and run the map editor --RA).
 
 ## 1. Enabling the Editor
 
@@ -17,15 +17,15 @@ Before you do this however, you should make one more change to enable saving of 
 
 ## 2. Enabling Saves
 
-The editor saves maps to a directory in the _executable_ folder, however this folder does not exist by default, and the editor produces an error rather than saving.
+The editor saves maps to a directory in the _executable_ folder, however this folder does not exist by default, and the editor produces an error rather than saving if the folder does not exist.  (Many new users are immediately confused by this!)  You need to create it.
 
-Go to your executable folder -- ```C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2``` by default -- and then create a folder called ```base```, then another folder inside this one called ```map```.
+Go to your executable folder -- ```C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2``` by default -- and create a folder called ```base```, then another folder inside this one called ```map```.
 
 That's it! you're almost ready to start mapping.  Just a couple more prep steps... first, make sure you don't confuse the editor with 3rd party mods.
 
 ## 3.  Get rid of all mods other than those absolutely necessary for your mapping project
 
-The map editor is not kindly disposed towards a stack of contrib mods.  You may have incompatible mods kicking around, which you usually don't notice because you're careful never to load them into the same profile.  But the editor loads whatever it finds in your mod folder -- it doesn't care about profiles.  Best practise is to remove all mod files from your mod dir, other than things (like contrib models and buildings) that you really need for your map.  Now that you've cleaned up your mod folder, there's just one more setup detail...
+The map editor is not kindly disposed towards a stack of contrib mods.  You may have incompatible mods kicking around, which you usually don't notice because you're careful never to load them into the same profile.  But the editor loads whatever it finds in your mod folder, in alphabetical order -- it doesn't care about profiles.  Best practise is to remove all mod files from your mod dir, other than things (like contrib models and buildings) that you really need for your map.  Now that you've cleaned up your mod folder, there's just one more setup detail...
 
 ## 4.  Configure your game to run in Windowed mode
 
@@ -35,6 +35,6 @@ The editor runs best not in full screen mode, but in Windowed mode.  Depending o
 
 The process for loading maps is somewhat laborious, as the editor can only use game files that are currently loaded by the game.
 
-You should complete the next tutorial in a single sitting if possible, but if you need to load your saved process for any reason, skip to tutorial 3, where the process of loading your maps into the game is detailed.
+You should complete the next tutorial in a single sitting if possible, but if you need to load your saved project right now for any reason, skip to tutorial 3 --  the process of loading your maps into the game is explained there.
 
 [<- Back to Index](../index.md) --- [ Tutorial 2 - Creating a basic map ->](2_firstmap.md)
