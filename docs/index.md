@@ -13,12 +13,13 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 1. [Basic Editor Setup](fundamentals/1_setup.md)
 2. [Creating a basic map](fundamentals/2_firstmap.md)
 3. [Loading and testing your map](fundamentals/3_testing.md)
-4. [Shortcuts and HotKeys](Shortcuts.md)
-4. Creating cities and workplaces
+4. [Decorating your map](fundamentals/4_decorating.md)
+5. [Preserving the Illusion](fundamentals/5_illusion.md)
+6. [Shortcuts and HotKeys](Shortcuts.md)
 
-### Decoration
+### Advanced Topics
 
-1. Models and Buildings
+1. Models vs Buildings
 2. Decorating Cities
 3. Advanced decoration for rural areas
 
@@ -41,22 +42,16 @@ There's been a number of resources written for the SCS game engine map editor, b
 
 The contents of this guide are permissively licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, meaning **you're encouraged to repost the contents of this guide _without_ seeking permission**. This includes posting completed guides back to the official SCS software [modding wiki](http://modding.scssoft.com/wiki/Main_Page). (hint hint)
 
-**Attribution** is a requirement of the license wherever you redistribute or modify the guide, a link back to the [github repo](https://github.com/SCSModdingGuide/mappingguide) will suffice.
+**Attribution** is a requirement of the license wherever you redistribute or modify the guide, a link back to this repo AND the original [github repo](https://github.com/SCSModdingGuide/mappingguide) will suffice.  This version is a fork of that original repo:  the original author no longer wishes to maintain&update, so the torch has been passed.
 
 ### Contributing
 Outside contributions will be paramount to making this guide comprehensive. If you're experienced with the ETS2/ATS map editors, your assistance in creating these guides would be greatly welcomed! You should contribute in one of the following ways
 
 #### Errors & Corrections
-If you spot typos or factual errors in these guides, but don't plan on making large contributions, please create an entry in the [Issues tab](https://github.com/SCSModdingGuide/mappingguide/issues) of the Github repo.
+If you spot typos or factual errors in these guides, but don't plan on making large contributions, please PM RootlessAgrarian on either the SCS or ProMods forum, or make a note in the Issues here.
 
 #### Content Contribution
 
-If you wish to write a large contribution to the guide, you'll need to make a pull request to the Git Repo.
+If you wish to write a large contribution to the guide, contact me (as above) to become a Contrib, pull your own copy of the repo, etc.
 
-Don't Panic! the guides are written in easily editable [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) text files. Just grab a copy of [Github Desktop](https://desktop.github.com/) and follow [This guide](https://help.github.com/desktop/guides/contributing/) to contributing to Git repos. In brief, you need to:
-
-- Clone the [Git repo](https://github.com/SCSModdingGuide/mappingguide)
-- Make your additions to the guide, and commit them.
-- Make a pull request to have your committed additions accepted
-
-If you're working on contributions, but need some help using Github Desktop, contact [SecretImbecile](https://github.com/SecretImbecile) for assistance.
+Co-authors are more than welcome, they are desperately wanted.
