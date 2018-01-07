@@ -1,4 +1,6 @@
 
+This doc is a grab bag of topics, tips, links, etc gleaned by painful trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.
+
 "Glenn52" SCS Editor Guide (PDF)
 http://www.glenn52.com/scs_guides.html
 
