@@ -14,15 +14,17 @@ You've already worked with *Prefabs*, in the form of road intersections.  Some b
 
 *Buildings* are a curious class which does not, for some reason, only include buildings.  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.
 
+There are also other objects such as *Signs*, but we'll talk about them later because they can get complicated.
+
 To start placing objects in your world, first go to the overhead camera view (using C to toggle between camera views).  Now pick an Item Type (from the menu at right of toolbar) -- for now, pick 'Model'.  Use the plus (+) button at left of the toolbar, or hit E on your keyboard, to get into "placing new stuff" mode.  
 
-This should pop up a "new item" dialogue box.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.
+This should pop up a "new item" dialogue box like the one you see here.   It offers you a Category dropdown menu and a Model dropdown menu (for now, ignore the other options). You can use Category to filter the Model menu. Just for grins, set Category to "vehicle" and try out the dropdown Model menu.
 
-It's quite a long list, and though the item names are mnemonic and could eventually become familiar, you'll find yourself "shopping around" in it to find what you had in mind.  Fortunately this shopping process is quick and easy.
+It's quite a long list, and though the item names are mnemonic and could eventually become familiar, you'll find yourself "shopping around" in it to find what you want.  Fortunately this shopping process is quick and easy, with an instant preview (sort of).
 
 As soon as you select something from the Model menu and move your mouse over the map, your cursor becomes an instance of the selected item (as seen from the top); and when you click on the map, that object is instantiated on the map at that location.  
 
-Easy though this is, you can't see the object until you select it and move the mouse onto the map.  It would be rather tedious to keep shopping on a trial and error basis, clicking and mousing, until you find one you like.  Also, the top view is not always helpful in identifying the object.
+Easy though this is, you can't see the object until you select it and move the mouse onto the map.  It would be rather tedious to keep shopping on a trial and error basis, clicking and mousing, until you find one you like.  Also, the top view is not always helpful in identifying the object, whereas the free cam view is not always helpful in placing the object.
 
 So, before you get RSI interacting with the lengthy and only weakly descriptive drop-down menus in this box, let's talk about an even easier way to identify items to place in your map.
 
