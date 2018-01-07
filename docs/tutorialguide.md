@@ -10,21 +10,21 @@ Below are notes on nomenclature and external tools.
 
 This guide will refer to two folders used by ETS2/ATS. We'll be calling them the **user** folder and the **executable** folder.
 
-The _user_ folder is the game folder located in the _Documents_ directory on Windows platforms. This folder contains the _mod_ folder, where we'll place our created maps.
+The _user_ folder is the game folder located in the _Documents_ directory on Windows platforms. This folder contains the _mod_ folder, where we'll place our created maps:
 
 ```
 C:\Users\<username>\Documents\Euro Truck Simulator 2
 C:\Users\<username>\Documents\American Truck Simulator
 ```
 
-The _executable_ folder is the game's main folder, which in it contains the game files and executables. Maps we create will be saved in a subfolder here
+The _executable_ or *install* folder is the game's main folder, which contains the installed game files and executables. Maps we create will be saved in a subfolder here:
 
 ```
 C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2
 C:\Program Files (x86)\Steam\steamapps\common\American Truck Simulator
 ```
 
-For the sake of brevity, only the paths for Euro Truck Simulator 2 will be repeated in this guide. All instructions are equivalent for both games unless stated otherwise.
+For the sake of brevity, only the paths for Euro Truck Simulator 2 will be repeated in this guide. All instructions are equivalent for both games unless stated otherwise.  It is essential that you understand the roles of these two separate locations.  90 percent of the "I can't save my map" and "I can't (re)load my saved map" questions on the forums are due to confusion about these two locations and what goes where when.
 
 ## Tools used
 
