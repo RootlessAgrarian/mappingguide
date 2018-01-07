@@ -68,7 +68,7 @@ As you can see, the content browser is an essential tool;  you may want leave it
 
 Now that you know how to select an object from a visual catalogue (using the Content Browser), you can have some fun populating your map with various decorations.  Have fun experimenting with the various object types.
 
-Among the items confusingly known as Buildings are several "strings of things" objects, such as rows of trees or shrubs, hedges, fences, etc.  You can extend these alongside roads, for aesthetic reasons or as a visual barrier.
+Note:  Among the items confusingly known as Buildings are several "strings of things" objects, such as rows of trees or shrubs, hedges, fences, etc.  You can extend these alongside roads, for aesthetic reasons or as a visual barrier.
 
 As you decorate your world, you'll probably switch between camera modes quite a bit, using the overhead view to place objects and the flying cam to see how it looks from the ground.  You can continue editing the world in flying cam mode -- just hit *Space* to toggle betwen editing mode and free roaming mode.  With the flying cam you can see elevation views, from any position and angle, of your world-in-progress.  In editing mode, object handles will appear and you can perform the same actions you're accustomed to in plan view.
 
