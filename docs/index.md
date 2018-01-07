@@ -14,7 +14,7 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 2. [Creating a simple map](fundamentals/2_firstmap.md)
 3. [Loading and testing your map](fundamentals/3_testing.md)
 4. [Decorating your map](fundamentals/4_decorating.md)
-5. [Preserving the Illusion](fundamentals/5_illusion.md)
+5. [Preserving the illusion](fundamentals/5_illusion.md)
 6. [Shortcuts and HotKeys](Shortcuts.md)
 
 ### Advanced Topics
