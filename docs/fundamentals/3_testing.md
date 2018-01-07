@@ -167,4 +167,4 @@ Everything is Ok
 ```
 This script is a bit too simpleminded for production work;  it uses only one MyMap folder with one 'map' subfolder, with just one manifest and description file for all maps I'm currently building.  I'm building throwaway maps as tutorial exercises, so this doesn't matter.  The script could easily be rewritten with a little more functionality and another argument, so that the "MyMap" dir was selectable/creatable on the fly.
 
-[<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](../4_Decorating.md)
+[<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](../4_decorating.md)
