@@ -106,7 +106,7 @@ Launch the game again. You do _not_ need to enable the mod in the launchpad mod 
 
 **hint:** On Jack's machine, the loading screen does not appear immediately. ALT+TAB out and back in and the game should load nearly instantly.  De's version did not have this issue.
 
-**warning:** There's a tempting "Run" button in the editor toolbar.  Beware of it.  Remember that this button runs the *last loaded version of the game* (from your mod file), **not** the current (editing in progress) version of the map you are seeing in the editor window.  You may be tempted to Save, then Run -- and if you've used other game editors like Unity, this makes perfect sense -- but this would be a bad idea because SCS Map Editor does not work like Unity.  If you do this, the game will run the version of the map it loaded at startup, and if you Save again after that, you'll save the version last loaded at startup... and lose any changes you made since then.  That Run button is only useful right after launch, to have a look at what you last saved (and archived and installed as a mod file).  Just get used to it:  *you will have to quit, repackage mod, and relaunch the game every time you want to demo your work.*
+**warning:** There's a tempting "Run" button in the editor toolbar.  Beware of it.  Remember that this button runs the *last loaded version of the game* (from your mod file), **not** the current (editing in progress) version of the map you are seeing in the editor window.  You may be tempted to Save, then Run -- and if you've used other game editors like Unity, this makes perfect sense -- but this would be a bad idea because SCS Map Editor does not work like Unity.  You must restart the game and load your freshly packaged mod to make your map changes reloadable/playable.  Read the next section carefully...
 
 ![in-game](img/3_ingame.jpg)
 
@@ -168,5 +168,7 @@ Archive size: 92432 bytes (91 KiB)
 Everything is Ok
 ```
 This script is a bit too simpleminded for production work;  it uses only one MyMap folder with one 'map' subfolder, with just one manifest and description file for all maps I'm currently building.  I'm building throwaway maps as tutorial exercises, so this doesn't matter.  The script could easily be rewritten with a little more functionality and another argument, so that the "MyMap" dir was selectable/creatable on the fly.
+
+Summary:  there are no shortcuts for the workflow cycle.  *You must quit, repackage mod, and restart the game* any time you want to (a) reload a map you have been saving, for further editing, or (b) demo your map by playing it -- whether via the editor's Run button or by loading it as a mod into a profile.
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](4_decorating.md)
