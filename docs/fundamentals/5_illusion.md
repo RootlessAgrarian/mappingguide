@@ -1,4 +1,5 @@
 ## Fooling the Player: the art of illusion
+# introducing Terrains, Bezier Patches, and Cut Planes
 
 A large part of the art of decorating your world is to camouflage any evidence that it is a model.  You don't want the user to catch sight of the void beyond the map, for example;  when they are at the edges of the world, you need to put up visual barriers so that they won't see the edge.  As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential void (or the underlying water plane) shows through.  These are illusion breakers, and you need to hide them.
 
@@ -31,3 +32,5 @@ The deployment of cutplanes is a fairly complicated topic and the best tutorial 
 So now you know how to build a road network, decorate it, and patch the gaps where you glued your map together from the lego kit that is the Map Editor.  At this point you might want to try a mod to the master ETS2 or ATS map (europe, or usa).  A manageable-size beginner project might be to pick an empty area of the existing map and add your own back road with some nice scenery, then try loading that mod into your playable game and see if you can find and drive on your new road.
 
 Or, if you're feeling ambitious, you may be ready to tackle more advanced topics now -- like the creation of a new city, use of intersections with animated signals and lights, management of national borders, placement of interactive prefabs, use of a reference map for layout, etc.
+
+[<- Tutorial 4 - Decorating Your Map](2_decorating.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
