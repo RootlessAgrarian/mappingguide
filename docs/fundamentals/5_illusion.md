@@ -31,6 +31,6 @@ The deployment of cutplanes is a fairly complicated topic and the best tutorial 
 
 So now you know how to build a road network, decorate it, and patch the gaps where you glued your map together from the lego kit that is the Map Editor.  At this point you might want to try a mod to the master ETS2 or ATS map (europe, or usa).  A manageable-size beginner project might be to pick an empty area of the existing map and add your own back road with some nice scenery, then try loading that mod into your playable game and see if you can find and drive on your new road.
 
-Or, if you're feeling ambitious, you may be ready to tackle more advanced topics now -- like the creation of a new city, use of intersections with animated signals and lights, management of national borders, placement of interactive prefabs, use of a reference map for layout, etc.
+Or, if you're feeling ambitious, you may be ready to tackle more advanced topics now -- like the creation of a new city, use of intersections with animated signals and lights, management of national borders, placement of interactive prefabs, realistic banks and curves, more subtly textured landscaping, use of a reference map for layout, etc.
 
 [<- Tutorial 4 - Decorating Your Map](2_decorating.md) --- [Shortcuts and HotKeys ->](../Shortcuts.md)
