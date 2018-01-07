@@ -104,7 +104,9 @@ Once you have produced the .scs archive, you need to **move** it to your user fo
 
 Launch the game again. You do _not_ need to enable the mod in the launchpad mod manager, the editor will read _everything_ in the mod folder. **Open** the editor, this time placing the map name in the command too, i.e. ```edit TestMap```. Ensure the capitalisation is the same as the editor filename. Your map should now load back into the editor, and you can press the _Run Map_ button to test the map.
 
-**hint:** On the writer's machine, the loading screen does not appear immediately. ALT+TAB out and back in and the game should load nearly instantly.
+**hint:** On Jack's machine, the loading screen does not appear immediately. ALT+TAB out and back in and the game should load nearly instantly.  De's version did not have this issue.
+
+**warning:** There's a tempting "Run" button in the editor toolbar.  Beware of it.  Remember that this button runs the *last loaded version of the game* (from your mod file), **not** the current (editing in progress) version of the map you are seeing in the editor window.  You may be tempted to Save, then Run -- and if you've used other game editors like Unity, this makes perfect sense -- but this would be a bad idea because SCS Map Editor does not work like Unity.  If you do this, the game will run the version of the map it loaded at startup, and if you Save again after that, you'll save the version last loaded at startup... and lose any changes you made since then.  That Run button is only useful right after launch, to have a look at what you last saved (and archived and installed as a mod file).  Just get used to it:  *you will have to quit, repackage mod, and relaunch the game every time you want to demo your work.*
 
 ![in-game](img/3_ingame.jpg)
 
