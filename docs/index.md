@@ -36,9 +36,7 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 1. New module checklist
 2. Europe extension checklist
 
-### Most Popular Problems
-
-(a brief list of the questions most asked on the SCS and ProMods fora)
+[### Most Popular Problems](most_popular.md)
 
 
 Would you like to write an article---including or in addition to those proposed above? see below.
