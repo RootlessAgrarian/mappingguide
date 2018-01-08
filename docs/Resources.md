@@ -3,6 +3,7 @@ This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling th
 
 Nico's guide
 https://www.scribd.com/document/327182526/ATS-Mapping-Guide
+https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view
 
 "Glenn52" SCS Editor Guide (PDF)
 http://www.glenn52.com/scs_guides.html
