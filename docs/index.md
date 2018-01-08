@@ -6,6 +6,9 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 
 ## Contents
 
+[In a hurry?](most_popular.md)
+Click here for a WIP FAQ -- most commonly asked (and answered!) questions from the SCS and ProMods forum.  If you are a n00b then your early questions/problems will probably be on this list.
+
 [Before You Begin (important!)](tutorialguide.md)
 
 ### Fundamentals
@@ -36,8 +39,6 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 1. New module checklist
 2. Europe extension checklist
 
-[In a hurry?](most_popular.md)
-Click here for a WIP FAQ -- most commonly asked (and answered!) questions from the SCS and ProMods forum.
 
 
 Would you like to write an article---including or in addition to those proposed above? see below.
