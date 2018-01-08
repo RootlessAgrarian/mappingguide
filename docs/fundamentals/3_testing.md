@@ -113,18 +113,21 @@ Launch the game again. You do _not_ need to enable the mod in the launchpad mod 
 <a name="section5"></a>
 ## 5. When do I need to update the archive?
 
-Unlike most programs, the SCS game engine editor can't load what you've just saved. This is because the editor can only access the data currently loaded by the game; that means the game's base files, plus any mods.  And this loading of base files and mods only takes place at startup.
+Unlike most programs, the SCS game engine editor can't simply load what you've just saved. This is because the editor can only access the data currently loaded by the game; that means the game's base files, plus any mods.  And this loading of base files and mods only takes place at startup time.
 
-This means that **each time** you wish to load a map to continue work on it, you must update the archive (mod file) with the latest version of the map found in the executable base/map folder, and restart the game to reload your archive (mod file). The same applies for testing the maps: even if you have a modified version of the current map current in your editor, it will revert to the last archived version when you run the map to test it.
+This means that **each time** you wish to load a map to continue work on it, you must update the archive (mod file) with the latest version of the map found in the executable base/map folder, and (a) restart the game or (b) exit and relaunch the editor, to reload your archive (mod file). The same applies for testing the maps: even if you have a modified version of the current map current in your editor, it will revert to the last archived version when you run the map to test it.
 
-It is quite important to understand this, so let's go through it one more time.  The map file you are diligently editing and saving is found in the install hierarchy.  But you cannot run/test your map until it has been loaded by the game engine *at startup*.  The game engine cannot load a map mod after the initial startup phase is over, so map mods cannot be reloaded while you are editing.  And map mods are not loaded from base/map in the install hierarchy;  they are loaded from .scs files in the user mod folder.  So if you want to test your map mod, you have to go through this workflow:
+It is quite important to understand this, so let's go through it again.  The map file you are diligently editing and saving is found in the install hierarchy.  But you cannot run/test your map until it has been loaded by the game engine.  The mods are loaded 
+* at startup of game (when you select a profile and start to play, in which case mods selected by your profile are loaded), or 
+* when the editor is relaunched (in which case all mods found in the mod folder are loaded in alphabetical order).  
+And map mods are not loaded from base/map in the install hierarchy;  they are loaded from .scs files in the user mod folder.  Where the editor saves them, and where they are loaded from, are two different places.  So if you want to test your map mod, you have to go through this workflow:
 
 0. use map editor to make changes to your incredibly cool map
-1. in map editor, save changes to map file (updates base/map files in the *install/executable hierarchy*); exit game
+1. in map editor, save changes to map file (updates base/map files in the *install/executable hierarchy*); exit editor (type 'exit' in dev con) or quit game
 2. copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
 3. re-create your zipfile (archive) by zipping that working "map" folder, and rename the .zip file to .scs
 4. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
-5. restart the game
+5. restart the game or re-enter the editor (type 'edit *MapName*' in dev con)
 
 It is quite easy to write a .bat file, Makefile, or shell script that will do steps 2-4 for you with a single command.  Here is one example of such a script (bash).  (I installed the MSYS package on my Windows system to get a Unix-like scripting/shell environment with familiar tools.)  A trivial script like this can save you a lot of tedious, repetitive typing or mousing.
 ```
@@ -167,8 +170,8 @@ Files read from disk: 34
 Archive size: 92432 bytes (91 KiB)
 Everything is Ok
 ```
-This script is a bit too simpleminded for production work;  it uses only one MyMap folder with one 'map' subfolder, with just one manifest and description file for all maps I'm currently building.  I'm building throwaway maps as tutorial exercises, so this doesn't matter.  The script could easily be rewritten with a little more functionality and another argument, so that the "MyMap" dir was selectable/creatable on the fly.
+This script is a bit too simpleminded for serious production work;  it uses only one MyMap folder with one 'map' subfolder, with just one manifest and description file for all maps I'm currently building.  This is OK because I'm building throwaway maps as tutorial exercises.  The script could easily be rewritten with a little more functionality and another argument, so that the "MyMap" dir was selectable/creatable on the fly.
 
-Summary:  there are no shortcuts for the workflow cycle.  *You must quit, repackage mod, and restart the game* any time you want to (a) reload a map you have been saving, for further editing, or (b) demo your map by playing it -- whether via the editor's Run button or by loading it as a mod into a profile.
+Summary:  there are no shortcuts for the workflow cycle.  *You must exit the editor, repackage mod, and re-enter the editor* any time you want to (a) reload a map you have been saving, for further editing, or (b) demo your map by playing it -- whether via the editor's Run button or by loading it as a mod into a profile.  You can do this the brute-force way by quitting and restarting the game, or you can leave the game running and just exit and re-launch the editor.
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](4_decorating.md)
