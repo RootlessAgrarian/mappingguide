@@ -1,6 +1,9 @@
 
 This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.
 
+Nico's guide
+https://www.scribd.com/document/327182526/ATS-Mapping-Guide
+
 "Glenn52" SCS Editor Guide (PDF)
 http://www.glenn52.com/scs_guides.html
 
@@ -192,6 +195,8 @@ Well, I think you only have to place a dealer in map editor and then add a vehic
 
 To get traffic lights at intersections tick "use semaphores" in the prefab.
 
+the sign editor tutorial
+https://www.promods.net/viewtopic.php?f=36&t=12021
 
 how sign images work
 https://promods.net/viewtopic.php?f=36&t=1326&start=200
@@ -315,7 +320,9 @@ To get lower speed limit in city, I think you have to place Traffic area
 what is an atlas
 https://www.promods.net/viewtopic.php?f=36&t=7581&start=350
 
-
+test . hotkey:
+if you press this while click on a "building" node it will select all nodes in the structure
+if you have a node selected and then press ., the next node should also be selected (extend selection)
 
 terrain patching
 I always us a combination: I use bezier patches to fill the large gaps (sometimes you need multiple) and I use road generated terrain right next to roads and prefabs to fill up the gaps between the road and the bezier patch (I usually set the terrain profile to down or d down 1 with a coeff somewhere between 0.2 and 2.0). Furthermore, I use terrain items for the bridge ends. You can find proper examples of this interchange landscaping near Kolding (DK) or Harwich (UK)
