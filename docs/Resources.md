@@ -211,6 +211,9 @@ https://promods.net/viewtopic.php?f=36&t=1326&start=270
 how to add a city
 https://promods.net/viewtopic.php?f=36&t=1326&start=310
 
+more on city add
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=430
+
 SCS Models Editor by Nico
 https://trucksim.org/threads/scs-models-editor.507/
 
@@ -265,6 +268,18 @@ Sign images need four files to work:
 more on signs:
 https://www.promods.net/viewtopic.php?f=36&t=7581&start=150
 
+make your own sign template
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=370
+
+brush does not work on prefabs
+
+custom billboards:
+You need to change materials/looks on the model (billboard)
+I can give you the specifics later (model name/path etc)
+Images must in power of two and rectangular eg 512 x 1024
+
+to give a mod high priority name it zzzMod, not aaaMod.
+
 standalone map:
 When creating a new profile, after adding your mod from the mod manager, (where you can choose your favorite truck or change your profile avatar face) there will be a "Module" dropdown where you should be able to select your alternative map.
 also
@@ -286,6 +301,21 @@ simple object:  node must be behind cut plane
 road segment:  both nodes must be behind
 bezier patch:  master mode mst be behind
 prefab:  all nodes must be behind
+
+ferry connection issues
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=320
+
+more on ferries
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=410
+
+license plates
+I think you don't have to set every road to Israel. I've never done that but I think you only have to change one prefab/road and then all roads connected to it will generate Israel license plates.
+To get lower speed limit in city, I think you have to place Traffic area
+
+what is an atlas
+https://www.promods.net/viewtopic.php?f=36&t=7581&start=350
+
+
 
 terrain patching
 I always us a combination: I use bezier patches to fill the large gaps (sometimes you need multiple) and I use road generated terrain right next to roads and prefabs to fill up the gaps between the road and the bezier patch (I usually set the terrain profile to down or d down 1 with a coeff somewhere between 0.2 and 2.0). Furthermore, I use terrain items for the bridge ends. You can find proper examples of this interchange landscaping near Kolding (DK) or Harwich (UK)
