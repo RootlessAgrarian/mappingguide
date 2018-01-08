@@ -106,7 +106,7 @@ Launch the game again. You do _not_ need to enable the mod in the launchpad mod 
 
 **hint:** On Jack's machine, the loading screen does not appear immediately. ALT+TAB out and back in and the game should load nearly instantly.  De's version did not have this issue.
 
-**warning:** There's a tempting "Run" button in the editor toolbar.  Beware of it.  Remember that this button runs the *last loaded version of the game* (from your mod file), **not** the current (editing in progress) version of the map you are seeing in the editor window.  You may be tempted to Save, then Run -- and if you've used other game editors like Unity, this makes perfect sense -- but this would be a bad idea because SCS Map Editor does not work like Unity.  You must restart the game and load your freshly packaged mod to make your map changes reloadable/playable.  Read the next section carefully...
+**warning:** There's a tempting "Run" button in the editor toolbar.  Beware of it.  Remember that this button runs the *last loaded version of the game* (from your mod file), **not** the current (editing in progress) version of the map you are seeing in the editor window.  You may be tempted to Save, then Run -- and if you've used other game editors like Unity, this makes perfect sense -- but this would be a bad idea because SCS Map Editor does not work like Unity.  You must restart the game (or the editor) and load your freshly packaged mod to make your map changes reloadable/playable.  Read the next section carefully...
 
 ![in-game](img/3_ingame.jpg)
 
@@ -123,13 +123,14 @@ It is quite important to understand this, so let's go through it again.  The map
 And map mods are not loaded from base/map in the install hierarchy;  they are loaded from .scs files in the user mod folder.  Where the editor saves them, and where they are loaded from, are two different places.  So if you want to test your map mod, you have to go through this workflow:
 
 0. use map editor to make changes to your incredibly cool map
-1. in map editor, save changes to map file (updates base/map files in the *install/executable hierarchy*); exit editor (type 'exit' in dev con) or quit game
-2. copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
-3. re-create your zipfile (archive) by zipping that working "map" folder, and rename the .zip file to .scs
-4. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
-5. restart the game or re-enter the editor (type 'edit *MapName*' in dev con)
+1. in map editor, save changes to map file (updates base/map files in the *install/executable hierarchy*) 
+2. exit editor (type 'exit' in dev con), or quit game
+3. copy mbd file and map sector folder from install/exec hierarchy to your working "map" folder (anywhere you like)
+4. re-create your zipfile (archive) by zipping that working "map" folder, and rename the .zip file to .scs
+5. put the new .scs file in your "mod" folder (in the *user config hierarchy*), replacing the old one
+6. restart the game, or re-enter the editor (type 'edit *MapName*' in dev con)
 
-It is quite easy to write a .bat file, Makefile, or shell script that will do steps 2-4 for you with a single command.  Here is one example of such a script (bash).  (I installed the MSYS package on my Windows system to get a Unix-like scripting/shell environment with familiar tools.)  A trivial script like this can save you a lot of tedious, repetitive typing or mousing.
+It is quite easy to write a .bat file, Makefile, or shell script that will do steps 3-5 for you with a single command.  Here is one example of such a script (bash).  (I installed the MSYS package on my Windows system to get a Unix-like scripting/shell environment with familiar tools.)  A trivial script like this can save you a lot of tedious, repetitive typing or mousing.
 ```
 $ cat mapit.sh
 #!/bin/sh.exe
