@@ -1,7 +1,8 @@
 ## Most Popular Problems (FAQ)
 
 ### BASIC
-* can't get into editor (set game params and mode properly, see (link))
+* can't get into editor 
+  set game params and mode properly, see [Before You Begin](tutorialguide.md) and [Setup](fundamentals/1_setup.md)
 * game crashes on start editor (get rid of mods and plugins, see (link))
 * can't see background image (hit A a few times)
 * can't get edited map loaded back in (see (link) -- workflow)
