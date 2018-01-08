@@ -1,6 +1,6 @@
 # The Mapping Guide
 
-This guide hopes to be a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.
+This guide hopes to be a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.  It is very much WIP and changing daily/weekly, sometimes hourly.  Expect to see a lot of stubs and incomplete stuff.
 
 For further reference see http://modding.scssoft.com/wiki/Documentation
 
@@ -26,7 +26,7 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 2. Signs and Portents:  road signage
 3. Bright Lights, Big City: urban areas
 4. A River Runs Through It:  rural areas
-5. Know Your Species:  more on object types
+5. A Field Guide to Objects:  more on object types
 
 ### Advanced Tutorials
 
