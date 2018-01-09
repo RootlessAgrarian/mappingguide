@@ -196,7 +196,7 @@ We've covered the basics for road placement, and the rest of this city follows t
 - The cross junction can be found in a similar manner, this one uses road1 type roads only, so the name will include ```road1 x road1```.
 - If you run into trouble connecting prefabs, check [Step 7](#section7b), to ensure your prefab origins are correct.
 
-<a name="section7"></a>
+<a name="section9"></a>
 # 9. Finishing the map
 
 Once you've created your square, you've completed this tutorial and are ready to save and test your map.
