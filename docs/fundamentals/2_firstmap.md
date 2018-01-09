@@ -201,7 +201,7 @@ We've covered the basics for road placement, and the rest of this city follows t
 
 Once you've created your square, you've completed this tutorial and are ready to save and test your map.
 
-Firstly, ensure the start car is placed in a sensible location. select the _Place Start_ mode button, then click to place the car model in a sensible location. Then, go to ```File > Save As``` and save your map. I have called mine ```TestMap.mbd```.
+Firstly, ensure the start car is placed in a sensible location. Select the _Place Start_ mode button (or hit S key), then click to place the car model in a sensible location. *Hint:* if you hover the mouse over a node after hitting S, the start car will be placed at the same elevation as that node (match height).  Then, go to ```File > Save As``` and save your map. I have called mine ```TestMap.mbd```.
 
 Proceed to the next tutorial to learn how to test the map, as well as how to load and continue editing it.
 
