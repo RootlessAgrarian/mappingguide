@@ -1,6 +1,8 @@
 ## Fooling the Player: the art of illusion
 ### Introducing Terrains, Bezier Patches, High-Poly attribute, and Cut Planes
 
+#### Sssh!  don't let them know it's just a model
+
 A large part of the art of decorating your world is to camouflage any evidence that it is a model.  You don't want the user to catch sight of the void beyond the map, for example;  when they are near the edges of the world, you need to put up visual barriers so that they won't see the edge.  As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential void (or the underlying water plane) shows through, or the terrain wrinkles in an unrealistic way.  These are illusion breakers, and you need to hide them.
 
 You can minimise ugly spots by reducing roadside terrain size on the inside of curves, and by avoiding very abrupt changes in terrain profile.  Try making a right angle bend in your road and increasing the inside curve terrain size to a large number like 100, and you'll immediately see the "fan shaped" wrinkling;  reduce the size and you'll have less ugliness.  But eventually you'll paint yourself into a corner where raw terrain edges are visible, or terrains don't meet in a nice tidy way and there are holes, or the surface topology gets weird and obviously unnatural.
@@ -8,6 +10,8 @@ You can minimise ugly spots by reducing roadside terrain size on the inside of c
 These booboo spots can be hard to see from above (the Plan view) so it's very important to fly around with the free cam looking at your world from the roadway, from many angles and heights.  In Plan view, always be suspicious of any hard linear edge in the landscape below.  It's probably a free-floating terrain edge that needs to be hidden.
 
 There are several ways to hide these booboos.
+
+#### Mind the Gap!
 
 If the gap is small enough, you may be able to hide it with a model of some kind:  a rocky outcrop, a dense thicket, some architecture, a parked vehicle...  You need to be careful of sight lines and make sure that it's hidden from all POV along nearby roads.  A raw terrain edge can be hidden with a long rocky outcrop;  a hole can be hidden by a single big rock, house, etc.  Get creative!
 
@@ -25,6 +29,8 @@ A roadless Terrain is really just a road segment without the paving;  that's why
 
 Another area where you may spot a gap that would be inappropriate to fix with these basic tools is at tight bends in your roadway.  You may see places where the roadway and the median strip, or the edge strips, don't quite stitch together at a bend -- and you can see the Void or the water plane through the gap.  Usually the reason is that the poly count on this segment is not high enough to prevent a hard polygonal shape, and you'll notice that your railings or stripes look a bit jaggy.  The solution to this is to set the road segment to a higher poly count, using the Properties window.  This should smooth out the jaggies and close any gaps.  If you still have gaps, try some strategically placed small vegetation.
 
+#### I shouldn't be able to see that from here...
+
 Even after achieving a seamless world surface, you still need to preserve the illusion of distance and spaciousness.  This is a more sophisticated level of map design, but worth mentioning here so you can bear it in mind as your map becomes more complex and possibly more crowded.  The scale factor of the map (1:19 outside cities and 1:3 inside cities, in ETS2) means that roads may be closer together than they should be in real life;  a driver on Road A might see bits of a city on Road B that IRL should not be visible from there, and that will be immersion-breaking.  [NEED DRAWING!]
 
 How can this be avoided, without moving the roads to a realistic distance apart, thus generating a map so large that no game engine could run it?  The editor provides a special object called a *Cut Plane* which solves exactly this problem.  A cutplane is an "invisible visual barrier".  You can't see the cutplane itself, and you can't see anything that is on the far side of it from your POV location.  Cutplanes can be one-sided (see-through one way but not the other) or two-sided (barrier in both directions).  They don't have to be a mere straight wall, either;  they can zigzag all over the landscape selecting things to display to a viewer on one side or the other.
@@ -34,6 +40,8 @@ So, if you put a cutplane between the forest beside Road A and the city just bey
 Thus the cutplane can be used to preserve that illusion of space, of a map size far greater than the actual layout.  It also saves the graphics engine (at runtime) from having to render all the objects behind the cutplane, thus improving performance.  Even if objects are not visible to the user (being screened by other models and objects in between), the engine will still try to render them.   But if you know that bits of the scenery absolutely cannot be seen from Location A, you can throw in a cutplane to hide them from the rendering engine at runtime, and thus improve game performance for your player.
 
 The deployment of cutplanes is a fairly complicated topic and the best tutorial on it that I've yet found is ProMods again:  [Cut Planes](https://youtu.be/7IFJttG9TRc) 
+
+#### In Summary / Next Steps
 
 It's worth emphasising just one more time, how essential it is for you as a map builder to cover your tracks, hide all the seams, never let the user see "backstage".  You need to preserve the immersive illusion, and nothing breaks it faster than a visible hard terrain edge, a levitating object, a flagrant scale error, or a hole in the world.  These can be hard to detect from above;  take the time to fly around with the free cam checking carefully for telltale "world under construction" evidence -- and hiding it.
 
