@@ -55,6 +55,9 @@ https://forum.scssoft.com/viewtopic.php?f=182&t=208021&start=10
 making water reflective
 https://forum.scssoft.com/viewtopic.php?f=182&t=207999
 
+How to find a troubled item by uid based on error message:
+edit game_log with favourite text editor, find error message, copy UID;  in editor use F to bring up Find, paste UID into UID field, and Find will teleport you to exact location of node.  after that it's up to you to figure it out.
+
 avoid crash on saving sign template
 https://forum.scssoft.com/viewtopic.php?t=247057
 
