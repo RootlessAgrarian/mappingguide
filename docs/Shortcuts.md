@@ -16,6 +16,9 @@ F | Find
 G | Add sign tool
 H | Height tool
 I | Import item
+CTRL-I | Isolate selection
+CTRL-ALT-I | Hide selection
+CTRL-SHIFT-I | Exit isolation
 M (,) | Move item
 N | Node properties
 P | Item properties
@@ -43,6 +46,7 @@ Action/Key | Result
 Right Click/Drag | move the map
 Left Click/Drag | select / extend selection / move a selected object
 Middle Click | create new node on existing road segment
+CTRL-ALT-Middle-Click | delete node from welded series of road segments (may not always work)
 ALT Click/Drag | force connection of nodes
 SHIFT Click/Drag | disconnect connected nodes
 Mouse Hover over node | remembers node height and uses it for next object placement?
