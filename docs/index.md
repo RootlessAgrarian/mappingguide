@@ -23,6 +23,7 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 
 ### Intermediate Tutorials
 
+0. [Editing in the Fast Lane:  skip the repackage step while editing](fundamentals/HotwirEd.md)
 1. Roadworks Ahead:  doing more with roads
 2. Signs and Portents:  road signage
 3. Bright Lights, Big City: urban areas
