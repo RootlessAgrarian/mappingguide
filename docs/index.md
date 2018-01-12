@@ -45,6 +45,8 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 2. [Editor Backgrounds (Part 2)](newmodule/2_import.md)
 2. How to add to the Europe (or USA) module
 
+### Popular Video Tutorials
+
 ### Distributing Maps
 
 1. New module checklist
