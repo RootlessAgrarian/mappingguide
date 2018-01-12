@@ -1,8 +1,8 @@
 
-This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.
+This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.  Italicised headings or text indicate that this section has been absorbed into the Mapping Guide document.  Non italicised headings indicate that I haven't absorbed this bit yet.
 
 
-------------------- PRINT READY GUIDES ---------------------
+*------------------- PRINT READY GUIDES ---------------------*
 
 Nico's guide
 https://www.scribd.com/document/327182526/ATS-Mapping-Guide
@@ -29,18 +29,21 @@ The ProMods Advanced Tips series:
 do not be put off by the low audio level.  these are worthwhile viewing.
 
 https://youtu.be/z6agMir_8fo
+https://www.youtube.com/watch?v=Kp7bq2KmUEo
+https://www.youtube.com/watch?v=WQ7uWdTokUo
 
 ---------------- FOLLOW THE LINKS ------------------------
 
+How to extract base.scs and def.scs
 http://forum.scssoft.com/viewtopic.php?f=172&t=190685
 
 ETS STUDIO
 http://www.ets2studio.com/p/download.html
 
-Background
+*Background*
 https://forum.scssoft.com/viewtopic.php?f=123&t=167214
 
-oldish but still useful
+*oldish but still useful -- Kentora's beginners' notes*
 https://www.promods.net/viewtopic.php?f=9&t=1326
 
 Long long ProMods thread
@@ -49,17 +52,14 @@ https://promods.net/viewtopic.php?f=36&t=1326&start=10
 adding models
 https://forum.scssoft.com/viewtopic.php?t=231521
 
-saving sectors
+saving only changed sectors
 https://forum.scssoft.com/viewtopic.php?t=48851&start=10
 
 import map?
 https://forum.scssoft.com/viewtopic.php?f=5&t=192370&start=70
 
-background again
+*background again*
 https://forum.scssoft.com/viewtopic.php?t=167214
-
-creating cities
-https://forum.scssoft.com/viewtopic.php?f=182&t=208021&start=10
 
 making water reflective
 https://forum.scssoft.com/viewtopic.php?f=182&t=207999
@@ -72,9 +72,6 @@ https://forum.scssoft.com/viewtopic.php?t=247057
 
 triggers and sleeping
 https://forum.scssoft.com/viewtopic.php?t=130115
-
-a couple of video tutes
-https://forum.scssoft.com/viewtopic.php?t=243098
 
 find a prefab by its number
 https://forum.scssoft.com/viewtopic.php?t=180589
@@ -139,6 +136,10 @@ Stuff like Joints will help you to connect rl 1 roads with rl 2 roads without se
 Bezier patches can impact performace if overused in a small area
 
 ---------------------- ADDING MAJOR COMPONENTS -------------------------
+
+creating cities
+https://forum.scssoft.com/viewtopic.php?f=182&t=208021&start=10
+
 
 Nico:
 That is not an easy question to answer at all. I will try to cover them all quickly:
