@@ -1,4 +1,4 @@
-View the Guide: [Index](./docs/index.md)
+# View the Guide: [Index](./docs/index.md)
 
 # The ETS2/ATS Mapping Guide
 Tutorials and documentation for the SCS Software map editor, used to create mods for the SCS simulator games Euro Truck Simulator 2 and American Truck Simulator.  I hope one day to add similar tute/doco for basic and advanced non-mapping mods (i.e. object property changes, object modifications, new objects).  Those however are separate topics, not currently covered here.
