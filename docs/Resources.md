@@ -5,19 +5,19 @@ This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling th
 *------------------- PRINT READY GUIDES ---------------------*
 
 Nico's guide
-https://www.scribd.com/document/327182526/ATS-Mapping-Guide
-https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view
+* https://www.scribd.com/document/327182526/ATS-Mapping-Guide
+* https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view
 
 "Glenn52" SCS Editor Guide (PDF)
-http://www.glenn52.com/scs_guides.html
+* http://www.glenn52.com/scs_guides.html
 
 Scribd PDF guide by Dave Crockett Jackson
-https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
+* https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
 
 -------------------- VIDEO TUTES -------------------------------
 
 Basics:  open the map editor and save your work
-https://www.youtube.com/watch?v=clLEATRsIR0
+* https://www.youtube.com/watch?v=clLEATRsIR0
 
 The ProMods Advanced Tips series:
 1. curves and banks: https://youtu.be/J9leGT5SH8Y
@@ -28,9 +28,9 @@ The ProMods Advanced Tips series:
 6: cutplanes https://youtu.be/7IFJttG9TRc
 do not be put off by the low audio level.  these are worthwhile viewing.
 
-https://youtu.be/z6agMir_8fo
-https://www.youtube.com/watch?v=Kp7bq2KmUEo
-https://www.youtube.com/watch?v=WQ7uWdTokUo
+* https://youtu.be/z6agMir_8fo
+* https://www.youtube.com/watch?v=Kp7bq2KmUEo
+* https://www.youtube.com/watch?v=WQ7uWdTokUo
 
 ---------------- FOLLOW THE LINKS ------------------------
 
