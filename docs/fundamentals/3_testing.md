@@ -177,4 +177,4 @@ Summary:  this is the standard work flow for map editing.  *You must exit the ed
   
 *Note:*  Komat recently revealed that there is a clever way to avoid the mod repackage and reload phase.  You need to be comfortable with symlinks (which in Windows are not quite as simple as some other OS).  It's just slightly tricky, so I'm covering it in a separate page:  [Avoiding the Mod Repackage/Reload Step](HotwirEd.md)  I've tested it, and it certainly works!
 
-[<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](4_decorating.md)
+[<--- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Index](../index.md) --- [Tutorial 4 - Decorating your map --->](4_decorating.md)
