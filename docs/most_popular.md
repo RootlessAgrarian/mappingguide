@@ -8,8 +8,8 @@
 * *need big screen for properties window* -- (sorry, you do need a big screen for this)
 * *can't get road end nodes to join* -- use alt-click to disregard Y position
 * *can't get joined nodes apart again* -- use shift-click to unglue nodes
-* *autosave annoying/slow* -- you can slow this down or turn it off (https://forum.scssoft.com/viewtopic.php?t=23387  edit param)
-* *how to set truck start position* -- use S key, see (https://forum.scssoft.com/viewtopic.php?t=15970)
+* *autosave annoying/slow* -- you can slow this down or turn it off with a tiny mod.  see [Tips & Tricks](fundamentals/6_tipsNtrix.md)
+* *how to set truck start position* -- use S key, see [Tips & Tricks](fundamentals/6_tipsNtrix.md)
 * *my scenery has ugly gaps* -- see [Maintain the Illusion](fundamentals/5_illusion.md)
 
 ### INTERMEDIATE
