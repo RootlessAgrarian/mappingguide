@@ -22,7 +22,7 @@ Within this **USER/mod/*YourMapName*** folder, make a LINK to **INSTALL/base/map
 
 If you do this right, then when you go to **USER/mod/*YourMapName*/map**, you will find yourself in **INSTALL/base/map**
 
-You might, of course, be editing more than one map at a time.  You might have saved more than one *YourMapName*.mbd file and *YourMapName* folder in **INSTALL/base/map**.  That doesn't matter.  If you are working on more than one map mod, just put another folder in USER/mod with the second map name, and in that folder put the same LINK to **INSTALL/base/map**.
+You might, of course, be editing more than one map at a time.  You might have saved more than one *YourMapName*.mbd file and *YourMapName* folder in **INSTALL/base/map**.  That doesn't matter.  If you are working on more than one map mod, just put another folder in **USER/mod** with the second map name, and in that folder put the same LINK to **INSTALL/base/map**.
 
 Making these links in Windows is not as straightforward as I'm used to (coming from 'nix territory).  You might be able to use mklink, or the extension HardLinkShellExt_64, or the Windows Power Shell "new item" command.  Here's a thread that covers the topic.  Good luck!
 
