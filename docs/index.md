@@ -1,6 +1,6 @@
 # The Mapping Guide
 
-This guide hopes to be a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.  It is very much WIP and changing daily/weekly, sometimes hourly.  Expect to see a lot of stubs and incomplete stuff.  The "Fundamentals" section is almost complete as of Jan 2018.
+This guide hopes to become a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.  It is very much WIP and changing daily/weekly, sometimes hourly.  Expect to see a lot of stubs and incomplete stuff.  The "Fundamentals" section is almost complete as of Jan 2018.
 
 For further reference see 
 * [The official SCS Modding Wiki](http://modding.scssoft.com/wiki/Documentation)
