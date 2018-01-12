@@ -53,6 +53,6 @@ So now you know how to build a road network, decorate it, and patch the gaps whe
 
 Or, if you're feeling ambitious, you may be ready to tackle more advanced topics now -- like the creation of a new city, use of intersections with animated signals and lights, management of national borders, placement of interactive prefabs, realistic banks and curves, more subtly textured landscaping, use of a reference map for layout, etc.
 
-But before you rush off to build great things, do read the just two more pieces of the Fundamentals.  Tips/Tricks (the final chapter of Fundamentals) may save you quite a bit of wasted time trying to figure out "How the heck do I do XYZ."  And [Shortcuts](../ShortCuts.md)  will be essential to streamlining your map editing experience.
+But before you rush off to build great things, do read the just two more pieces of the Fundamentals.  Tips/Tricks (the final chapter of Fundamentals) may save you quite a bit of wasted time trying to figure out "How the heck do I do XYZ."  And [Shortcuts](../Shortcuts.md)  will be essential to streamlining your map editing experience.
 
 [<- Tutorial 4 - Decorating Your Map](4_decorating.md) --- [Tips and Tricks ->](6_tipsNtrix.md)
