@@ -28,6 +28,6 @@ Making these links in Windows is not as straightforward as I'm used to (coming f
 
 https://superuser.com/questions/1020821/how-to-create-a-symbolic-link-on-windows-10
 
-
+If you do this right, you should be able to Save your map periodically and test it with Run, without exiting the game and repackaging as a mod file in between.
 
 
