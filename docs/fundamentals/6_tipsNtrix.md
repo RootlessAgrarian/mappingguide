@@ -1,5 +1,9 @@
 ### Tips and Tricks for Easier Map Editing
 
+#### Set Player's Start Position
+
+Use S to set the player's initial position when your map mod is loaded for the first time;  the S key should highlight the little red flag among the toolbar buttons on the right, at top of editor window.  If S doesn't work -- it doesn't for me, for some reason -- just click on the little red flag.   Then hover over a node for a second or so to match altitude, then click on the road surface and your "start car" should be placed.  If it is not facing in the right direction, use the KP+ (num keypad plus) and KP- (num keypad minus) keys to adjust its rotation.
+
 #### Switch between camera modes 
 
 Your basic road layout can be done initially with the overhead cam view, but eventually you'll need to decorate the world and adjust altitudes, patch landscape gaps, etc.  You'll find this more detailed editing activity much quicker and easier if you learn to switch easily and fluently between overhead cam and free cam, and also to switch the free cam back and forth between flying mode and editing mode.  
