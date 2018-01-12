@@ -21,26 +21,25 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 6. [Some Tips and Tricks](fundamentals/6_tipsNtrix.md)
 7. [Shortcuts and HotKeys](Shortcuts.md)
 
-### Advanced Topics
+### Intermediate Tutorials
 
 1. Roadworks Ahead:  doing more with roads
 2. Signs and Portents:  road signage
 3. Bright Lights, Big City: urban areas
 4. A River Runs Through It:  rural areas
 5. A Field Guide to Objects:  more on object types
+6. Summary of Intermediate Tools, Tips and Tricks
 
 ### Advanced Tutorials
 
 1. [Editor backgrounds for custom modules (Part 1)](newmodule/1_imagery.md) 
 2. [Editor Backgrounds (Part 2)](newmodule/2_import.md)
-2. Adding to the Europe module
+2. How to add to the Europe (or USA) module
 
 ### Distributing Maps
 
 1. New module checklist
 2. Europe extension checklist
-
-
 
 Would you like to write an article---including or in addition to those proposed above? see below.
 
