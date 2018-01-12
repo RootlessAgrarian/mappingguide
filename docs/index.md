@@ -60,8 +60,8 @@ The ProMods Advanced Tips series:
 
 (do not be put off by the low audio level.  these are worthwhile viewing.)
 
-* https://youtu.be/z6agMir_8fo
-* https://www.youtube.com/watch?v=Kp7bq2KmUEo
+* https://youtu.be/z6agMir_8fo (Spanish map mod demo)
+* https://www.youtube.com/watch?v=Kp7bq2KmUEo  
 * https://www.youtube.com/watch?v=WQ7uWdTokUo
 
 ### Distributing Maps
