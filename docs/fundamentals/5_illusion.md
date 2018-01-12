@@ -3,9 +3,13 @@
 
 #### Sssh!  don't let them know it's just a model
 
-A large part of the art of decorating your world is to camouflage any evidence that it is a model.  You don't want the user to catch sight of the void beyond the map, for example;  when they are near the edges of the world, you need to put up visual barriers so that they won't see the edge.  As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential void (or the underlying water plane) shows through, or the terrain wrinkles in an unrealistic way.  These are illusion breakers, and you need to hide them.
+A large part of the art of decorating your world is to camouflage any evidence that it is a model.  
 
-You can minimise ugly spots by reducing roadside terrain size on the inside of curves, and by avoiding very abrupt changes in terrain profile.  Try making a right angle bend in your road and increasing the inside curve terrain size to a large number like 100, and you'll immediately see the "fan shaped" wrinkling;  reduce the size and you'll have less ugliness.  But eventually you'll paint yourself into a corner where raw terrain edges are visible, or terrains don't meet in a nice tidy way and there are holes, or the surface topology gets weird and obviously unnatural.
+You don't want the user to catch sight of the Void beyond the map, for example;  when they are near the edges of the world, you need to put up visual barriers so that they won't see the actual Edge.  What kind of barriers?  A rise in the land that blocks their view of the Void.  A backdrop (scrim) object from the Buildings category, like a wall of forest.  Some mountains.  An enormous plain terrain that fades away into the distance.  Keep these options in mind, and (always!) look at existing maps to see how other people do it.
+
+As you fit your roads and prefabs together, you'll find there are inevitable gaps in the terrain where the existential Void (or the underlying water plane) shows through, or the terrain wrinkles in an unrealistic way.  These are illusion breakers, and you need to hide them.
+
+You can minimise the ugly spots by reducing roadside terrain size on the inside of curves, and by avoiding very abrupt changes in terrain profile.  Try making a right angle bend in your road and increasing the inside curve terrain size to a large number like 100, and you'll immediately see the "fan shaped" wrinkling;  reduce the size and you'll have less ugliness.  But even if you're careful, inevitably you'll paint yourself into a corner where raw terrain edges are visible, or terrains don't meet in a nice tidy way and there are holes, or the surface topology gets weird and obviously unnatural.
 
 These booboo spots can be hard to see from above (the Plan view) so it's very important to fly around with the free cam looking at your world from the roadway, from many angles and heights.  In Plan view, always be suspicious of any hard linear edge in the landscape below.  It's probably a free-floating terrain edge that needs to be hidden.
 
