@@ -72,7 +72,7 @@ Note:  Among the items confusingly known as Buildings are several "strings of th
 
 As you decorate your world, you'll probably switch between camera modes quite a bit, using the overhead view to place objects and the flying cam to see how it looks from the ground.  You can continue editing the world in flying cam mode -- just hit *Space* to toggle betwen editing mode and free roaming mode.  With the flying cam you can see elevation views, from any position and angle, of your world-in-progress.  In editing mode, object handles will appear and you can perform the same actions you're accustomed to in plan view.
 
-If you find that an object has instantiated in mid air, you can grab its control handle and drag it downward in H mode. Or you can use a handy shortcut key:  F6.  If you hover over the object so that it highlights (this is a pale blue colour in my version of the editor), then hit F6, the object will leap to ground level.
+If you find that an object has instantiated in mid air, you can grab its control handle and drag it downward in H mode. Or you can use a handy shortcut key:  F6.  If you select the object so that it highlights (this is a pale blue colour in my version of the editor), then hit F6, the object will leap to ground level.
 
 ## Making space to place an object:  the Vegetation Sphere
 
