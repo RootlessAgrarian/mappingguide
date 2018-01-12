@@ -3,9 +3,9 @@
 This guide hopes to be a comprehensive and openly editable collection of resources for the SCS game engine editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.  It is very much WIP and changing daily/weekly, sometimes hourly.  Expect to see a lot of stubs and incomplete stuff.  The "Fundamentals" section is almost complete as of Jan 2018.
 
 For further reference see 
-* The official SCS Modding Wiki : http://modding.scssoft.com/wiki/Documentation
-* Nico's ATS modding guide (PDF):  https://www.scribd.com/document/327182526/ATS-Mapping-Guide
-* * DL here for free: https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view
+* [The official SCS Modding Wiki](http://modding.scssoft.com/wiki/Documentation)
+* [Nico's ATS modding guide (PDF)](https://www.scribd.com/document/327182526/ATS-Mapping-Guide)
+* * [DL here for free](https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view)
 * The "Glenn52" SCS Editor Guide (PDF):  http://www.glenn52.com/scs_guides.html
 * The "Crockett" Guide: https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
 The last 2 PDFs are from a few years ago and some editor features have changed, but they are still worth reading!
