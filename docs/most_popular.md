@@ -13,11 +13,11 @@
 * *ouch, my scenery has ugly gaps* -- see [Maintain the Illusion](fundamentals/5_illusion.md)
 
 ### INTERMEDIATE
-* map stopped working on game update -- delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder and try again
-* can't load custom background image (see tutorial)
+* *map stopped working on game update* -- delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder and try again
+* *can't load custom background image* -- see [Custom Map Background Tutorial](./newmodule/1_imagery.md)
 * exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
 * too many water levels
-* running into road boundaries (https://promods.net/viewtopic.php?f=36&t=1326&start=240)
+* *ouch, running into invisible boundaries* (https://promods.net/viewtopic.php?f=36&t=1326&start=240)
 * how to package my mod for sharing
 
 ### ADVANCED
