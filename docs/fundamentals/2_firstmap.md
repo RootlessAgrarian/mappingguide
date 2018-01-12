@@ -209,4 +209,4 @@ Proceed to the next tutorial to learn how to test the map, as well as how to loa
 
 ![](img/2_resultb.jpg)
 
-[<- Tutorial 1 - Basic Editor Setup](1_setup.md) --- [Tutorial 3 - Loading and testing your map ->](3_testing.md)
+[<--- Tutorial 1 - Basic Editor Setup](1_setup.md) --- [Index](../index.md) ---  [Tutorial 3 - Loading and testing your map --->](3_testing.md)
