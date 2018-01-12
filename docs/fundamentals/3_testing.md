@@ -175,6 +175,6 @@ Summary:  this is the standard work flow for map editing.  *You must exit the ed
 
 *Note:* I do this the brute-force way by quitting and restarting the game.  I have read on the forum that someone succeeded in leaving the game running and just exiting and re-launching the editor (updating the mod after exiting the editor).  To do this, you would save your map, then invoke the dev con and type *exit*, then do your mod update routine and lastly type *edit <mapname>* to resume.  Alas when I tried this (Windows 10) it didn't work;  the OS would not let me overwrite or delete the mod file while the game was running.  YMMV.
   
-*Note:*  Komat recently revealed that there is a clever way to avoid the mod repackage and reload phase.  You need to be comfortable with symlinks (which in Windows are not quite as simple as some other OS).  It's just slightly tricky, so I'm covering it in a separate page:  [Avoiding the Mod Repackage/Reload Step](HotwirEd.md)
+*Note:*  Komat recently revealed that there is a clever way to avoid the mod repackage and reload phase.  You need to be comfortable with symlinks (which in Windows are not quite as simple as some other OS).  It's just slightly tricky, so I'm covering it in a separate page:  [Avoiding the Mod Repackage/Reload Step](HotwirEd.md)  I've tested it, and it certainly works!
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](4_decorating.md)
