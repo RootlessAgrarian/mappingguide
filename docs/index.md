@@ -8,6 +8,7 @@ For further reference see
 * * [DL Nico guide here for free](https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view)
 * [The "Glenn52" SCS Editor Guide (PDF)](http://www.glenn52.com/scs_guides.html)
 * [The "Crockett" Guide (PDF)](https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf)
+
 The last 2 PDFs are from a few years ago and some editor features have changed, but they are still worth reading!
 
 ## Contents
