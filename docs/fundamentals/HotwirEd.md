@@ -44,7 +44,15 @@ files in USERPATH/mod/mod_name/map and link corresponding USERPATH/mod/mod_name/
 into INSTALLPATH/base/map when you want to work on that mod.
 ```
 
-Making these links in Windows is not as straightforward as I'm used to (coming from 'nix territory).  You might be able to use mklink, or the extension HardLinkShellExt_64, or the Windows Power Shell "new item" command.  Here's a thread that covers the topic.  Good luck!
+### How to make symbolic links
+
+Making these links in Windows is not as straightforward as I'm used to (coming from 'nix territory).  You might be able to use *mklink*, or the *junction* command, or the extension HardLinkShellExt_64, or the Windows Power Shell *new item* command.  I used 'new item'...
+
+```
+ ni .\Map1\map -i SymbolicLink -ta  'C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\base\map'
+```
+
+... but you will have to figure out what works for you.  Here's a thread that covers the topic.  Good luck!
 
 https://superuser.com/questions/1020821/how-to-create-a-symbolic-link-on-windows-10
 
