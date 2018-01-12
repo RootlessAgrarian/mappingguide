@@ -18,7 +18,8 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 3. [Loading and testing your map](fundamentals/3_testing.md)
 4. [Decorating your map](fundamentals/4_decorating.md)
 5. [Preserving the illusion](fundamentals/5_illusion.md)
-6. [Shortcuts and HotKeys](Shortcuts.md)
+6. [Some Tips and Tricks](fundamentals/6_tipsNtrix.md)
+7. [Shortcuts and HotKeys](Shortcuts.md)
 
 ### Advanced Topics
 
