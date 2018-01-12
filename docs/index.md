@@ -9,10 +9,9 @@ For further reference see http://modding.scssoft.com/wiki/Documentation
 [In a hurry?](most_popular.md)
 Click here for a WIP FAQ -- most commonly asked (and answered!) questions from the SCS and ProMods forum.  If you are a n00b then your early questions/problems will probably be on this list.
 
-[Before You Begin (important!)](tutorialguide.md)
-
 ### Fundamentals
 
+0. [Before You Begin (important!)](tutorialguide.md)
 1. [Basic Editor Setup](fundamentals/1_setup.md)
 2. [Creating a simple map](fundamentals/2_firstmap.md)
 3. [Loading and testing your map](fundamentals/3_testing.md)
