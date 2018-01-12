@@ -171,8 +171,10 @@ Everything is Ok
 ```
 This script is a bit too simpleminded for serious production work;  it uses only one MyMap folder with one 'map' subfolder, with just one manifest and description file for all maps I'm currently building.  This is OK because I'm building throwaway maps as tutorial exercises.  The script could easily be rewritten with a little more functionality and another argument, so that the "MyMap" dir was selectable/creatable on the fly.
 
-Summary:  there are no shortcuts for the workflow cycle.  *You must exit the editor, repackage mod, and re-enter the editor* any time you want to (a) reload a map you have been saving, for further editing, or (b) demo your map by playing it -- whether via the editor's Run button or by loading it as a mod into a profile.  
+Summary:  this is the standard work flow for map editing.  *You must exit the editor, repackage mod, and re-enter the editor* any time you want to (a) reload a map you have been saving, for further editing, or (b) demo your map by playing it -- whether via the editor's Run button or by loading it as a mod into a profile.  
 
 *Note:* I do this the brute-force way by quitting and restarting the game.  I have read on the forum that someone succeeded in leaving the game running and just exiting and re-launching the editor (updating the mod after exiting the editor).  To do this, you would save your map, then invoke the dev con and type *exit*, then do your mod update routine and lastly type *edit <mapname>* to resume.  Alas when I tried this (Windows 10) it didn't work;  the OS would not let me overwrite or delete the mod file while the game was running.  YMMV.
+  
+*Note:*  Voytek recently revealed that there is a clever way to avoid the mod repackage and reload phase.  You need to be comfortable with symlinks (which in Windows are not quite as simple as some other OS).  It's just slightly tricky, so I'm covering it in a separate page:  [Avoiding the Mod Repackage/Reload Step](HotwirEd.md)
 
 [<- Tutorial 2 - Creating a basic map](2_firstmap.md) --- [Tutorial 4 - Decorating your map ->](4_decorating.md)
