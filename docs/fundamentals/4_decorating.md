@@ -86,4 +86,4 @@ When it's time to paint this part of the map, the vegetation generator will simp
 
 You now know all the basic steps of the workflow for building a map:  how to invoke the editor, how to save and reload your map, how to create and link road segments and prefabs, how to decorate your roadsides and roads using Properties, and how to generate extra terrain and decorate your world with freestanding objects of various kinds.  We'll conclude the beginner tutorial with one more chapter about the importance of maintaining the immersive illusion.
 
-[<- Tutorial 3 - Testing your map](3_testing.md) --- [The Immersive Illusion->](5_illusion.md)
+[<--- Tutorial 3 - Testing your map](3_testing.md) --- [Index](../index.md) ---  [The Immersive Illusion --->](5_illusion.md)
