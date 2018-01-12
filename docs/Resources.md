@@ -1,7 +1,6 @@
 
 This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.
 
-```
 
 ------------------- PRINT READY GUIDES ---------------------
 
@@ -28,6 +27,10 @@ The ProMods Advanced Tips series:
 5: miniconsole and debugging: https://youtu.be/SG33bEwC5GQ
 6: cutplanes https://youtu.be/7IFJttG9TRc
 do not be put off by the low audio level.  these are worthwhile viewing.
+
+https://youtu.be/z6agMir_8fo
+
+---------------- FOLLOW THE LINKS ------------------------
 
 http://forum.scssoft.com/viewtopic.php?f=172&t=190685
 
@@ -135,6 +138,7 @@ Stuff like Joints will help you to connect rl 1 roads with rl 2 roads without se
 
 Bezier patches can impact performace if overused in a small area
 
+---------------------- ADDING MAJOR COMPONENTS -------------------------
 
 Nico:
 That is not an easy question to answer at all. I will try to cover them all quickly:
@@ -202,6 +206,8 @@ Might work?
 
 add dealer: How do you add a dealer to a particular city, so that you don't get the error in the log that it doesn't exist in editor/id?
 Well, I think you only have to place a dealer in map editor and then add a vehicle_brand line in that city definition file.
+
+-------------------------------------------------
 
 To get traffic lights at intersections tick "use semaphores" in the prefab.
 
