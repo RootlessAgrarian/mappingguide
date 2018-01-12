@@ -10,7 +10,7 @@
 * *can't get joined nodes apart again* -- use shift-click to unglue nodes
 * *autosave annoying/slow* -- you can slow this down or turn it off with a tiny mod.  see [Tips & Tricks](fundamentals/6_tipsNtrix.md)
 * *how to set truck start position* -- use S key, see [Tips & Tricks](fundamentals/6_tipsNtrix.md)
-* *my scenery has ugly gaps* -- see [Maintain the Illusion](fundamentals/5_illusion.md)
+* *ouch, my scenery has ugly gaps* -- see [Maintain the Illusion](fundamentals/5_illusion.md)
 
 ### INTERMEDIATE
 * map stopped working on game update -- delete defaults.ini file from Documents/Euro Truck Simulator 2/editor folder and try again
