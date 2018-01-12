@@ -48,3 +48,4 @@ As you've noticed, most game objects don't have collision property -- trees can 
 
 If the Autosave popup window is driving you crazy, you can tame it.  You need to make a mod to the **editor_data.sii** file in def.scs -- look for the parameter **autosave_interval**.  If you don't know how to make a basic mod of this kind, read the Basic Modding Guide *WIP not yet written*
 
+ [<--- Immersive Illusion](5_illusion.md) --- [Index](../index.md)
