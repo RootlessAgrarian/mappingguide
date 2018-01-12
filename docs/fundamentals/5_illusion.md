@@ -55,4 +55,4 @@ Or, if you're feeling ambitious, you may be ready to tackle more advanced topics
 
 But before you rush off to build great things, do read the next 2 pieces of the Fundamentals section.  Tips/Tricks (the final chapter of Fundamentals) may save you quite a bit of wasted time trying to figure out "How the heck do I do XYZ."  And [Shortcuts](../ShortCuts.md)  will be essential to streamlining your map editing experience.
 
-[<- Tutorial 4 - Decorating Your Map](2_decorating.md) --- [Tips and Tricks ->](6_tipsNtrix.md)
+[<- Tutorial 4 - Decorating Your Map](4_decorating.md) --- [Tips and Tricks ->](6_tipsNtrix.md)
