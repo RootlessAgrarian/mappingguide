@@ -1,4 +1,4 @@
-### Tips and Tricks for Easier Editing
+### Tips and Tricks for Easier Map Editing
 
 #### Switch between camera modes 
 
@@ -39,4 +39,8 @@ If you're placing rocks and other stuff that repeats in your map, you don't need
 #### Merging objects
 
 As you've noticed, most game objects don't have collision property -- trees can grow right through buildings, buildings can pass through one another, rocks are insubstantial.  This means you can build large rocky outcrops from repeats of smaller rock units, because they merge together pretty convincingly.  Give it a try -- by varying rotation and altitude you can avoid obvious repetition and make quite long rocky scarps, shelves, cliffs etc.  This is a good application for copy and paste.
+
+#### That Autosave popup is so annoying
+
+If the Autosave popup window is driving you crazy, you can tame it.  You need to make a mod to the **editor_data.sii** file in def.scs -- look for the parameter **autosave_interval**.  If you don't know how to make a basic mod of this kind, read the Basic Modding Guide *WIP not yet written*
 
