@@ -20,7 +20,7 @@ Basics:  open the map editor and save your work
 * https://www.youtube.com/watch?v=clLEATRsIR0
 
 The ProMods Advanced Tips series:
-* 1. curves and banks: https://youtu.be/J9leGT5SH8Y
+* 1: curves and banks: https://youtu.be/J9leGT5SH8Y
 * 2: better bridges: https://youtu.be/C-eqesW3LlM
 * 3: building interchanges pt 1: https://youtu.be/yWF0a9uUNmo
 * 4: building interchanges pt 2: https://youtu.be/osFlxcwggbk
