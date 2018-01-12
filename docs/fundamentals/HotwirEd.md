@@ -14,15 +14,21 @@ The other we'll call **USER**.  That's the one where you keep your profiles, you
 
 If you want to avoid the quit/repack/reload/start cycle, here's how.
 
-In your **USER/mod** folder, make a folder called *YourMapName* (this must match the name of the mbd file that you're saving).
+In your **USER/mod** folder, make a folder called *YourMapName* (for easier repackaging later, you probably want to make this name match your map file name, but actually you can call it anything you like -- see below).
 
 Within this **USER/mod/*YourMapName*** folder, make a LINK to **INSTALL/base/map**
 
 ![The link called 'map'](img/LINK_map.PNG)
 
-If you do this right, then when you go to **USER/mod/*YourMapName*/map**, you will find yourself in **INSTALL/base/map**
+If you do this right, then when you go to **USER/mod/*YourMapName*/map**, you will find yourself in **INSTALL/base/map** ... and you can edit, save, run, and edit again without ever leaving the Map Editor.
 
-You might, of course, be editing more than one map at a time.  You might have saved more than one *YourMapName*.mbd file and *YourMapName* folder in **INSTALL/base/map**.  That doesn't matter.  If you are working on more than one map mod, just put another folder in **USER/mod** with the second map name, and in that folder put the same LINK to **INSTALL/base/map**.
+If you are a n00b (or a prolific mod developer), you might be editing more than one map at a time.  You might have saved more than one *YourMapName*.mbd file and *YourMapName* folder in **INSTALL/base/map** -- I,for example, have a Map1 and a Map2 and will probably have more, as I make small standalone maps to try out different methods & learn specific things.  That doesn't matter.  If you are working on more than one map mod, just give it a different name for editing and saving.  It will get saved in the same location
+
+Example:  Let's say I'm just learning the editor, and I have 2 tutorial projects going on:  Map1 and Map2.  I use *edit Map1* or *edit Map2* to work on them, and they get saved to the **INSTALL/base/map** folder.  So in that folder I see
+
+
+
+To avoid the pesky quit/repack/restart cycle, I p
 
 Making these links in Windows is not as straightforward as I'm used to (coming from 'nix territory).  You might be able to use mklink, or the extension HardLinkShellExt_64, or the Windows Power Shell "new item" command.  Here's a thread that covers the topic.  Good luck!
 
