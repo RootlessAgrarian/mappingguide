@@ -71,6 +71,8 @@ Back in the editor window, press the C key to switch to the flying camera. Your 
 
 ![The resulting road](img/2_roadset.jpg)
 
+Press C again to switch back to the Plan View (overhead) camera.  Get used to this switching between views, as you'll need to use it a lot.  If you click on a location on the map while in Plan View, then when you switch to flying camera you should find yourself hovering over or under that spot.  
+
 <a name="section4"></a>
 ## 4. Extending the Road
 
