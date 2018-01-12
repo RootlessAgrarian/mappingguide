@@ -1,6 +1,10 @@
 
 This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.
 
+```
+
+------------------- PRINT READY GUIDES ---------------------
+
 Nico's guide
 https://www.scribd.com/document/327182526/ATS-Mapping-Guide
 https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view
@@ -10,6 +14,8 @@ http://www.glenn52.com/scs_guides.html
 
 Scribd PDF guide by Dave Crockett Jackson
 https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
+
+-------------------- VIDEO TUTES -------------------------------
 
 Basics:  open the map editor and save your work
 https://www.youtube.com/watch?v=clLEATRsIR0
@@ -364,4 +370,4 @@ UNANSWERED Qs
 
 how to load standalone map
 can Blender edit prefabs with stop lights
-
+```
