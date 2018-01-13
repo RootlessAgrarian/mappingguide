@@ -16,7 +16,7 @@
 * *map stopped working on game update* -- delete defaults.ini file from **USER/editor** folder and try again
 * *can't load custom background image* -- see [Custom Map Background Tutorial](./newmodule/1_imagery.md)
 * *"index outside array boundaries" (exceeded stamp count)* -- see [Debugging](./intermediate/9_Debugging.md)
-* *"failed to register water level for uid xxxxx" error* -- two water planes with different heights, close together.  generally harmless.
+* *"failed to register water level for uid xxxxx" error* -- see [Debugging](./intermediate/9_Debugging.md)
 * *ouch, running into invisible barrier* -- usually going over a bridge...  see [Doing More With Roads](intermediate/1_Roads.md)
 * how to package my mod for sharing
 
