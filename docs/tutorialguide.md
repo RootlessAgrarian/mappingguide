@@ -34,4 +34,4 @@ For the sake of brevity, only the paths for Euro Truck Simulator 2 will be repea
 
   Most tools will have these options, but these tutorials will demonstrating using [7-Zip](http://www.7-zip.org/). 7-Zip is a powerful and free archiving tool, and a great replacement if you're still using the infamous WinRAR demo.
 
-[Tutorial 1 - Basic Editor Setup ->](1_setup.md)
+[<--- Back to Index](index.md)  --------    [Tutorial 1 - Basic Editor Setup ->](fundamentals/1_setup.md)
