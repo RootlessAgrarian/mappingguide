@@ -30,7 +30,7 @@ Collision boundaries may show up in red, or yellow.  So far, no one has been abl
 
 This message is usually due to the close proximity of two water planes with different heights.  Usually, it can be ignored.  The game engine gets a little confused about reflection management in such cases and you may see reflection glitches, but it shouldn't affect gameplay or cause a crash.  When you use one of the water textures on a terrain to make a water plane, the game engine notices that and treats it as a "water level".
 
-### index outside array bounds (plus stamp count warnings)
+### *index outside array bounds* (plus stamp count or other similar count warnings)
 
 By default the warning about exceeding stamp_count is set at 40, and a similar warning about exceeding road_length set at 330m.
 To get rid of these warnings, simply increase the value of these limits in the file /def/editor_data.sii and add this file to your mod.
