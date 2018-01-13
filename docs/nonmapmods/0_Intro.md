@@ -84,3 +84,4 @@ to reading code and reverse-engineering stuff.  Some are less obvious and you ma
 
 There's more information out there about non-map modding than about the Map Editor, which is why I focus on map editing and don't spend much time on non-map modding in this Guide.  Here are some links to get you started...
 
+* [SCS Beginner Tutorials](http://modding.scssoft.com/wiki/Tutorials/Beginners)
