@@ -29,7 +29,7 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 6. [Basic Tips and Tricks](fundamentals/6_tipsNtrix.md)
 7. [Shortcuts and HotKeys](Shortcuts.md)
 
-### Intermediate Tutorials (marked with "-" means incomplete)
+### Intermediate Tutorials (marked with "-" means incomplete / outline only)
 
 0. [Editing in the Fast Lane:  skip the repackage step while editing](fundamentals/HotwirEd.md)
 1. [-Roadworks Ahead:  doing more with roads](intermediate/1_Roads.md)
