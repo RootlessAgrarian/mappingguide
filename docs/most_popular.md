@@ -1,4 +1,4 @@
-## Most Popular Problems (FAQ)
+## Frequently Asked Questions
 
 ### BASIC
 * *can't get into editor* -- set game params and mode properly, see [Before You Begin](tutorialguide.md) and [Setup](fundamentals/1_setup.md)
