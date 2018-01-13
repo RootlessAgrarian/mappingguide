@@ -4,10 +4,6 @@ ERRORS, FINDING STUFF, DEBUGGING
 	
 	how to find a prefab by its number
 	how to remove no-go barriers
-	how to use F to find
-	make collisions visible for debugging
-	minion debug levels
-	index outside array bounds, stamp count warning
 ```
 
 ## Getting the Most Out of the MiniCon
@@ -18,7 +14,7 @@ I assume you're running the minicon while editing (uset g_minicon "1").  If you 
 * minicon value 3 shows draw call detail, ditto
 * minicon value 4 shows element counts of each type 
 
-### ouch, I ran into an invisible barrier!
+### ouch, I ran into an invisible barrier while testing my map!
 
 This is most likely at a bridge or overpass, but could potentially occur under other circumstances.  The way to find out what the heck you just ran into, is to turn on visibility for Collision Boxes.
 
@@ -26,12 +22,13 @@ You can use *uset g_colbox 1* in the dev con, or (faster/easier) go to the View 
 
 ![Collision View](img/CollisionView.PNG)
 
-You can see where I have turned off the collision boundary for the bit of roadway that runs under the bridge.  Before I turned this off, I was hitting the invisible barrier when I tried to drive over the bridge.
+Here two roads cross, with the N/S road going over a bridge and the E/W road passing under it.  I have turned *off* the collision boundary for the bit of roadway that runs under the bridge.  Before I turned this off, I was hitting the invisible barrier when I tried to drive over the bridge.
 
+Collision boundaries may show up in red, or yellow.  So far, no one has been able to tell me whether the colour difference means anything.
 
-### *failed to register water level for uid XXXXXXX*
+### *maximum water level count exceeded / failed to register water level for uid XXXXXXX*
 
-This message is usually due to the close proximity of two water planes with different heights.  Usually, it can be ignored.  The game engine gets a little confused about reflection management in such cases and you may see reflection glitches, but it shouldn't affect gameplay or cause a crash.
+This message is usually due to the close proximity of two water planes with different heights.  Usually, it can be ignored.  The game engine gets a little confused about reflection management in such cases and you may see reflection glitches, but it shouldn't affect gameplay or cause a crash.  When you use one of the water textures on a terrain to make a water plane, the game engine notices that and treats it as a "water level".
 
 ### index outside array bounds (plus stamp count warnings)
 
@@ -47,4 +44,4 @@ To get rid of these warnings, simply increase the value of these limits in the f
 
 Now it's up to you to zoom in, find the node, check its properties and remedy the problem.  The "too small" error is thrown when a Building (Series or Chain) object is too small to display all its features.  The solution is to stretch it, or to delete it and make a fresh one in a more suitable size.
 
-### 
+
