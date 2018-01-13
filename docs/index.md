@@ -1,4 +1,4 @@
-# The Mapping Guide
+# The Beginner's Guide to ETS2/ATS Mapping
 
 By SecretImbecile (Jack Kelly), forked and extended by RootlessAgrarian (De Clarke)
 
