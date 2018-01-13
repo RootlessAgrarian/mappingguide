@@ -23,7 +23,7 @@ There is not a whole lot of information available to help beginners learn the ma
 
 That is why this project was started by Jack Kelly -- heartfelt thanks to Jack for his excellent "Fundamentals"  and "Background Map" tutorials.
 
-Jack's no longer maintaining the project, so I (being myself an SCS mapping n00b in need of doco) am volunteering to keep it going and (I hope) extend it significantly.  Critical readers are very welcome.  Contributions even more so.  Comments, critique, complaints, contributions (especially that last one!) c/o RootlessAgrarian at either the SCS or ProMods forum.
+Jack's no longer maintaining the project, so I (being myself an SCS mapping n00b in need of doco) am volunteering to keep it going and (I hope) extend it significantly.  Critical readers are very welcome.  Contributions even more so.  Comments, critique, complaints, contributions (especially that last one!) c/o RootlessAgrarian at either the SCS or ProMods forum, or (specific issues) in Issues here.
 
 ## License 
 Thes files and documents contained within this guide are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license
