@@ -8,16 +8,16 @@ Below are notes on nomenclature and external tools.
 
 ## Game Folders
 
-This guide will refer to two folders used by ETS2/ATS. We'll be calling them the **user** folder and the **executable** folder.
+This guide will refer to two folders used by ETS2/ATS. We'll be calling them the **USER** folder and the **INSTALL** folder.
 
-The _user_ folder is the game folder located in the _Documents_ directory on Windows platforms. This folder contains the _mod_ folder, where we'll place our created maps:
+The **USER** folder is the game folder located in the _Documents_ directory on Windows platforms. This folder contains the _mod_ folder, where we'll place our created maps:
 
 ```
 C:\Users\<username>\Documents\Euro Truck Simulator 2
 C:\Users\<username>\Documents\American Truck Simulator
 ```
 
-The _executable_ or *install* folder is the game's main folder, which contains the installed game files and executables. Maps we create will be saved in a subfolder here:
+The **INSTALL** folder is the game's main folder, which contains the installed game files and executables. Maps we create will be saved in a subfolder here:
 
 ```
 C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2
