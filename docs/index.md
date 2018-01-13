@@ -32,13 +32,14 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 ### Intermediate Tutorials (mostly an empty structure so far)
 
 0. [Editing in the Fast Lane:  skip the repackage step while editing](fundamentals/HotwirEd.md)
-1. [Roadworks Ahead:  doing more with roads](intermediate/Roads.md)
-2. [Signs and Portents:  road signage](intermediate/Signs.md)
-3. [Bright Lights, Big City: urban areas](intermediate/City.md)
-4. [A River Runs Through It:  rural areas](intermediate/Rural.md)
-5. [A Field Guide to Objects:  more on object types](intermediate/Taxonomy.md)
-6. [Roadside Attractions:  walkers and movers](intermediate/AniModels.md)
-7. [Intermediate Tools, Tips and Tricks](intermediate/tipsNtrix.md)
+1. [Roadworks Ahead:  doing more with roads](intermediate/1_Roads.md)
+2. [Signs and Portents:  road signage](intermediate/2_Signs.md)
+3. [Bright Lights, Big City: urban areas](intermediate/3_City.md)
+4. [A River Runs Through It:  rural areas](intermediate/4_Rural.md)
+5. [Roadside Attractions:  walkers and movers](intermediate/5_AniModels.md)
+6. [Interactive Gizmos:  garages, fuel stations, ferries and more](intermediate/6_Interactive.md)
+7. [A Field Guide to Objects:  more on object types](intermediate/7_Taxonomy.md)
+8. [Intermediate Tools, Tips and Tricks](intermediate/8_tipsNtrix.md)
 
 ### Advanced Tutorials (items 1 and 2 are complete)
 
