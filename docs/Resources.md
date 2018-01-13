@@ -14,7 +14,7 @@ Nico's guide
 Scribd PDF guide by Dave Crockett Jackson
 * https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
 
--------------------- VIDEO TUTES -------------------------------
+-------------------- *VIDEO TUTES* -------------------------------
 
 Basics:  open the map editor and save your work
 * https://www.youtube.com/watch?v=clLEATRsIR0
@@ -53,7 +53,7 @@ https://promods.net/viewtopic.php?f=36&t=1326&start=10
 adding models
 https://forum.scssoft.com/viewtopic.php?t=231521
 
-saving only changed sectors
+*saving only changed sectors*
 https://forum.scssoft.com/viewtopic.php?t=48851&start=10
 
 import map?
