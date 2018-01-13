@@ -44,4 +44,4 @@ This barriers names as "dlc_guard1" and "dlc_guard2". Their codenames are 0xCE2D
 7.) Change this value to standard-like value (ex. 0x01000000)
 8.) Save file and put it in to .zip/.scs mod :)
 
-![Screen Shot](img/BarrierEdit.PNG)
+![Screen Shot](img/BarrierEdit.png)
