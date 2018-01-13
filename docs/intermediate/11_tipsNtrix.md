@@ -12,14 +12,4 @@ ODDBINS
 	import a map
 
 
-PACKAGING
-
-	how to save only changed sectors
-
-
-CUTPLANES
-
-	growing shrinking mountains
-	what is KDOP
-
 ```
