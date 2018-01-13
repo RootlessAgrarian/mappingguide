@@ -3,12 +3,25 @@
 
 There is no "Advanced" section in this manual, but this chapter is about as close as we get to one.  If you are a novice mapper, it would be a good idea to go through the earlier chapters -- and do some practise mapping -- before you read this part.
 
+### How do I avoid repackaging the entire game map?  I'm only altering a small portion of it.
+
+When you save your map edits, review the sector definition files in the *MapName* folder.  (**INSTALL/base/map/*MapName***)
+
+Use your favourite file viewer to sort this folder by reverse touch date.  You should see a clean distinction between the dates on original game files and those of files you have altered by editing and saving.  The Map Editor does not bother overwriting every sector in the map, only the sectors you have changed.
+
+You can then, at packaging time, select only the sector files you have altered, and include those in your mod zipfile.
+
+### What is an Atlas and how do I use it?
+
+### How do I internationalise my city names?
+
+### Understanding map scale and background images
+
+### Hookups and Overlays
+
+### More about Cutplanes
+
 ```
-PACKAGING
-
-	how to save only changed sectors
-
-
 CUTPLANES
 
 	growing shrinking mountains
@@ -18,7 +31,6 @@ CUTPLANES
 
 	background image and map scaling
 	understanding map scale
-	how to build a hill
 	internationalizing city names
 	how to make standalone map
 	hookups and overlays
