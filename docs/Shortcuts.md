@@ -27,7 +27,7 @@ R | Rotate item on X, Y or Z (select which axis on the toolbar)
 S | Place Start Position (the start-car) (**NOTE**: no longer bound as of this writing)
 . (dot) |  hold down while clicking to select *all* nodes of a Building (Series) object;  click, then hit dot (.) to *extend* selection to include more and more nodes (expanding outward from original selection)
 
-Number keys (not keypad):
+Number keys (not keypad;  numbers above QWERTY row):
 
 Key | Result
 ------------ | -------------
