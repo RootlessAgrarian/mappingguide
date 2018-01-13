@@ -18,5 +18,6 @@ CUTPLANES
 	how to make standalone map
 	hookups and overlays
 	what is an Atlas
+	removing game's collision barriers to extend stub roads
 
 ```
