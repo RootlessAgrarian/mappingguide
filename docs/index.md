@@ -77,7 +77,7 @@ Other YT Video Tutorials
 2. Europe/USA extension checklist
 
 ### Non-Map Mods
-1. [Basic Concept](nonmapmods/0_intro.md)
+1. [Basic Concept](nonmapmods/0_Intro.md)
 2. How To
 3. Why
 4. Example
