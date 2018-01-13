@@ -35,7 +35,7 @@ The last 2 PDFs are from a few years ago and some editor features have changed, 
 1. [-Roadworks Ahead:  doing more with roads](intermediate/1_Roads.md)
 2. [-Signs and Portents:  road signage](intermediate/2_Signs.md)
 3. [-Bright Lights, Big City: urban areas](intermediate/3_City.md)
-4. [-A River Runs Through It:  rural areas](intermediate/4_Rural.md)
+4. [-A River Runs Through It:  rural areas & natural features](intermediate/4_Rural.md)
 5. [-Roadside Attractions:  walkers and movers](intermediate/5_AniModels.md)
 6. [-Interactive Gizmos:  garages, fuel stations, ferries and more](intermediate/6_Interactive.md)
 7. [-A Field Guide to Map Objects](intermediate/7_Taxonomy.md)	
