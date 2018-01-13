@@ -1,6 +1,6 @@
 ## Tips & Tricks for Intermediate Mappers
 
-### The most important tip/trick
+### the most important tip/trick
 
 Always, the single most instructive thing you can do is to open the game map, teleport to an area you admire, and take a close look at it -- figure out how it was done.  This will expand your skills more than any amount of manual reading!
 
