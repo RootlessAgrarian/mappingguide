@@ -2,11 +2,11 @@
 
 **Basics:  how to open the map editor and save your work**
 
-* https://www.youtube.com/watch?v=Lfll6J80pM8&t=458s&index=1&list=WL (Part 1, German w/Eng subs, excellent intro to map editing)
+* https://www.youtube.com/watch?v=Lfll6J80pM8 (Part 1, German w/Eng subs, excellent intro to map editing)
 * https://www.youtube.com/watch?v=Kp7bq2KmUEo  (ATS beginner map editing tutorial)
 * https://www.youtube.com/watch?v=WzgXgvau6zk (French:  intro to map editing)
 * https://www.youtube.com/watch?v=clLEATRsIR0  (by ParadiseRacer)
-* https://www.youtube.com/watch?v=v3EgN_YBhes&t=88s (Bas Sports)
+* https://www.youtube.com/watch?v=v3EgN_YBhes (Bas Sports)
 
 **The ProMods Advanced Tips series** (do not be put off by the low audio level; these are worthwhile viewing.):
 
