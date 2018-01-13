@@ -38,8 +38,11 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 4. [A River Runs Through It:  rural areas](intermediate/4_Rural.md)
 5. [Roadside Attractions:  walkers and movers](intermediate/5_AniModels.md)
 6. [Interactive Gizmos:  garages, fuel stations, ferries and more](intermediate/6_Interactive.md)
-7. [A Field Guide to Objects:  more on object types](intermediate/7_Taxonomy.md)
-8. [Intermediate Tools, Tips and Tricks](intermediate/8_tipsNtrix.md)
+7. [A Field Guide to Map Objects](intermediate/7_Taxonomy.md)	
+8. [The Rules of the Game: special areas, AI behaviour, speed limits etc](intermediate/8_Rules.md)	
+9. [Debugging:  Finding It, Fixing It](intermediate/9_Debugging.md)
+10. [Power Mapping:  Some Advanced Topics](intermediate/10_PowerMapping.md)
+11. [Intermediate Tips and Tricks](intermediate/11_tipsNtrix.md)
 
 ### Advanced Tutorials (items 1 and 2 are complete)
 
