@@ -5,7 +5,7 @@ Tutorials and documentation for the SCS Software map editor, used to create mods
 
 ## Overview
 
-The SCS map editor is an inbuilt feature of the ATS and ETS2 game engines (Windows version only).  It is a highly specialised 3d modelling tool oriented specifically to the construction of roads & terrain, and placement of all the set dressing, for an open-world driving sim. "Set dressing" in this case means vegetation, guard rails, traffic signs and lights, buildings, trains, street lighting, fuel stations, pedestrians, bridges, etc. -- all the stuff that makes the virtual world convincing and attractive.  
+The SCS map editor is an inbuilt feature of the ATS and ETS2 game engines **(Windows version only)**.  It is a highly specialised 3d modelling tool oriented specifically to the construction of roads & terrain, and placement of all the set dressing, for an open-world driving sim. "Set dressing" in this case means vegetation, guard rails, traffic signs and lights, buildings, trains, street lighting, fuel stations, pedestrians, bridges, etc. -- all the stuff that makes the virtual world convincing and attractive.  
 
 The Map Editor is *not* a generic 3d modelling tool such as Blender.  Blender and other 3D editors can be used to model objects (vehicles, props) for ETS2 and ATS, using appropriate plugins from SCS.  If you want to build your own truck, castle, or pedestrian, you will need to study SCS Blender Tools and read other guides.  This topic is not currently covered here.
 
