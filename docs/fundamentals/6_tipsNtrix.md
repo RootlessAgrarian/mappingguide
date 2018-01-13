@@ -2,7 +2,9 @@
 
 #### Set Player's Start Position
 
-Use S to set the player's initial position when your map mod is loaded for the first time;  the S key should highlight the little red flag among the toolbar buttons on the right, at top of editor window.  If S doesn't work -- it doesn't for me, for some reason -- just click on the little red flag.   Then hover over a node for a second or so to match altitude, then click on the road surface and your "start car" should be placed.  If it is not facing in the right direction, use the KP+ (num keypad plus) and KP- (num keypad minus) keys to adjust its rotation around Y axis.  **Note:** these two keys do not rotate any other object on the map.
+To set the player's initial position when your map mod is loaded for the first time, click on the little red flag among the toolbar buttons on the right, at top of editor window.  I know the Help says that there's a hotkey for this (S) -- but in fact, this binding was discontinued some time ago.  SCS just forgot to fix the Help.  S does not work.  
+
+After clicking on the red flag, hover over a node for a second or so to match altitude, then click on the road surface and your "start car" should be placed.  If it is not facing in the right direction, use the KP+ (num keypad plus) and KP- (num keypad minus) keys to adjust its rotation around Y axis.  **Note:** these two keys do not rotate any other object on the map.  They only work for the start-car.
 
 #### Switch between camera modes 
 
