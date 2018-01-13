@@ -23,7 +23,9 @@ I assume you're running the minicon while editing (uset g_minicon "1").  If you 
 This is most likely at a bridge or overpass, but could potentially occur under other circumstances.  The way to find out what the heck you just ran into, is to turn on visibility for Collision Boxes.
 
 You can use *uset g_colbox 1* in the dev con, or (faster/easier) go to the View menu and select "Collisions".  You should then see something like this:
+
 ![Collision View](img/CollisionView.PNG)
+
 You can see where I have turned off the collision boundary for the bit of roadway that runs under the bridge.  Before I turned this off, I was hitting the invisible barrier when I tried to drive over the bridge.
 
 
