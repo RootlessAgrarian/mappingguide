@@ -1,39 +1,8 @@
 
-This doc is a grab bag of topics, tips, links, etc gleaned by dogged trawling through entire "mapping help" threads on the promods and scs fora.  My plan is to organise it all by topic, provide an index, and publish -- so that n00bs have access to the most helpful material available.  Italicised headings or text indicate that this section has been absorbed into the Mapping Guide document.  Non italicised headings indicate that I haven't absorbed this bit yet.
+
+This is a copy of Resources.md -- as I absorb topics and notes into the Guide I'm deleting them from this doc.
 
 
-*------------------- PRINT READY GUIDES ---------------------*
-
-Nico's guide
-* https://www.scribd.com/document/327182526/ATS-Mapping-Guide
-* https://drive.google.com/file/d/0B9Ji8vH_F8zneldUUE9yaVB6VkE/view
-
-"Glenn52" SCS Editor Guide (PDF)
-* http://www.glenn52.com/scs_guides.html
-
-Scribd PDF guide by Dave Crockett Jackson
-* https://www.ulozto.net/!MybfWbCX/euro-truck-simulator-map-editing-manual-pdf
-
--------------------- *VIDEO TUTES* -------------------------------
-
-Basics:  open the map editor and save your work
-* https://www.youtube.com/watch?v=clLEATRsIR0
-
-The ProMods Advanced Tips series:
-* 1: curves and banks: https://youtu.be/J9leGT5SH8Y
-* 2: better bridges: https://youtu.be/C-eqesW3LlM
-* 3: building interchanges pt 1: https://youtu.be/yWF0a9uUNmo
-* 4: building interchanges pt 2: https://youtu.be/osFlxcwggbk
-* 5: miniconsole and debugging: https://youtu.be/SG33bEwC5GQ
-* 6: cutplanes https://youtu.be/7IFJttG9TRc
-
-do not be put off by the low audio level.  these are worthwhile viewing.
-
-* https://youtu.be/z6agMir_8fo
-* https://www.youtube.com/watch?v=Kp7bq2KmUEo
-* https://www.youtube.com/watch?v=WQ7uWdTokUo
-
----------------- FOLLOW THE LINKS ------------------------
 
 How to extract base.scs and def.scs
 http://forum.scssoft.com/viewtopic.php?f=172&t=190685
@@ -41,26 +10,17 @@ http://forum.scssoft.com/viewtopic.php?f=172&t=190685
 ETS STUDIO
 http://www.ets2studio.com/p/download.html
 
-*Background*
-https://forum.scssoft.com/viewtopic.php?f=123&t=167214
-
-*oldish but still useful -- Kentora's beginners' notes*
-https://www.promods.net/viewtopic.php?f=9&t=1326
-
 Long long ProMods thread
 https://promods.net/viewtopic.php?f=36&t=1326&start=10
 
 adding models
 https://forum.scssoft.com/viewtopic.php?t=231521
 
-*saving only changed sectors*
-https://forum.scssoft.com/viewtopic.php?t=48851&start=10
 
 import map?
 https://forum.scssoft.com/viewtopic.php?f=5&t=192370&start=70
 
-*background again*
-https://forum.scssoft.com/viewtopic.php?t=167214
+
 
 making water reflective
 https://forum.scssoft.com/viewtopic.php?f=182&t=207999
@@ -90,7 +50,6 @@ how to set AI speed
 https://forum.scssoft.com/viewtopic.php?t=146858
 https://forum.scssoft.com/viewtopic.php?t=129621
 
-Press F to find?
 
 mysterious growing/shrinking mountains (what is a KDOP?)
 https://forum.scssoft.com/viewtopic.php?f=111&t=204446&start=10
@@ -101,14 +60,10 @@ https://en.wikipedia.org/wiki/Bounding_volume
 background image and map scaling
 https://forum.scssoft.com/viewtopic.php?t=194514
 
-make collisions visible for debugging
-https://forum.scssoft.com/viewtopic.php?t=61231
 
 customising jobs list (at gameplay time)
 https://forum.scssoft.com/viewtopic.php?t=199114
 
-cut and paste often-used objects, store outside cutplane
-https://forum.scssoft.com/viewtopic.php?f=41&t=132271&start=40
 
 understanding map scale
 https://forum.scssoft.com/viewtopic.php?t=19693
@@ -119,7 +74,6 @@ https://promods.net/viewtopic.php?t=18959
 how to build a hill
 https://promods.net/viewtopic.php?f=36&t=1326&start=80
 
-brush doesn't work on prefabs
 
 You can always attach square and dot even of same color, but never ever two dots of same color
 red never goes with red
@@ -134,7 +88,6 @@ connect unlike roads:
 There are prefabs called "joints" - Just search in ( Are you using a ProMods as a base? , if yes, so try write "joint" )
 Stuff like Joints will help you to connect rl 1 roads with rl 2 roads without seeing some odd stuff. There are 3 variations of them - with broken lines, single line or double lines.  Just search for "joint" :)
 
-Bezier patches can impact performace if overused in a small area
 
 ---------------------- ADDING MAJOR COMPONENTS -------------------------
 
@@ -257,8 +210,6 @@ https://www.promods.net/viewtopic.php?f=36&t=7581&start=190
 Q: Is there a prefab than connects "HW2b 2m" to "HW2b 5m"
 A: You don't need a prefab. The game will widen or narrow the median if the connection between the two road sections is long enough.
 
-road attributes can be saved as Default or as named Presets for easy subsequent re-use
-
 roads don't blend properly where stitched
 Are you using FLDs prefabs?
 If so, remove the following files:
@@ -271,8 +222,6 @@ Another question; how can I divide items like roads, fences, trees line like in 
 https://youtu.be/z6agMir_8fo
 You click with the scroll wheel or the middle mouse button.
 
-minicon value 2, 3, 4 : higher detail level:  2 is triangle count detail, 3 is draw call detail, 4 is element counts of each type
-g_colbox 1 : turn on red collision boxes so you can see invisible barriers
 
 Custom signs
 You have two options. Either you edit ONLY the .dds file and save it under the SAME name, or you save it under another name, edit a TOBJ file and assign it to your new .dds file, then you edit a .mat file that points to your TOBJ file, also you'll have to add it in overlay.sii if you choose the second option. THEN you'll find the sign overlay under the name you've chosen as your .mat file.
@@ -293,8 +242,6 @@ https://www.promods.net/viewtopic.php?f=36&t=7581&start=150
 
 make your own sign template
 https://www.promods.net/viewtopic.php?f=36&t=7581&start=370
-
-brush does not work on prefabs
 
 custom billboards:
 You need to change materials/looks on the model (billboard)
