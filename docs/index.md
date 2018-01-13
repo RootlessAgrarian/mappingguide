@@ -67,7 +67,7 @@ The ProMods Advanced Tips series:
 ### Distributing Maps
 
 1. New module checklist
-2. Europe extension checklist
+2. Europe/USA extension checklist
 
 Would you like to write an article---including or in addition to those proposed above? see below.
 
