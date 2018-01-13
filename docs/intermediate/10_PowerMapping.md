@@ -48,13 +48,14 @@ Still want to proceed?  Follow this example:
 This barriers names as "dlc_guard1" and "dlc_guard2". Their codenames are 0xCE2DE820D5660100 and 0xCE13EF7F18FD0100.
 
 1) Open .aux file for sector, where is placed that barrier and find one of this codenames.
-2) Move backwards on 53 bytes
-3) This 8 bytes are UID
-4) In map editor find that UID ('f' key')
-5) If this is the object we are looking for, we must back to hex-editor 
-6) Five bytes before codename are object/node flags
-7) Change this value to standard-like value (ex. 0x01000000)
-8) Save file and put it in to .zip/.scs mod :)
+2) Move backwards 53 bytes to find 8 byte UID
+3) Copy UID
+4) In map editor find that UID ('f' key' and paste in UID)
+5) Is this really the object we are looking for? If yes, return to hex-editor 
+6) Five bytes before codename we find the object/node flags
+7) Change this value to default value (ex. 0x01000000)
+8) Save file, and put it into .zip/.scs mod :)
+9) Put .scs file in your **USER/mod** folder, relaunch
 
 ![Screen Shot](img/BarrierEdit.png)
 
