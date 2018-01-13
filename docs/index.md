@@ -76,6 +76,12 @@ Other YT Video Tutorials
 1. New module checklist
 2. Europe/USA extension checklist
 
+### Non-Map Mods
+1. Basic Concept
+2. How To
+3. Why
+4. Example
+
 Would you like to write an article---including or in addition to those proposed above? see below.
 
 ## Sharing and Contributing
