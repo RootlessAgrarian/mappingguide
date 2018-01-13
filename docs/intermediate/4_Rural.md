@@ -7,5 +7,6 @@ SCENERY
 	how to make water reflective
   seafront property
 	how to add rivers
+	how to build a hill
 
 ```
