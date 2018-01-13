@@ -29,7 +29,7 @@ The last 2 PDFs are from a few years ago and some editor features have changed, 
 6. [Basic Tips and Tricks](fundamentals/6_tipsNtrix.md)
 7. [Shortcuts and HotKeys](Shortcuts.md)
 
-### Intermediate Tutorials (marked with "-" means incomplete / outline only)
+### Intermediate Tutorials (marked with "-" means outline only, "+" means some useful content but incomplete)
 
 0. [Editing in the Fast Lane:  skip the repackage step while editing](fundamentals/HotwirEd.md)
 1. [-Roadworks Ahead:  doing more with roads](intermediate/1_Roads.md)
@@ -42,7 +42,7 @@ The last 2 PDFs are from a few years ago and some editor features have changed, 
 8. [-The Rules of the Game: special areas, AI behaviour, speed limits etc](intermediate/8_Rules.md)	
 9. [-Debugging:  Finding It, Fixing It](intermediate/9_Debugging.md)
 10. [-Power Mapping:  Some Advanced Topics](intermediate/10_PowerMapping.md)
-11. [-Intermediate Tips and Tricks](intermediate/11_tipsNtrix.md)
+11. [+Intermediate Tips and Tricks](intermediate/11_tipsNtrix.md)
 
 ### Advanced Tutorials (items 1 and 2 are complete)
 
