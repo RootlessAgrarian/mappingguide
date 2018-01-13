@@ -16,7 +16,7 @@
 * *map stopped working on game update* -- delete defaults.ini file from **USER/editor** folder and try again
 * *can't load custom background image* -- see [Custom Map Background Tutorial](./newmodule/1_imagery.md)
 * exceeded stamp count (https://forum.scssoft.com/viewtopic.php?t=6005)
-* too many water levels
+* *"failed to register water level for uid xxxxx" error* -- two water planes with different heights, close together.  generally harmless.
 * *ouch, running into invisible boundaries* (https://promods.net/viewtopic.php?f=36&t=1326&start=240)
 * how to package my mod for sharing
 
