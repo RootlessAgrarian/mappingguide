@@ -26,7 +26,7 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 3. [Loading and testing your map](fundamentals/3_testing.md)
 4. [Decorating your map](fundamentals/4_decorating.md)
 5. [Preserving the illusion](fundamentals/5_illusion.md)
-6. [Some Tips and Tricks](fundamentals/6_tipsNtrix.md)
+6. [Basic Tips and Tricks](fundamentals/6_tipsNtrix.md)
 7. [Shortcuts and HotKeys](Shortcuts.md)
 
 ### Intermediate Tutorials
@@ -37,7 +37,7 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 3. Bright Lights, Big City: urban areas
 4. A River Runs Through It:  rural areas
 5. A Field Guide to Objects:  more on object types
-6. Summary of Intermediate Tools, Tips and Tricks
+6. Intermediate Tools, Tips and Tricks
 
 ### Advanced Tutorials
 
