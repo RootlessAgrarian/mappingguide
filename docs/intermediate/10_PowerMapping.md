@@ -58,4 +58,4 @@ This barriers names as "dlc_guard1" and "dlc_guard2". Their codenames are 0xCE2D
 
 ![Screen Shot](img/BarrierEdit.png)
 
-(thanks to \_PMA for this answer)
+(thanks to \_PMA for this expert answer)
