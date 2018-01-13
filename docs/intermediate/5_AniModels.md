@@ -1,1 +1,1 @@
-## Peopling the Landscape:  walkers, movers, and static critters
+## Peopling the Landscape:  AIs, walkers, movers, and static critters
