@@ -18,7 +18,7 @@ The last 2 PDFs are from a few years ago and some editor features have changed, 
 [In a hurry?](most_popular.md)
 Click here for a WIP FAQ -- most commonly asked (and answered!) questions from the SCS and ProMods forum.  If you are a n00b then your early questions/problems will probably be on this list.
 
-### Fundamentals
+### Fundamentals (pretty much complete!)
 
 0. [Before You Begin (important!)](tutorialguide.md)
 1. [Basic Editor Setup](fundamentals/1_setup.md)
@@ -29,23 +29,24 @@ Click here for a WIP FAQ -- most commonly asked (and answered!) questions from t
 6. [Basic Tips and Tricks](fundamentals/6_tipsNtrix.md)
 7. [Shortcuts and HotKeys](Shortcuts.md)
 
-### Intermediate Tutorials
+### Intermediate Tutorials (mostly an empty structure so far)
 
 0. [Editing in the Fast Lane:  skip the repackage step while editing](fundamentals/HotwirEd.md)
-1. Roadworks Ahead:  doing more with roads
-2. Signs and Portents:  road signage
-3. Bright Lights, Big City: urban areas
-4. A River Runs Through It:  rural areas
-5. A Field Guide to Objects:  more on object types
-6. Intermediate Tools, Tips and Tricks
+1. [Roadworks Ahead:  doing more with roads](intermediate/Roads.md)
+2. [Signs and Portents:  road signage](intermediate/Signs.md)
+3. [Bright Lights, Big City: urban areas](intermediate/City.md)
+4. [A River Runs Through It:  rural areas](intermediate/Rural.md)
+5. [A Field Guide to Objects:  more on object types](intermediate/Taxonomy.md)
+6. [Roadside Attractions:  walkers and movers](intermediate/AniModels.md)
+7. [Intermediate Tools, Tips and Tricks](intermediate/tipsNtrix.md)
 
-### Advanced Tutorials
+### Advanced Tutorials (items 1 and 2 are complete)
 
 1. [Editor backgrounds for custom modules (Part 1)](newmodule/1_imagery.md) 
 2. [Editor Backgrounds (Part 2)](newmodule/2_import.md)
 2. How to add to the Europe (or USA) module
 
-### Popular Video Tutorials
+### Popular Video Tutorials (please send recommendations)
 
 Basics:  open the map editor and save your work
 * https://www.youtube.com/watch?v=clLEATRsIR0
