@@ -3,6 +3,12 @@
 
 There is no "Advanced" section in this manual, but this chapter is about as close as we get to one.  If you are a novice mapper, it would be a good idea to go through the earlier chapters -- and do some practise mapping -- before you read this part.
 
+### What's the best way to go about a mapping project?  What should I do first, etc?
+
+Mandelsoft:  "The best approach is to start with cities first, before you lay down the roads. Cities are the most space-consuming items, so it's better with those first. Then you start with a rough layout and add the details later. Make it functionally ready before you get it visually ready."
+
+Cities first, then connecting roads and major interchanges, then lesser roads, then decoration and scenery.
+
 ### How do I avoid repackaging the entire game map?  I'm only altering a small portion of it.
 
 When you save your map edits, review the sector definition files in the *MapName* folder.  (**INSTALL/base/map/*MapName***)
