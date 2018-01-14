@@ -82,7 +82,7 @@ The contents of this guide are permissively licensed under the [CC BY-SA 4.0](ht
 Outside contributions will be paramount to making this guide comprehensive. If you're experienced with the ETS2/ATS map editors, your assistance in creating these guides would be greatly welcomed! You should contribute in one of the following ways
 
 #### Errors & Corrections
-If you spot typos or factual errors in these guides, but don't plan on making large contributions, please PM RootlessAgrarian on either the SCS or ProMods forum, or make a note in the Issues here.
+If you spot typos or factual errors in these guides, but don't plan on making large contributions, please PM RootlessAgrarian on either the SCS or ProMods forum, or [make a note in the Issues here](https://github.com/RootlessAgrarian/SCS_ModdingGuide).
 
 #### Content Contribution
 
