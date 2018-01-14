@@ -6,13 +6,13 @@ of road segments:  we've seen how procedural vegetation can be generated to popu
 
 Now we'll take a closer look at all the cool set-dressing available in the Map Editor:  the types of objects you can place on your terrain to make a believable world.
 
-There are three main object types you'll be using to decorate your map:  Prefabs, Models, and Buildings.
+There are three main object types you'll be using to decorate your map:  *Prefabs*, *Models*, and *Buildings*.
 
 You've already worked with *Prefabs*, in the form of road intersections.  Some bridges are prefabs.  There are quite a few more sophisticated types of prefab.  In general, any "active" area of the map (a place where you interact with the scenery in some way) is a prefab.  These include gas stations, freight terminals, ferry terminals, sleeping areas, etc.  Prefabs cannot be scaled.  (Prefabs also cannot be edited in Blender or 3DSmax:  you will need a special 3D editor such as Zmodeler3 to preserve all their functions.)
 
 *Models* are by far the most common object type you'll use when dressing up your bare map.  Models include just about everything:  buildings, trees, parked vehicles, people, bridges, statues, cows, chickens, all kinds of stuff.  Some models are animated;  others are static.  Models can be scaled.
 
-*Buildings* are a curious class which does not, for some reason, only include buildings.  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.
+*Buildings* are a curious class which does not, for whatever reason, consist of buildings (as in architectural structures).  "Buildings" includes items that can be generated along a path, such as extensible fencing and railings, lines of trees for boulevards and wind breaks, etc.  I would have called them Series or Chain objects, but the editor calls them Buildings.  You'll get used to it.
 
 There are also other objects such as *Signs*, but we'll talk about them later because they can get complicated.
 
@@ -24,39 +24,39 @@ It's quite a long list, and though the item names are mnemonic and could eventua
 
 As soon as you select something from the Model menu and move your mouse over the map, your cursor becomes an instance of the selected item (as seen from the top); and when you click on the map, that object is instantiated on the map at that location.  
 
-Easy though this is, you can't see the object until you select it and move the mouse onto the map.  It would be rather tedious to keep shopping on a trial and error basis, clicking and mousing, until you find one you like.  Also, the top view is not always helpful in identifying the object, whereas the free cam view is not always helpful in placing the object.
+Moreover, you can streamline your interaction with this menu.  Rather than repeatedly mousing and clicking and previewing, you can leave your cursor in the map area and use Up and Down arrow keys to scroll rapidly through the menu items.  Also, when selecting from the menu initially, you can type in a character and insta-scroll to the group of items starting with that character.
 
-So, before you get RSI interacting with the lengthy and only weakly descriptive drop-down menus in this box, let's talk about an even easier way to identify items to place in your map.
+This is handy when you are trying to find something you already know exists, which you will recognise as soon as you see it.  (In watching tutorial videos you will see that even the experts dither and scroll around while searching for their preferred gizmos.)  However, if you're a n00b, you probably want to see what's available to you -- browse the catalogue.  The pick/scroll/preview routine is not ideal for this.  Fortunately, there's a more appropriate tool.
 
 ## Finding Objects to Place:  the Content Browser
 
-Let's say you'd like to have a scenic ruined building at the intersection of two of your roads.  How to find one?
+Let's say you'd like to have a scenic ruined building at the intersection of two of your roads.  You're new to SCS mapping and have no idea what such a building would be called, or how many options might be in the "library".  How to find one?
 
-The Content Browser is the tool for this job.  Take another look at that New Item popup window.   Next to the object select menu you'll see a couple of iconic buttons:  a magnifying glass and an arrow gizmo.  The magnifying glass will bring up the Content Browser, showing the selected object.
+The Content Browser is the right tool for this job.  Take another look at that New Item popup window.   Next to the object select menu you'll see a couple of iconic buttons:  a magnifying glass and an arrow gizmo.  The magnifying glass will bring up the Content Browser, showing the selected object.
 
 ![The New Item popup](img/4_NewItem.PNG)
 
 The first thing to do with the Content Browser is to use the View menu (bottom option, Layout) to set your Layout to "Complex".  Only the complex layout will offer you the search features that you'll be needing soon.  So go ahead and set the Complex Layout.  Now the window has more panes and is larger, and down at the bottom centre you'll see a very important textbox called Search.
 
-Now, let's get set up to do a search.  Let's say you don't know what Type of object (listbox at upper left) you are looking for.  So you choose All (top option in listbox).  Now type "bicycle" into the Search box.  You should see this, or something similar:
+Now, let's get set up to do a search.  You were hoping to find a bicycle to lean against a tree by the side of the road.  Let's say you don't know what *Type* of object (listbox at upper left) that bicycle might be -- maybe a Model, but you're not sure.  So you choose *All* (top option in listbox).  Now type "bicycle" into the Search box.  You should see this, or something similar:
 
 ![The content browser](img/4_Browser.PNG)
 
 The simplest thing you can now do is choose this object to be the next one you are placing.  There are two ways to do this.
 
-1) (definitely preferred) *double click* on the object thumbnail in the Content Browser.   This will set the item type, load the item into the New Item popup, and when you move your cursor over the map you will be ready to place this item by clicking anywhere, just as if you had gone through all the steps above (selecting type, using dropdowns).
+1) (definitely preferred) *double click on the object thumbnail* in the Content Browser.   This will set the item type, load the item into the New Item popup, and when you move your cursor over the map you will be ready to place this item by clicking anywhere, just as if you had gone through all the steps above (selecting type, using dropdowns).
 
-2) select the thumbnail with just one click, then use the arrow button in the New Item popup to set this item as the selected one in the dropdown menu.  Note that this *will not work* (nothing will happen) unless you already have the matching Item Type selected (right hand side of the map window toolbar).  So it is more confusing and error-prone than the double-click method.
+2) select the thumbnail with just one click, then use the arrow button in the New Item popup dialogue box to set this item as the selected one in the dropdown menu (i.e. transfer your choice from browser to New Item popup).  But note that this *will not work* (nothing will happen) unless you already have the matching Item Type selected (right hand side of the map window toolbar).  So it is more confusing and error-prone than the double-click method recommended above.
 
-Aside from choosing a desired object from the vast catalogue of props and decorations, you can use the Content Browser to find out more about your selected object.  It will in fact tell you everything about it, including whether (and where) it has been placed in your map.
+Aside from choosing a desired object from the vast catalogue of props and decorations, you can use the Content Browser to find out more about your selected object.  It will in fact tell you everything about it, including whether (and where) it has been instantiated already in your map.
 
-The pane on the far right shows detailed information about the selected object, including what Type of object it is.  For reasons which are entirely obscure to me, this Bicycle is a Sign.  (You might think it would be a Model, but no, it's a Sign.)  It can be helpful to know what Type your object is, because the searching process is much faster if you can narrow this down instead of searching all Types ("All" option at upper left).
+The pane on the far right shows detailed information about the selected object, including what Type of object it is.  For reasons which are entirely obscure to me, this Bicycle is a Sign.  (You might think it would be a Model, but no, it's a Sign.  As with the Building object type, it's not worth arguing with the editor...)  It can be helpful to know in advance what Type your object is, because the searching process is much faster if you can narrow this down instead of searching all Types (that "All" option at upper left of browser window).
 
-This pane will also tell you whether the item (if a Model) is high or low res (Distance type = near or far), and where it came from.  The Source field reads 'base' if the object is included in the base game, 'dlc_north' if it comes from the Scandinavia DLC, and so on.  For models, this pane even gives you the relative pathname to the model file in an unpacked 'base' hierarchy, so you can locate and extract the model and modify it using your own 3d editor such as Blender or 3ds Max (this topic is covered in a separate tutorial).
+This pane will also tell you whether the item (if a Model) is high or low res (Distance type = near or far), and where it came from.  The Source field reads 'base' if the object is included in the base game, 'dlc_north' if it comes from the Scandinavia DLC, and so on.  For models, this pane even gives you the relative pathname to the model file in an unpacked 'base' hierarchy, so you can locate and extract the model and modify it using your own 3d editor such as Blender or 3ds Max (this topic is covered elsewhere).
 
 If you are not working on a brand new map of your own, but have used "edit europe" to have a look at the inner workings of your actual installed game, then you can use this feature to find out what models and other goodies other people have used in their work.  For example, if you like the hovering helicopter in RusMap, you could launch your fully modded game, go into dev console, type "edit europe," and search for "heli" until you find the one you liked.  You could make a note of its name, type, etc. and plan to use it in a map of your own.  (I should remind you at this point that there are many warnings online about starting up the editor with lots of mods;  don't be surprised if it crashes when you have a busy mod folder.  Include only the mods actually necessary to do what you want to do.)
 
-But the object's type, provenance, etc. are not all you can find out.  If you *right-click* on the thumbnail of the bicycle you've selected, you should see a menu.  The bottom-most item on this menu will be "Find All References."  This is a very handy feature.  It will pop up a list of every instance of this object in your current map.  So, for example, if you want to match (or not to repeat!) the type of tree or other model you used earlier, you can search for the general type of tree (Pine for example) and then check to see which pines you've used before and how often.  Here's a sample search on a small tutorial map of mine, for a spruce avenue I used along the roadside in several places:
+But the object's type, provenance, etc. are not all you can find out.  If you *right-click* on the thumbnail of the bicycle you've selected, you should see a menu.  The bottom-most item on this menu will be "Find All References."  This is a very handy feature.  It will pop up a list of every instance of this object in your current map.  So, for example, if you want to match (or conversely, not to repeat!) the type of tree or other model you used earlier, you can search for the general type of tree (Pine for example) and then check to see which pines you've used before and how often.  Here's a sample search on a small tutorial map of mine, for a spruce avenue I used along the roadside in several places:
 
 ![Revealing Object References](img/4_Reference.PNG)
 
