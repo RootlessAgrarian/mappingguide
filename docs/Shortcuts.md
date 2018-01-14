@@ -8,7 +8,7 @@ follows (Standard Qwerty, in parens Azerty Keyboard)
 Key | Result
 ------------ | -------------
 A (Q) | toggle background map on or off. If you don’t have any, you will see some red text.
-B | Use the brush tool (use sparingly if at all)
+B | Use the brush tool (use sparingly if at all) (see bottom of page for details)
 C | Camera view -- toggles between overhead (editor) view to on the “fly” (roadside view) very useful tool to enable you to see how your roads will look at runtime and to aid with precise item placement
 D | Delete item by selecting the red node. (You can also select item(s) and use the Delete key on your keyboard).
 E | New item
@@ -81,11 +81,15 @@ CTRL-R  | rotate several selected objects around shared Y axis clockwise 1 degre
 SHIFT-CTRL-R  | rotate several selected objects around shared Y axis counter-clockwise 1 degree
 ALT-R  | random model rotation dialog
 
-To select ONLY the main node of a prefab:
-   With item (p) or node properties (n) mode active,
-   perform direct click on node while pressing right ALT key
+**NOTE:** if you are using a non-Windows keyboard you may not have an INS key.  The standard Apple keyboard, for example, does not have this key.  You can remap keyboard keys under Windows by using any one of a number of keymap applications.  On the Extended Apple Keyboard (with integral numpad) the F16-19 keys seem to map well.
 
-Brush mode:
+**Special Prefab Select**
+
+To select ONLY the main node of a prefab:
+   * With item (p) or node properties (n) mode active, perform direct click on node while pressing right ALT key
+
+**Brush mode:**
+
 * To use brush: enter brush mode (B), click on white quad
 * Brush pick: enter brush mode (B), SHIFT-click on brushed (red) quad
 
