@@ -17,7 +17,7 @@ The last 2 PDFs are from a few years ago and some editor features have changed, 
 
 ## Contents
 
-[What's a Map Editor?](README.md)
+[What's a Map Editor?](../README.md)
 
 [In a hurry?  Click here for a WIP FAQ](most_popular.md)
  -- most commonly asked (and answered!) questions from the SCS and ProMods forum.  If you are a n00b then your early questions/problems will probably be on this list.
