@@ -25,7 +25,7 @@ P | Item properties
 Q | Put the background map
 R | Rotate item on X, Y or Z (select which axis on the toolbar)
 S | Place Start Position (the start-car) (**NOTE**: no longer bound as of this writing)
-. (dot) |  hold down while clicking to select *all* nodes of a Building (Series) object;  click, then hit dot (.) to *extend* selection to include more and more nodes (expanding outward from original selection)
+. (dot) |  hold down while clicking to select *all* nodes of a Building (Series) object;  or click, then hit dot (.) repeatedly to *extend* selection to include more and more nodes (expanding outward from original selection)
 
 Number keys (not keypad;  numbers above QWERTY row):
 
@@ -62,13 +62,16 @@ ALT F6 | align object(s) to ground vertically
 SPACE | switch to editor mode (visible handles) in flycam view
 KP - twice | spawn cars on lines
 KP * | after spawning car, this will change the vehicle type
+Ctrl-C | copy
+Ctrl-V | paste
+Ctrl-S | save
 
 In FREE CAM mode only:
 
 Key|Result
 ------------ | -------------
-UP   | lift object(s) 
-DOWN | lower object(s) 
+PgUP   | lift object(s) 
+PgDOWN | lower object(s) 
 END  | rotate object(s) around X axis (SHIFT-END  for other way round)
 DEL  | rotate object(s) around Y axis (SHIFT-DEL  for other way round)
 INS  | rotate object(s) around Z axis (SHIFT-INS  for other way round)
