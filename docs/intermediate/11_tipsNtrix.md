@@ -8,6 +8,8 @@ Always, the single most instructive thing you can do is to open an existing map 
 
 If you're re-using a favourite set of objects, you can always instantiate all of them them somewhere -- behind a cutplane for example, so you won't see the clutter in free cam view -- and copy/paste them as needed, instead of having to reselect from the Content Browser or long unwieldy menus.
 
+You can do a lot more with Copy and Paste.  If you've designed one quadrant of a complex interchange you can copy the whole shebang, paste it, rotate/reflect it, and 90 percent of the work is done for the opposing quadrant.  Also, suppose you have created a cleverly shaped fence line between fields and you want some vegetation to follow the fence line (imitating real life):  copy the fence line, paste it somewhere, and change the object to a different Building (Series) type object like grass, shrubs, bushes.  You will instantly have a perfect duplicate of your fence line, made of vegetation, which you just have to drag into place.  Formal landscaping also become easy when you can reflect, rotate, and transpose pasted Building objects like hedges.
+
 ### reflections
 
 Ever noticed when playing the game that some bodies of water look flat and don't reflect objects across the water from you, whereas others look realistic and do reflect landscape and objects?  You might thing that the trick here is to find a "reflective" property of the water plane.  But actually, the reflectivity is a property of the objects being reflected!  Look in the Properties dialogue popup for "Water Reflection" and turn it on if you want the object to cast a reflection in any nearby water plane.
