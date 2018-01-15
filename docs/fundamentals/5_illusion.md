@@ -1,5 +1,5 @@
 ## Fooling the Player: the art of illusion
-### Introducing Terrains, Bezier Patches, High-Poly attribute, and Cut Planes
+### Introducing... Terrains, Bezier Patches, High-Poly attribute, Randomness, and Cut Planes
 
 #### Sssh!  don't let them know it's just a model
 
@@ -11,11 +11,11 @@ As you fit your roads and prefabs together, you'll find there are inevitable gap
 
 You can minimise the ugly spots by reducing roadside terrain size on the inside of curves, and by avoiding very abrupt changes in terrain profile.  Try making a right angle bend in your road and increasing the inside curve terrain size to a large number like 100, and you'll immediately see the "fan shaped" wrinkling;  reduce the size and you'll have less ugliness.  But even if you're careful, inevitably you'll paint yourself into a corner where raw terrain edges are visible, or terrains don't meet in a nice tidy way and there are holes, or the surface topology gets weird and obviously unnatural.
 
-These booboo spots can be hard to see from above (the Plan view) so it's very important to fly around with the free cam looking at your world from the roadway, from many angles and heights.  In Plan view, always be suspicious of any hard linear edge in the landscape below.  It's probably a free-floating terrain edge that needs to be hidden.
+These booboo spots can be hard to see from above (the Plan view) so it's very important to fly around with the free cam looking at your world from the roadway, from many angles and heights.  In Plan view, always be suspicious of any hard linear edge in the landscape below.  It's probably a free-floating terrain edge that needs to be hidden.  Mind the Gap!
 
 There are several ways to hide these booboos.
 
-#### Mind the Gap!
+#### There's a hole in my world...
 
 If the gap is small enough, you may be able to hide it with a model of some kind:  a rocky outcrop, a dense thicket, some architecture, a parked vehicle...  You need to be careful of sight lines and make sure that it's hidden from all POV along nearby roads.  A raw terrain edge can be hidden with a long rocky outcrop;  a hole can be hidden by a single big rock, house, etc.  Get creative!
 
@@ -25,13 +25,17 @@ If you don't want walls at that location, if the gap is part of a prefab join, o
 
 A *Terrain* is just a rectangle of terrain with two handles on one edge.  To create one, select Terrain from the object type menu, and use the E key or the plus-sign button to go into "new object" mode.  Click and drag to draw a line that will define one edge of your new terrain.  You can adjust its other dimension later from its Properties.
 
-You can glue your new terrain to a road segment -- with the same Alt-Click-Drag move that you use to glue road segments together -- or you can position it free-floating.  If you glue it to a road segment it will, usefully, adopt the profile of that road segment (bank, flat, ditch, whatever).  So it's very handy for filling in gaps at overpasses, as seen in this very informative tutorial video from ProMods, [Building Better Bridges](https://youtu.be/C-eqesW3LlM)
+You can glue your new Terrain to a road segment -- with the same Alt-Click-Drag move that you use to glue road segments together -- or you can position it free-floating.  If you glue it to a road segment it will, usefully, adopt the profile of that road segment (bank, flat, ditch, whatever).  So it's very handy for filling in gaps at overpasses, as seen in this very informative tutorial video from ProMods, [Building Better Bridges](https://youtu.be/C-eqesW3LlM)
 
-A roadless Terrain is really just a road segment without the paving;  that's why it has the same two handles as a road segment.  It's not very flexible, and it wants to bond with road segments (because that's what it is).  That's why it's so useful at bridge heads and ramps and such like, to mask the gaping hole where the road terrain ends and the prefab begins.  The other thing it's good for is a water plane:  you can give it a water texture and position it to intersect a low spot.  Be careful to keep your water plane level, though -- if you move one handle independently of the other you may end up with tilted water, which won't look right in a lake or pond!
+A roadless **Terrain** is really just a road segment without the paving;  that's why it has the same two handles as a road segment.  It's not very flexible, and it wants to bond with road segments (because that's what it is).  That's why it's so useful at bridge heads and ramps and such like, to mask the gaping hole where the road terrain ends and the prefab begins.  The other thing it's good for is a water plane:  you can give it a water texture and position it to intersect a low spot.  Be careful to keep your water plane level, though -- if you move one handle independently of the other you may end up with tilted water, which won't look right in a lake or pond!
 
-*Bezier Patch* is a more sophisticated object:  it's a rectangle of terrain with *many* handles.  By moving these handles you can deform the patch creatively to fill odd-sized gaps and to present some nice topography for the player to enjoy.  A Bezier Patch is far more flexible than an ordinary Terrain patch, so you might be tempted to use only Bezier Patches to cover all your booboos;  but beware!  they come with a rendering cost that will impact game performance if you use too many of them within the render area.  Use them thoughtfully.
+*Bezier Patch* is a more sophisticated object:  it's a rectangle of terrain with *many* handles.  By moving these handles you can deform the patch creatively to fill odd-sized gaps and to present some nice topography for the player to enjoy.  A **Bezier Patch** is far more flexible than an ordinary Terrain patch, so you might be tempted to use only Bezier Patches to cover all your booboos;  but beware!  they come with a rendering cost that will impact game performance if you use too many of them within the render area.  Use them thoughtfully.
 
-Another area where you may spot a gap that would be inappropriate to fix with these basic tools is at tight bends in your roadway.  You may see places where the roadway and the median strip, or the edge strips, don't quite stitch together at a bend -- and you can see the Void or the water plane through the gap.  Usually the reason is that the poly count on this segment is not high enough to prevent a hard polygonal shape, and you'll notice that your railings or stripes look a bit jaggy.  The solution to this is to set the road segment to a higher poly count, using the Properties window.  This should smooth out the jaggies and close any gaps.  If you still have gaps, try some strategically placed small vegetation.
+Another area where you may spot a gap that would be inappropriate to fix with these basic tools is at tight bends in your roadway.  You may see places where the roadway and the median strip, or the edge strips, don't quite stitch together at a bend -- and you can see the Void or the water plane through the gap.  Usually the reason is that the poly count on this segment is not high enough to prevent a hard polygonal shape, and you'll notice that your railings or stripes look a bit jaggy.  The solution to this is to set the road segment to a **high poly count**, using the Properties window.  This should smooth out the jaggies and close any gaps.  If you still have gaps, try some strategically placed small vegetation.
+
+#### OMG all those trees are exactly the same...
+
+A huge illusion-breaker is a grove or avenue made up of identical clone trees, each exactly the same size and orientation.  Even a tree farm doesn't look quite that artificial!  The editor makes it easy for you to **randomise scale and orientation**, creating a more natural looking grove or avenue and preserving the illusion.  All you have to do is (1) replicate your chosen tree N times (or a mix of trees);  (2) select the entire group of objects;  (2) hit Alt-R to pop up the random rotation and scaling dialogue box.  You can figure it out from there:  you set ranges of rotation and scale, hit the Apply button and presto, your trees (or any other repeating object) are varied in orientation and scale.  You could use this option to "tumble" a pile of pallets, to "strew" objects like hay bales or trash bags more naturally, etc.
 
 #### I shouldn't be able to see that from here...
 
