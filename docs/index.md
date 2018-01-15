@@ -2,6 +2,8 @@
 
 By SecretImbecile (Jack Kelly), forked and extended by RootlessAgrarian (De Clarke)
 
+[What's a Map Editor?](../README.md)
+
 This guide hopes to become a comprehensive and openly editable collection of resources for the SCS game engine map editor, used by _Euro Truck Simulator 2_ and _American Truck Simulator_.  It is intended for *real beginners* (rank newbies to map editing) as well as being a reference/reminder for those with some experience.
 
 The Guide is very much WIP and changing daily/weekly, sometimes hourly.  Expect to see a lot of stubs and incomplete stuff.  The "Fundamentals" section is almost complete as of Jan 2018.  Some very basic non-map modding is also discussed, since map modders may also want to introduce custom models.  Truck skinning is not covered.
@@ -16,8 +18,6 @@ For further reference see
 The last 2 PDFs are from a few years ago and some editor features have changed, but they are still worth reading!
 
 ## Contents
-
-[What's a Map Editor?](../README.md)
 
 [In a hurry?  Click here for a WIP FAQ](most_popular.md)
  -- most commonly asked (and answered!) questions from the SCS and ProMods forum.  If you are a n00b then your early questions/problems will probably be on this list.
