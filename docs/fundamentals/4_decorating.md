@@ -24,7 +24,7 @@ It's quite a long list, and though the item names are mnemonic and could eventua
 
 As soon as you select something from the Model menu and move your mouse over the map, your cursor becomes an instance of the selected item (as seen from the top); and when you click on the map, that object is instantiated on the map at that location.  
 
-Moreover, you can streamline your interaction with this menu.  Rather than repeatedly mousing and clicking and previewing, you can leave your cursor in the map area and use Up and Down arrow keys to scroll rapidly through the menu items.  Also, when selecting from the menu initially, you can type in a character and insta-scroll to the group of items starting with that character.
+Moreover, you can streamline your interaction with this menu.  Rather than repeatedly mousing and clicking and previewing, you can leave your cursor in the map area and use Up and Down arrow keys to scroll rapidly through the menu items.  Also, when selecting from the menu initially, you can type in a single character and insta-scroll to the group of items whose names start with that character.  Once you become familiar with the naming conventions, this can really speed up your workflow.
 
 This is handy when you are trying to find something you already know exists, which you will recognise as soon as you see it.  (In watching tutorial videos you will see that even the experts dither and scroll around while searching for their preferred gizmos.)  However, if you're a n00b, you probably want to see what's available to you -- browse the catalogue.  The pick/scroll/preview routine is not ideal for this.  Fortunately, there's a more appropriate tool.
 
