@@ -13,6 +13,8 @@
 * *ouch, my scenery has ugly gaps* -- see [Maintain the Illusion](fundamentals/5_illusion.md)
 
 ### INTERMEDIATE
+* *I want to modify a Building (series) object by adding or deleting nodes* -- see [Tips & Tricks 2](intermediate/11_tipsNtrix.md)
+* *my Building object is not co-operating!* -- also, see [Tips & Tricks 2](intermediate/11_tipsNtrix.md)
 * *map stopped working on game update* -- delete defaults.ini file from **USER/editor** folder and try again
 * *can't load custom background image* -- see [Custom Map Background Tutorial](./newmodule/1_imagery.md)
 * *"index outside array boundaries" (exceeded stamp count)* -- see [Debugging](./intermediate/9_Debugging.md)
