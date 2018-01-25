@@ -31,7 +31,7 @@ You'll get more and better use out of cutplanes if you understand the rules for 
 
 * simple object:  node must be behind cut plane
 * road segment:  both nodes must be behind
-* bezier patch:  master mode must be behind
+* bezier patch:  master node must be behind
 * prefab:  *all* nodes must be behind
 
 ### Distant Object Rendering:  peekaboo mountains explained
