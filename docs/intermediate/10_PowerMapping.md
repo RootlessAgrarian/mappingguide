@@ -49,20 +49,7 @@ And in fact, in Iceland where there are no trees and long, long sightlines, you 
 
 Right now there is no remedy for this:  live with it, or give up huge vistas with distant tall objects.  It is a perennial complaint about the Prism3D rendering engine, and seems unlikely to be fixed.  The base game doesn't feature wide open spaces, probably for this reason.  I enjoy Iceland anyway, despite the weirdly slithering skylines.  Just imagine that you have gone too long without a rest break and are starting to see things :-)
 
-Here's a (very) technical article on bounding volumes, KDOP, object acceptance and rejection for rendering... if you want to dig into this very deeply: https://en.wikipedia.org/wiki/Bounding_volume
-
- ``` 
-  ADVANCED MAPPING
-
-	background image and map scaling
-	understanding map scale
-	internationalizing city names
-	how to make standalone map
-	hookups and overlays
-	what is an Atlas
-	removing game's collision barriers to extend stub roads
-
-```
+Here's a (very!) technical article on bounding volumes, KDOP, object acceptance and rejection for rendering... if you want to dig into this very deeply: https://en.wikipedia.org/wiki/Bounding_volume
 
 ## Remove Invisible Barriers
 
