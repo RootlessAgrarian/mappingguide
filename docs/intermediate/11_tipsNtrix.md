@@ -2,7 +2,7 @@
 
 ### the most important tip/trick
 
-Always, the single most instructive thing you can do is to open an existing map that you admire, teleport to an area of interest, and take a close look at it -- figure out how it was done.  This will expand your skills more than any amount of manual reading!  An example is worth more than a thousand words.
+*Always*, the single most instructive thing you can do is to open an existing map that you admire, teleport to an area of interest, and take a close look at it -- figure out how it was done.  This will expand your skills more than any amount of manual reading!  An example is worth more than a thousand words.
 
 ### copy and paste for efficient editing
 
@@ -18,15 +18,23 @@ Why is this a property of the reflected object rather than the reflecting surfac
 
 ### brush limitations
 
-Sorry, Brush doesn't work on prefabs.
+Sorry, Brush doesn't work on prefabs.  Also, the minimum brush tile size is what it is.  You can't make it smaller.
 
 ### use Properties panel features for efficient editing
 
 Be aware of that "Default" button at the bottom of Properties panel.  If you will repeatedly use a certain style of road segment or other object, set it as the Default.  Then when you go into E (extend or add) mode, and select that object type, the Default that you saved will automatically be loaded for use.  You can also save a Properties configuration as a named Preset.  Using these features will speed up your editing significantly.
 
-### Building (series) objects can be tricky
+### wrangling your Building (series) objects
 
-Sometimes Building (series or string) objects don't "fall" properly when you use F6.
+To add a node in between two existing nodes in a Building (series) object or road segment, use Middle Mouse Click.
+
+To delete a node from a Building or Road object, use Ctrl-Alt-Middle-Mouse-Click.  This doesn't always work, but it's worth a try.  If it fails, you can delete the segment and then drag the cut ends back together.
+
+Sometimes Building (series or string) objects don't "fall" properly when you use F6.  And sometimes, when you create new nodes in a Building object, the newly created segment doesn't line up with the rest -- it may be high or low or otherwise conspicuously wrong, like this:
+
+![An obnoxious wall segment](img/BadWall.png)
+
+The solution is to pop up the Item Properties (P, then click on item) and choose the "reset offsets" action.  This should tame your misbehaving Building object.
 
 ### importing a map
 
