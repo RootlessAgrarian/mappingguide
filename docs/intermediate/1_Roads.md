@@ -3,6 +3,7 @@
 ```
 ROAD SYSTEM
 	rules of road segment creation
+	road segment length
 	bends and hills
 	boundaries and collisions
 	how to connect unlike road segments
