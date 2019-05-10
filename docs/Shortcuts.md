@@ -3,7 +3,7 @@
 As you've seen by now, there is a lot of repetitive selection of tools and of menu items in the map editing process.  Why not make life easier and use some of the handy built-in shortcuts?  Here's a list of things you can do with keyboard and mouse.
 
 To the right of the editor menu are lists you can select from, but it is easier to use *shortcut keys*, a list of which 
-follows (Standard Qwerty, in parens Azerty Keyboard)
+follows Standard Keyboard (in parens Azerty Keyboard)
 
 Key | Result
 ------------ | -------------
@@ -41,9 +41,10 @@ Key | Result
 8 | Mover (such as hot air balloon, wind turbine, windmill and so on)
 9 | City (This is the option used to add city entities to your map)
 
+Note: KP means KeyPad. For example, KP+ means Num+. Well, in this way the below KP words will be given.
 
-Action/Key | Result
------------- | -------------
+Action/Key | Result 
+----------- | -------------
 Right Click/Drag | move the map
 Left Click/Drag | select / extend selection / move a selected object
 Middle Click | create new node on existing road segment
