@@ -44,6 +44,7 @@ Key | Result
 
 Action/Key | Result
 ------------ | -------------
+SHIFT+CTRL when using Move Tool | creates a moving copy instead of dragging the original object  
 Right Click/Drag | move the map
 Left Click/Drag | select / extend selection / move a selected object
 Middle Click | create new node on existing road segment
